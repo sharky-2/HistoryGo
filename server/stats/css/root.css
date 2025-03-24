@@ -1,0 +1,14 @@
+:root {
+
+    /* Font Family */
+    --title-font-family: "Playfair Display";
+    --subtitle-font-family: "Lora";
+    --text-font-family: "Sans Serif";
+
+
+    /* Colors */
+    --white: #FFFFFF;
+    --light-black: rgba(165, 165, 165, 0.2);
+    --light-blue: #ACD4E4;
+    --light-pink: #F8EFFF;
+}
