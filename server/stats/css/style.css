@@ -230,3 +230,51 @@ header img {
 .blog-4 .right img:nth-child(2) {left: 50%; top: 0%; transform: rotate(-15deg);}
 .blog-4 .right img:nth-child(3) {left: 15%; top: 40%; transform: rotate(10deg);}
 .blog-4 .right img:nth-child(4) {left: 50%; top: 40%; transform: rotate(-5deg);}
+
+/* --------------------------------------------------------------------- */
+/* Title */
+.title {
+    height: 150px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.title-1 {flex-direction: column;}
+.title-2 .textframe {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    text-align: center;
+}
+.title-2 .left {
+
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
+    
+}
+.title-2 .left h1 {margin: 0;}
+.title-2 .left label {width: 100%;}
+.title-2 .right {
+    width: 30%;
+    height: 100%;
+    position: relative;
+}
+.title-2 .right img {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+
+    position: absolute;
+    left: 20px;
+    top: -13px;
+
+    transform: rotate(-5deg);
+}
