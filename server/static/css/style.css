@@ -1,20 +1,15 @@
 /* Header */
 header {
-    height: 500px;
+    height: 100vh;
     width: 100%;
 
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
 
     position: relative;
-}
-header img {
-    position: absolute;
-    width: 95%;
-    left: 20px;
-    bottom: -90px;
+
 }
 .hero-container {
     width: 600px;
@@ -194,17 +189,22 @@ header img {
 }
 
 /* Blog 4 */
+.blog-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .blog-4 .left {
     width: 40%;
     height: 100%;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
 }
 .blog-4 .right {
-    width: 60%;
+    width: 50%;
     height: 100%;
     position: relative;
 }

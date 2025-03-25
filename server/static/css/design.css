@@ -5,12 +5,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    flex-direction: column;
+    /* gap: 50px; */
+
     margin: 0 auto;
     padding: 0;
 
     width: 1200px;
-    height: 100vh;
+    height: fit-content;
 
     overflow-x: hidden;
 }
@@ -74,6 +76,8 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    /* margin-top: 50px; */
 }
 
 /* Frame */
