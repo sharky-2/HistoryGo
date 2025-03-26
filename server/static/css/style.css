@@ -35,7 +35,7 @@ header {
 /* Menu */
 .menu {
     position: fixed;
-    width: 45px;
+    width: 35px;
     height: fit-content;
     left: 20px;
     top: 40%;
@@ -54,7 +54,7 @@ header {
     padding: 5px;
 }
 .menu a {
-    height: 45px;
+    height: 35px;
     width: 100%;
     z-index: 10;
     overflow: hidden;
