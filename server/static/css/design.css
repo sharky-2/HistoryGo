@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* gap: 50px; */
+    gap: 100px;
 
     margin: 0 auto;
     padding: 0;
@@ -16,6 +16,9 @@ body {
 
     overflow-x: hidden;
 }
+
+/* img {filter: blur(1px);}
+img:hover {filter: blur(0);} */
 
 /* Text design */
 .title-design {
@@ -64,6 +67,8 @@ body {
 .button-hover:hover {
     transform: scale(1.1) rotate(5deg);
 }
+.normal-hover {transition: all .3s;}
+.normal-hover:hover {transform: scale(1.1);}
 
 /* Other smaller designs */
 .box-shadow {box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);}

@@ -1,3 +1,4 @@
+/* --------------------------------------------------------------------- */
 /* Header */
 header {
     height: 100vh;
@@ -31,8 +32,56 @@ header {
 .hero-image:nth-child(4) { rotate: 5deg; bottom: 10px; left: 380px; width: 250px;}
 
 /* --------------------------------------------------------------------- */
+/* Menu */
+.menu {
+    position: fixed;
+    width: 45px;
+    height: fit-content;
+    left: 20px;
+    top: 40%;
+    z-index: 1000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    border-radius: 20px;
+    box-shadow: 0 0 10px 1px var(--light-black);
+
+    gap: 10px;
+    transition: all .3s;
+    padding: 5px;
+}
+.menu a {
+    height: 45px;
+    width: 100%;
+    z-index: 10;
+    overflow: hidden;
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    position: relative;
+    transition: all .3s;
+    cursor: pointer;
+
+}
+.menu a img {
+    height: 70%;
+    width: 70%;
+    object-fit: cover;
+}
+
+.menu a:hover {
+    background-color: var(--light-black);
+}
+
+
+/* --------------------------------------------------------------------- */
 /* Blogs desing */
-/* Blog 2 */
 .blog-2 {
     justify-content: start;
     flex-direction: column-reverse;    
@@ -125,8 +174,6 @@ header {
     transform: rotate(5deg);
 }
 
-
-/* Blog 3 */
 .blog-3 {
     justify-content: start;
     flex-direction: column-reverse;    
@@ -188,7 +235,6 @@ header {
     transform: rotate(5deg);
 }
 
-/* Blog 4 */
 .blog-4 {
     display: flex;
     justify-content: space-between;
@@ -287,6 +333,7 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: fit-content;
 }
 #card-module .cards {
     height: fit-content;

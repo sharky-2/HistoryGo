@@ -1,17 +1,14 @@
-{
-    "_comment1": "---------------------------------------------------------------------------------------------------------------",
-    "_comment2": "Test page",
+ {
     "main-page": [
         {
             "type": "header",
             "title": "Travel world with HistoryGo.",
             "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "button": "Explore",
-            "img": "/static/img/other/header-background.png",
-            "image-0": "/static/img/other/noimg.jpg",      
-            "image-1": "/static/img/other/noimg.jpg",     
-            "image-2": "/static/img/other/noimg.jpg",    
-            "image-3": "/static/img/other/noimg.jpg"    
+            "image-0": "/static/img/country/Slovenia/1.png",      
+            "image-1": "/static/img/country/France/1.png",     
+            "image-2": "/static/img/country/Denmark/1.png",    
+            "image-3": "/static/img/country/Italy/1.png"    
         },
         {
             "type": "blog_2",
@@ -23,11 +20,6 @@
             "image-2": "/static/img/other/noimg.jpg",
             "image-3": "/static/img/other/noimg.jpg",
             "image-4": "/static/img/other/noimg.jpg"
-        },
-        {
-            "type": "title_1",
-            "title": "Title",
-            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
         },
         {
             "type": "blog_3",
@@ -63,10 +55,10 @@
         },
         {
             "type": "img_1",
-            "image-0": "/static/img/other/noimg.jpg",      
-            "image-1": "/static/img/other/noimg.jpg",     
-            "image-2": "/static/img/other/noimg.jpg",    
-            "image-3": "/static/img/other/noimg.jpg"      
+            "image-0": "/static/img/country/Slovenia/1.png",      
+            "image-1": "/static/img/country/France/1.png",     
+            "image-2": "/static/img/country/Denmark/1.png",    
+            "image-3": "/static/img/country/Italy/1.png"        
         },
         {
             "type": "img_2",
@@ -78,9 +70,80 @@
         },
         {
             "type": "img_3",
-            "image-0": "/static/img/other/noimg.jpg",      
-            "image-1": "/static/img/other/noimg.jpg",     
-            "image-2": "/static/img/other/noimg.jpg"    
+            "image-0": "/static/img/country/Slovenia/1.png",      
+            "image-1": "/static/img/country/France/1.png",     
+            "image-2": "/static/img/country/Denmark/1.png" 
+        },
+        {
+            "type": "title_1",
+            "title": "Title",
+            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        {
+            "type": "card",
+            "title-0": "Title 1",
+            "subtitle-0": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "image-0": "/static/img/other/noimg.jpg",
+            "title-1": "Title 2",
+            "subtitle-1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "image-1": "/static/img/other/noimg.jpg",
+            "title-2": "Title 3",
+            "subtitle-2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "image-2": "/static/img/other/noimg.jpg",
+            "title-3": "Title 4",
+            "subtitle-3": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "image-3": "/static/img/other/noimg.jpg",
+            "title-4": "Title 5",
+            "subtitle-4": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "image-4": "/static/img/other/noimg.jpg",
+            "title-5": "Title 6",
+            "subtitle-5": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "image-5": "/static/img/other/noimg.jpg",
+            "title-6": "Title 7",
+            "subtitle-6": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "image-6": "/static/img/other/noimg.jpg",
+            "title-7": "Title 8",
+            "subtitle-7": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "image-7": "/static/img/other/noimg.jpg",
+            "title-8": "Title 9",
+            "subtitle-8": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "image-8": "/static/img/other/noimg.jpg",
+            "card_amount": 9      
+        },
+        {
+            "type": "card_category",
+
+            "title": "Category",
+            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+
+            "title-0": "Title 1",
+            "subtitle-0": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "image-0": "/static/img/other/noimg.jpg",
+            "title-1": "Title 2",
+            "subtitle-1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "image-1": "/static/img/other/noimg.jpg",
+            "title-2": "Title 3",
+            "subtitle-2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "image-2": "/static/img/other/noimg.jpg",
+            "title-3": "Title 4",
+            "subtitle-3": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "image-3": "/static/img/other/noimg.jpg",
+            "title-4": "Title 5",
+            "subtitle-4": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "image-4": "/static/img/other/noimg.jpg",
+            "title-5": "Title 6",
+            "subtitle-5": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "image-5": "/static/img/other/noimg.jpg",
+            "title-6": "Title 7",
+            "subtitle-6": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "image-6": "/static/img/other/noimg.jpg",
+            "title-7": "Title 8",
+            "subtitle-7": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "image-7": "/static/img/other/noimg.jpg",
+            "title-8": "Title 9",
+            "subtitle-8": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "image-8": "/static/img/other/noimg.jpg",
+            "card_amount": 9      
         }
     ],
     "test-page": [

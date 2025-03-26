@@ -20,6 +20,7 @@ def MainPage():
             "subtitle": char.get("subtitle"),
             "button": char.get("button"),
             "img": char.get("img"),
+            "card_amount": char.get("card_amount"),
 
             "page_name": name_
         }

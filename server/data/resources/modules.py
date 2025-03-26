@@ -1,5 +1,7 @@
 import json
 
+# -------------------------------------------------------------------------------------------------
+# Design
 def design(**context):
     title = context.get("title")
     text = context.get("text")
@@ -13,7 +15,6 @@ def design(**context):
 def header(**context):
     title = context.get("title")
     subtitle = context.get("subtitle")
-    img = context.get("img")
     button = context.get("button")
     page_name = context.get("page_name")
 
@@ -26,7 +27,7 @@ def header(**context):
 
         for char in data.get(page_name, []):
             type_ = char.get("type", None)
-            if type_ == "blog_2": 
+            if type_ == "header": 
 
                 image = char.get(f"image-{i}", None)                    
                 item += f"""<img src="{image}" class="hero-image box-shadow">"""
@@ -293,7 +294,7 @@ def img_3(**context):
 
         for char in data.get(page_name, []):
             type_ = char.get("type", None)
-            if type_ == "img_2": 
+            if type_ == "img_3": 
 
                 image = char.get(f"image-{i}", None)                    
                 item += f"""<img src="{image}" class="box-shadow ">"""
@@ -301,6 +302,138 @@ def img_3(**context):
     module = f"""
     <section id="img-3">
         {item}
+    </section>
+    """
+    return module
+
+# -------------------------------------------------------------------------------------------------
+# Cards
+def card(**context):
+    page_name = context.get("page_name")
+    card_amount = context.get("card_amount")
+    item = ""
+    for i in range(card_amount):
+
+        with open("data/resources/content.json") as f:
+            data = json.load(f)
+
+        for char in data.get(page_name, []):
+            type_ = char.get("type", None)
+            if type_ == "card": 
+
+                image = char.get(f"image-{i}", None)                    
+                title = char.get(f"title-{i}", None)                    
+                subtitle = char.get(f"subtitle-{i}", None)   
+
+                item += f"""
+                <div class="card">
+                    <img src="{image}" class="box-shadow ">
+                    <div class="textframe">
+                        <h1 class="title-design text-shadow">{title}</h1>
+                        <label class="subtitle-design">{subtitle}</label>
+                        <code class="subtitle-design rating" style="opacity: 1;">
+                            <img src="../static/img/icons/star.png">
+                            4.53
+                        </code>
+                    </div>
+                </div>
+                """
+
+
+    module = f"""
+    <section id="card-module">
+        <div class="cards">
+            {item}
+        </div>
+    </section>
+    """
+    return module
+
+def card_category(**context):
+    page_name = context.get("page_name")
+    card_amount = context.get("card_amount")
+    title = context.get("title")
+    subtitle = context.get("subtitle")
+
+
+    item = ""
+    for i in range(card_amount):
+
+        with open("data/resources/content.json") as f:
+            data = json.load(f)
+
+        for char in data.get(page_name, []):
+            type_ = char.get("type", None)
+            if type_ == "card": 
+
+                image = char.get(f"image-{i}", None)                    
+                title_card = char.get(f"title-{i}", None)                    
+                subtitle_card = char.get(f"subtitle-{i}", None)   
+
+                item += f"""
+                <div class="card">
+                    <img src="{image}" class="box-shadow ">
+                    <div class="textframe">
+                        <h1 class="title-design text-shadow">{title_card}</h1>
+                        <label class="subtitle-design">{subtitle_card}</label>
+                        <code class="subtitle-design rating" style="opacity: 1;">
+                            <img src="../static/img/icons/star.png">
+                            4.53
+                        </code>
+                    </div>
+                </div>
+                """
+
+
+    module = f"""
+    <section id="card-module">
+
+        <h1 class="title-design text-shadow" style="text-align: center;">{title}</h1>
+        <label class="subtitle-design" style="text-align: center;">{subtitle}</label>
+        <br>
+        <div class="category-frame">
+            <div class="button">
+                <div class="img box-shadow"><img src="../static/img/icons/star.png"></div>
+                <label class="subtitle-design">favorite</label>
+            </div>
+            <div class="button">
+                <div class="img box-shadow"><img src="../static/img/icons/confetti.png"></div>
+                <label class="subtitle-design">fun</label>
+            </div>
+            <div class="button">
+                <div class="img box-shadow"><img src="../static/img/icons/island.png"></div>
+                <label class="subtitle-design">beach</label>
+            </div>
+            <div class="button">
+                <div class="img box-shadow"><img src="../static/img/icons/castle.png"></div>
+                <label class="subtitle-design">castle</label>
+            </div>
+            <div class="button">
+                <div class="img box-shadow"><img src="../static/img/icons/ski.png"></div>
+                <label class="subtitle-design">ski</label>
+            </div>
+            <div class="button">
+                <div class="img box-shadow"><img src="../static/img/icons/swimming-man.png"></div>
+                <label class="subtitle-design">swim</label>
+            </div>
+            <div class="button">
+                <div class="img box-shadow"><img src="../static/img/icons/sailing-boat.png"></div>
+                <label class="subtitle-design">boat</label>
+            </div>
+            <div class="button">
+                <div class="img box-shadow"><img src="../static/img/icons/plane.png"></div>
+                <label class="subtitle-design">flying</label>
+            </div>
+            <div class="button">
+                <div class="img box-shadow"><img src="../static/img/icons/sun.png"></div>
+                <label class="subtitle-design">sunny</label>
+            </div>
+           
+        </div>
+
+        <div class="cards">
+            {item}
+        </div>
     </section>
     """
     return module
