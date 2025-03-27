@@ -70,7 +70,7 @@ def blog_2(**context):
             if type_ == "blog_2": 
 
                 image = char.get(f"image-{i}", None)                    
-                item += f"""<img src="{image}" class="box-shadow img-anim">"""
+                item += f"""<img src="{image}" class="box-shadow ">"""
 
 
     module = f"""
@@ -112,7 +112,7 @@ def blog_3(**context):
             if type_ == "blog_3": 
 
                 image = char.get(f"image-{i}", None)                    
-                item += f"""<img src="{image}" class="box-shadow img-anim">"""
+                item += f"""<img src="{image}" class="box-shadow ">"""
 
 
     module = f"""
@@ -156,7 +156,7 @@ def blog_4(**context):
             if type_ == "blog_4": 
 
                 image = char.get(f"image-{i}", None)                    
-                item += f"""<img src="{image}" class="box-shadow img-anim">"""
+                item += f"""<img src="{image}" class="box-shadow ">"""
 
 
     module = f"""
@@ -225,7 +225,7 @@ def title_3(**context):
                 <label class="subtitle-design">{subtitle}</label>
             </div>
             <div class="right">
-                <img src="{img}" class="box-shadow img-anim">
+                <img src="{img}" class="box-shadow ">
             </div>
         </div>
     </section>
@@ -364,7 +364,7 @@ def card_category(**context):
 
         for char in data.get(page_name, []):
             type_ = char.get("type", None)
-            if type_ == "card": 
+            if type_ == "card_category": 
 
                 image = char.get(f"image-{i}", None)                    
                 title_card = char.get(f"title-{i}", None)                    

@@ -1,4 +1,4 @@
-.img-anim:nth-child(1) {
+/* .img-anim:nth-child(1) {
     animation: imgAnim1 10s infinite alternate;
 }
 .img-anim:nth-child(2) {
@@ -30,4 +30,4 @@
     to {
         transform: rotate(8deg);
     }
-}
+} */

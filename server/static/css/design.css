@@ -17,8 +17,8 @@ body {
     overflow-x: hidden;
 }
 
-/* img {filter: blur(1px);}
-img:hover {filter: blur(0);} */
+/* img {transition: all .3s; cursor: pointer;}
+img:hover {transform: rotate(0deg) !important; z-index: 10;} */
 
 /* Text design */
 .title-design {

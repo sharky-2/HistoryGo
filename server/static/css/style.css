@@ -173,6 +173,8 @@ header {
     bottom: -40px;
     transform: rotate(5deg);
 }
+.blog-2 img {transition: all .3s; }
+.blog-2 img:hover{transform: rotate(0deg) !important; z-index: 10;}
 
 .blog-3 {
     justify-content: start;
@@ -234,6 +236,8 @@ header {
     bottom: -30px;
     transform: rotate(5deg);
 }
+.blog-3 img {transition: all .3s; }
+.blog-3 img:hover{transform: rotate(0deg) !important; z-index: 10;}
 
 .blog-4 {
     display: flex;
@@ -276,6 +280,8 @@ header {
 .blog-4 .right img:nth-child(2) {left: 50%; top: 0%; transform: rotate(-15deg);}
 .blog-4 .right img:nth-child(3) {left: 15%; top: 40%; transform: rotate(10deg);}
 .blog-4 .right img:nth-child(4) {left: 50%; top: 40%; transform: rotate(-5deg);}
+.blog-4 img {transition: all .3s;}
+.blog-4 img:hover{transform: rotate(0deg) !important; z-index: 10;}
 
 /* --------------------------------------------------------------------- */
 /* Title */
@@ -352,36 +358,45 @@ header {
     flex-direction: column;
     transition: all .3s;
     cursor: pointer;
-}
-.card:hover {
-    transform: scale(1.1);
-    z-index: 1;
+
+    position: relative;
+
 }
 .card img {
-    height: 280px;
-    width: 280px;
+    height: 100%;
+    width: 100%;
     object-fit: cover;
     border-radius: 20px;
+
+    transition: all .3s;
 }
 .card:nth-child(odd) img {transform: rotate(3deg);}
 .card:nth-child(even) img {transform: rotate(-3deg);}
 .card .textframe {
-    position: relative;
-    height: 70px;
-    width: 100%;
+    position: absolute;
+    height: 80%;
+    width: 90%;
 
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: start;
     flex-direction: column;
+
+    bottom: 50px;
+    left: 0%;
+
+    transition: all .3s;
+    opacity: 0;
+    z-index: -1;
 }
+.card:hover .textframe {left: 105%;}
 .card .textframe label {
     width: 100%;
 }
 .card .textframe .rating {
     position: absolute;
-    left: 60px;
-    top: 15px;
+    right: 50px;
+    bottom: 0px;
 
     display: flex;
     align-items: center;
@@ -391,6 +406,13 @@ header {
     width: 20px;
     height: 20px;
 }
+.card:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+#card-module:hover .card:not(:hover) {opacity: .4; filter: blur(5px);}
+.card:hover img {transform: rotate(0deg) !important;}
+.card:hover .textframe {opacity: 1;}
 
 .category-frame {
     background-color: var(--light-black);
