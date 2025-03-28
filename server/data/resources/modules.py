@@ -437,3 +437,224 @@ def card_category(**context):
     </section>
     """
     return module
+
+# -------------------------------------------------------------------------------------------------
+# Image title
+def img_title_1(**context):
+    page_name = context.get("page_name")
+    title = context.get("title")
+    subtitle = context.get("subtitle")
+    button = context.get("button")
+
+    item = ""
+    for i in range(2):
+
+        with open("data/resources/content.json") as f:
+            data = json.load(f)
+
+        for char in data.get(page_name, []):
+            type_ = char.get("type", None)
+            if type_ == "img_title_1": 
+
+                image = char.get(f"image-{i}", None)        
+                item += f"""<img src="{image}" class="box-shadow">"""
+
+    module = f"""
+    <section class="img-title-1">
+        <div class="textframe">
+            <h1 class="title-design text-shadow">{title}</h1>
+            <label class="subtitle-design">{subtitle}</label>
+            <a href="#"><input type="button" value="{button}" class="blue-button-design box-shadow button-hover"></a>  
+        </div>
+        <div class="imgframe">
+            {item}
+        </div>
+    </section>
+    """
+    return module
+
+def img_title_2(**context):
+    page_name = context.get("page_name")
+    title = context.get("title")
+    subtitle = context.get("subtitle")
+    button = context.get("button")
+
+    item = ""
+    for i in range(4):
+
+        with open("data/resources/content.json") as f:
+            data = json.load(f)
+
+        for char in data.get(page_name, []):
+            type_ = char.get("type", None)
+            if type_ == "img_title_2": 
+
+                image = char.get(f"image-{i}", None)        
+                item += f"""<img src="{image}" class="box-shadow">"""
+
+    module = f"""
+    <section class="img-title-2">
+        <div class="textframe">
+            <h1 class="title-design text-shadow">{title}</h1>
+            <label class="subtitle-design">{subtitle}</label>
+            <a href="#"><input type="button" value="{button}" class="blue-button-design box-shadow button-hover"></a>  
+        </div>
+        <div class="imgframe">
+            {item}
+        </div>
+    </section>
+    """
+    return module
+
+def img_title_3(**context):
+    page_name = context.get("page_name")
+    title = context.get("title")
+    subtitle = context.get("subtitle")
+    button = context.get("button")
+
+    item = ""
+    for i in range(4):
+
+        with open("data/resources/content.json") as f:
+            data = json.load(f)
+
+        for char in data.get(page_name, []):
+            type_ = char.get("type", None)
+            if type_ == "img_title_3": 
+
+                image = char.get(f"image-{i}", None)        
+                item += f"""<img src="{image}" class="box-shadow">"""
+
+    module = f"""
+    <section class="img-title-3">
+        <div class="textframe">
+            <h1 class="title-design text-shadow">{title}</h1>
+            <label class="subtitle-design">{subtitle}</label>
+            <a href="#"><input type="button" value="{button}" class="blue-button-design box-shadow button-hover"></a>  
+        </div>
+        <div class="imgframe">
+            {item}
+        </div>
+    </section>
+    """
+    return module
+
+def img_title_4(**context):
+    page_name = context.get("page_name")
+    title = context.get("title")
+    subtitle = context.get("subtitle")
+    button = context.get("button")
+
+    item = ""
+    for i in range(3):
+
+        with open("data/resources/content.json") as f:
+            data = json.load(f)
+
+        for char in data.get(page_name, []):
+            type_ = char.get("type", None)
+            if type_ == "img_title_4": 
+
+                image = char.get(f"image-{i}", None)        
+                item += f"""<img src="{image}" class="box-shadow">"""
+
+    module = f"""
+    <section class="img-title-4">
+        <div class="imgframe">
+            {item}
+        </div>
+        <div class="textframe">
+            <h1 class="title-design text-shadow">{title}</h1>
+            <label class="subtitle-design">{subtitle}</label>
+        </div>
+    </section>
+    """
+    return module
+
+# -------------------------------------------------------------------------------------------------
+# Image text
+def left_image_text_1(**context):
+    title = context.get("title")
+    subtitle = context.get("subtitle")
+    img = context.get("img")
+    button = context.get("button")
+
+    module = f"""
+    <section class="left-image-text-1">
+        <div class="imgframe">
+            <img src="{img}" class="box-shadow">
+        </div>
+        <div class="textframe">
+            <h1 class="title-design text-shadow">{title}</h1>
+            <label class="subtitle-design">{subtitle}</label>
+            <a href="#"><input type="button" value="{button}" class="blue-button-design box-shadow button-hover"></a>  
+        </div>
+    </section>
+    """
+    return module
+
+def left_image_text_2(**context):
+    page_name = context.get("page_name")
+    title = context.get("title")
+    subtitle = context.get("subtitle")
+    button = context.get("button")
+
+    item = ""
+    for i in range(3):
+
+        with open("data/resources/content.json") as f:
+            data = json.load(f)
+
+        for char in data.get(page_name, []):
+            type_ = char.get("type", None)
+            if type_ == "left_image_text_2": 
+
+                image = char.get(f"image-{i}", None)        
+                item += f"""<img src="{image}" class="box-shadow">"""
+                    
+    module = f"""
+    <section class="left-image-text-2">
+        <div class="imgframe">
+            {item}
+        </div>
+        <div class="textframe">
+            <h1 class="title-design text-shadow">{title}</h1>
+            <label class="subtitle-design">{subtitle}</label>
+            <a href="#"><input type="button" value="{button}" class="blue-button-design box-shadow button-hover"></a>  
+        </div>
+    </section>
+    """
+    return module
+
+def right_image_text_1(**context):
+    page_name = context.get("page_name")
+    title = context.get("title")
+    subtitle = context.get("subtitle")
+    button = context.get("button")
+
+    item = ""
+    for i in range(3):
+
+        with open("data/resources/content.json") as f:
+            data = json.load(f)
+
+        for char in data.get(page_name, []):
+            type_ = char.get("type", None)
+            if type_ == "right-image-text-1": 
+
+                image = char.get(f"image-{i}", None)        
+                item += f"""<img src="{image}" class="box-shadow">"""
+                    
+    module = f"""
+    <section class="right-image-text-1">
+        <div class="textframe">
+            <h1 class="title-design text-shadow">{title}</h1>
+            <label class="subtitle-design">{subtitle}</label>
+            <a href="#"><input type="button" value="{button}" class="blue-button-design box-shadow button-hover"></a>  
+        </div>
+        <div class="imgframe">
+            {item}
+        </div>
+    </section>
+    """
+    return module
