@@ -16,6 +16,7 @@ def MainPage():
         context = {
             "title": char.get("title"),
             "text": char.get("text"),
+            "text2": char.get("text2"),
             "text-2": char.get("text-2"),
             "subtitle": char.get("subtitle"),
             "button": char.get("button"),
@@ -43,6 +44,7 @@ def selected_country():
         context = {
             "title": char.get("title"),
             "text": char.get("text"),
+            "text2": char.get("text2"),
             "text-2": char.get("text-2"),
             "subtitle": char.get("subtitle"),
             "button": char.get("button"),
@@ -71,10 +73,12 @@ def Test():
         context = {
             "title": char.get("title"),
             "text": char.get("text"),
+            "text2": char.get("text2"),
             "text-2": char.get("text-2"),
             "subtitle": char.get("subtitle"),
             "button": char.get("button"),
             "img": char.get("img"),
+            "card_amount": char.get("card_amount"),
 
             "page_name": name_
         }

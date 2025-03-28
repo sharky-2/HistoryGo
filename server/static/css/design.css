@@ -60,13 +60,13 @@ img:hover {transform: rotate(0deg) !important; z-index: 10;} */
     cursor: pointer;
 
     transform: rotate(-5deg);
+
+    margin-top: 10px;
 }
 
 /* Hover design */
 .button-hover {transition: all .3s;}
-.button-hover:hover {
-    transform: scale(1.1) rotate(5deg);
-}
+.button-hover:hover {transform: scale(1.1) rotate(5deg);}
 .normal-hover {transition: all .3s;}
 .normal-hover:hover {transform: scale(1.1);}
 

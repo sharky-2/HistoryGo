@@ -330,7 +330,6 @@ def card(**context):
                     <img src="{image}" class="box-shadow ">
                     <div class="textframe">
                         <h1 class="title-design text-shadow">{title}</h1>
-                        <label class="subtitle-design">{subtitle}</label>
                         <code class="subtitle-design rating" style="opacity: 1;">
                             <img src="../static/img/icons/star.png">
                             4.53
@@ -375,7 +374,6 @@ def card_category(**context):
                     <img src="{image}" class="box-shadow ">
                     <div class="textframe">
                         <h1 class="title-design text-shadow">{title_card}</h1>
-                        <label class="subtitle-design">{subtitle_card}</label>
                         <code class="subtitle-design rating" style="opacity: 1;">
                             <img src="../static/img/icons/star.png">
                             4.53
@@ -573,6 +571,42 @@ def img_title_4(**context):
 
 # -------------------------------------------------------------------------------------------------
 # Image text
+def image_text(**context):
+    page_name = context.get("page_name")
+    title = context.get("title")
+    subtitle = context.get("subtitle")
+    text1 = context.get("text")
+    text2 = context.get("text2")
+
+    item = ""
+    for i in range(5):
+
+        with open("data/resources/content.json") as f:
+            data = json.load(f)
+
+        for char in data.get(page_name, []):
+            type_ = char.get("type", None)
+            if type_ == "image_text": 
+
+                image = char.get(f"image-{i}", None)        
+                item += f"""<img src="{image}" class="box-shadow">"""
+                    
+    module = f"""
+    <section class="image-text">
+        <div class="imgframe">
+            {item}
+        </div>
+        <div class="textframe1">
+            <label class="text-design">{text1}</label>
+        </div>
+        <div class="textframe2">
+            <h1 class="title-design text-shadow">{title}</h1>
+            <label class="text-design">{text2}</label>
+        </div>
+    </section>
+    """
+    return module
+
 def left_image_text_1(**context):
     title = context.get("title")
     subtitle = context.get("subtitle")
@@ -640,7 +674,7 @@ def right_image_text_1(**context):
 
         for char in data.get(page_name, []):
             type_ = char.get("type", None)
-            if type_ == "right-image-text-1": 
+            if type_ == "right_image_text_1": 
 
                 image = char.get(f"image-{i}", None)        
                 item += f"""<img src="{image}" class="box-shadow">"""
@@ -653,6 +687,54 @@ def right_image_text_1(**context):
             <a href="#"><input type="button" value="{button}" class="blue-button-design box-shadow button-hover"></a>  
         </div>
         <div class="imgframe">
+            {item}
+        </div>
+    </section>
+    """
+    return module
+
+# -------------------------------------------------------------------------------------------------
+# Recomended trip
+def recomended(**context):
+    page_name = context.get("page_name")
+    title = context.get("title")
+    subtitle = context.get("subtitle")
+
+    item = ""
+    for i in range(3):
+
+        with open("data/resources/content.json") as f:
+            data = json.load(f)
+
+        for char in data.get(page_name, []):
+            type_ = char.get("type", None)
+            if type_ == "recomended": 
+
+                image = char.get(f"image-{i}", None)                    
+                title_card = char.get(f"title-{i}", None)                    
+                subtitle_card = char.get(f"subtitle-{i}", None)   
+
+                item += f"""
+                <div class="card">
+                    <img src="{image}" class="box-shadow ">
+                    <div class="textframe">
+                        <h1 class="title-design text-shadow">{title_card}</h1>
+                        <code class="subtitle-design rating" style="opacity: 1;">
+                            <img src="../static/img/icons/star.png">
+                            4.53
+                        </code>
+                    </div>
+                </div>
+                """
+
+
+    module = f"""
+    <section id="card-module" class="recomended">
+        <div class="titleframe">
+            <h1 class="title-design text-shadow">{title}</h1>
+            <label class="subtitle-design">{subtitle}</label>
+        </div>
+        <div class="cards">
             {item}
         </div>
     </section>

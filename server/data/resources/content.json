@@ -203,8 +203,39 @@
             "image-0": "https://e498h76z5mp.exactdn.com/wp-content/uploads/2021/09/cyprus-scaled.jpg?lossy=1&quality=65&ssl=1",
             "image-1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAnAkxBMnDLbHYWL5qqEwJGhZjTA0elWLoSpybz9WufM13NXHewdk11w-MW8myUTd960o&usqp=CAU",
             "image-2": "https://visitestonia.com/content-images/641537/tallinn-en-004-visit-estonia.jpg"
+        },
+        {
+            "type": "image_text",
+            "title": "Lorem Ipsum",
+            "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.",
+            "text2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+            "image-0": "https://e498h76z5mp.exactdn.com/wp-content/uploads/2021/09/cyprus-scaled.jpg?lossy=1&quality=65&ssl=1",
+            "image-1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAnAkxBMnDLbHYWL5qqEwJGhZjTA0elWLoSpybz9WufM13NXHewdk11w-MW8myUTd960o&usqp=CAU",
+            "image-2": "https://visitestonia.com/content-images/641537/tallinn-en-004-visit-estonia.jpg",
+            "image-3": "https://visitestonia.com/content-images/641537/tallinn-en-004-visit-estonia.jpg",
+            "image-4": "https://visitestonia.com/content-images/641537/tallinn-en-004-visit-estonia.jpg"
+        },
+        {
+            "type": "recomended",
+            "title": "Recomended",
+            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "title-0": "Frane",
+            "subtitle-0": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "image-0": "https://e498h76z5mp.exactdn.com/wp-content/uploads/2021/09/cyprus-scaled.jpg?lossy=1&quality=65&ssl=1",
+            "title-1": "Frane",
+            "subtitle-1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "image-1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAnAkxBMnDLbHYWL5qqEwJGhZjTA0elWLoSpybz9WufM13NXHewdk11w-MW8myUTd960o&usqp=CAU",
+            "title-2": "Frane",
+            "subtitle-2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "image-2": "https://visitestonia.com/content-images/641537/tallinn-en-004-visit-estonia.jpg"
         }
     ],
+
+
+
+
+
+
     "selected-country": [
         {
             "type": "img_title_1",
@@ -245,15 +276,22 @@
             "image-2": "https://visitestonia.com/content-images/641537/tallinn-en-004-visit-estonia.jpg"
         },
         {
-            "type": "blog_4",
+            "type": "left_image_text_1",
+            "title": "Travel And Explore World With HistoryGo - Get to know place even more with us.",
+            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "button": "Explore more",
+            "img": "https://e498h76z5mp.exactdn.com/wp-content/uploads/2021/09/cyprus-scaled.jpg?lossy=1&quality=65&ssl=1"
+        },
+        {
+            "type": "blog_2",
             "title": "Travel And Explore World WithHistoryGo - Get to know place even more with us.",
             "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-            "button": "Explore more",
             "image-0": "https://www.state.gov/wp-content/uploads/2023/07/shutterstock_667548661v2.jpg",
             "image-1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAnAkxBMnDLbHYWL5qqEwJGhZjTA0elWLoSpybz9WufM13NXHewdk11w-MW8myUTd960o&usqp=CAU",
-            "image-2": "https://e498h76z5mp.exactdn.com/wp-content/uploads/2021/09/cyprus-scaled.jpg?lossy=1&quality=65&ssl=1",
-            "image-3": "https://i.natgeofe.com/n/81cf55d9-8f0d-4bd7-a69f-9dd17186ed87/helsinki-finland_16x9.jpg"
+            "image-2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt7sURVWRl0P6phqOAH1J978eOEuDIoyu2Iw&s",
+            "image-3": "https://e498h76z5mp.exactdn.com/wp-content/uploads/2021/09/cyprus-scaled.jpg?lossy=1&quality=65&ssl=1",
+            "image-4": "https://i.natgeofe.com/n/81cf55d9-8f0d-4bd7-a69f-9dd17186ed87/helsinki-finland_16x9.jpg"
         },
         {
             "type": "img_1",
@@ -261,51 +299,8 @@
             "image-1": "/static/img/country/France/1.png",     
             "image-2": "/static/img/country/Denmark/1.png",    
             "image-3": "/static/img/country/Italy/1.png"        
-        },
-        {
-            "type": "img_2",
-            "image-0": "https://www.state.gov/wp-content/uploads/2023/07/shutterstock_667548661v2.jpg",      
-            "image-1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAnAkxBMnDLbHYWL5qqEwJGhZjTA0elWLoSpybz9WufM13NXHewdk11w-MW8myUTd960o&usqp=CAU",     
-            "image-2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt7sURVWRl0P6phqOAH1J978eOEuDIoyu2Iw&s",    
-            "image-3": "https://e498h76z5mp.exactdn.com/wp-content/uploads/2021/09/cyprus-scaled.jpg?lossy=1&quality=65&ssl=1",      
-            "image-4": "https://i.natgeofe.com/n/81cf55d9-8f0d-4bd7-a69f-9dd17186ed87/helsinki-finland_16x9.jpg"      
-        },
-        {
-            "type": "img_3",
-            "image-0": "/static/img/country/Slovenia/1.png",      
-            "image-1": "/static/img/country/France/1.png",     
-            "image-2": "/static/img/country/Denmark/1.png" 
-        },
-        
-        
-        {
-            "type": "img_title_2",
-            "title": "Start Traveling With Us Today - Create Account And Start Exploring",
-            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-            "button": "Explore",
-            "image-0": "/static/img/country/Slovenia/1.png",      
-            "image-1": "https://e498h76z5mp.exactdn.com/wp-content/uploads/2021/09/cyprus-scaled.jpg?lossy=1&quality=65&ssl=1",
-            "image-2": "https://visitestonia.com/content-images/641537/tallinn-en-004-visit-estonia.jpg",
-            "image-3": "/static/img/country/France/1.png"
-        },
-        {
-            "type": "img_title_3",
-            "title": "Start Traveling With Us Today - Create Account And Start Exploring",
-            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-            "button": "Explore",
-            "image-0": "https://e498h76z5mp.exactdn.com/wp-content/uploads/2021/09/cyprus-scaled.jpg?lossy=1&quality=65&ssl=1",      
-            "image-1": "/static/img/country/France/1.png",
-            "image-2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAnAkxBMnDLbHYWL5qqEwJGhZjTA0elWLoSpybz9WufM13NXHewdk11w-MW8myUTd960o&usqp=CAU",
-            "image-3": "https://visitestonia.com/content-images/641537/tallinn-en-004-visit-estonia.jpg"
-        },
-        {
-            "type": "img_title_4",
-            "title": "Image title",
-            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-            "image-0": "https://e498h76z5mp.exactdn.com/wp-content/uploads/2021/09/cyprus-scaled.jpg?lossy=1&quality=65&ssl=1",      
-            "image-1": "/static/img/country/France/1.png",
-            "image-2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAnAkxBMnDLbHYWL5qqEwJGhZjTA0elWLoSpybz9WufM13NXHewdk11w-MW8myUTd960o&usqp=CAU"
         }
+        
     ],
     "test-page": [
         {
