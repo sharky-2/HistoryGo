@@ -42,6 +42,10 @@ img:hover {transform: rotate(0deg) !important; z-index: 10;} */
     font-family: var(--text-font-family);
     font-size: 18px;
 }
+.number-design {
+    font-size: 20px;
+    opacity: .5;
+}
 
 /* Button desing */
 .blue-button-design {
@@ -83,6 +87,7 @@ section {
     align-items: center;
 
     /* margin-top: 50px; */
+    position: relative;
 }
 
 /* Frame */
@@ -95,3 +100,31 @@ section {
     line-height: 28px;
     gap: 10px;
 }
+
+.ranks-frame {
+    min-height: 50px;
+    width: 100%;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    gap: 10px;
+}
+.ranks-frame label {
+    padding: 10px 20px;
+    border-radius: 100px;
+    border: 1px solid var(--light-black);
+    transition: all .3s;
+    cursor: pointer;
+
+    font-family: var(--subtitle-font-family);
+    font-size: 15px;
+    font-weight: bold;
+}
+.ranks-frame label:empty {display: none;}
+.ranks-frame label:hover {padding: 10px 30px;}

@@ -1,0 +1,60 @@
+{
+    "selected-country": [
+        {
+            "type": "img_title_1",
+            "title": "Discover Slovenia - A Hidden Gem of Europe",
+            "subtitle": "Explore the enchanting landscapes, charming cities, and rich cultural heritage of Slovenia.",
+            "button": "Explore",
+            "image-0": "/static/img/country/Slovenia/1.png",
+            "image-1": "https://e498h76z5mp.exactdn.com/wp-content/uploads/2021/09/cyprus-scaled.jpg?lossy=1&quality=65&ssl=1"
+        },
+        {
+            "type": "blog_3",
+            "title": "Experience the Magic of Slovenia with HistoryGo",
+            "subtitle": "Unveil the stories behind the picturesque landscapes and historical treasures.",
+            "text": "Slovenia is a country of breathtaking diversity, from the emerald green waters of Lake Bled to the historic charm of Ljubljana. It’s a place where nature and culture intertwine, offering a unique blend of adventure and tradition.",
+            "text-2": "Whether you’re hiking in the Julian Alps, exploring Postojna Cave, or savoring local cuisine, Slovenia promises an unforgettable journey filled with discovery.",
+            "image-0": "https://www.state.gov/wp-content/uploads/2023/07/shutterstock_667548661v2.jpg",
+            "image-1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAnAkxBMnDLbHYWL5qqEwJGhZjTA0elWLoSpybz9WufM13NXHewdk11w-MW8myUTd960o&usqp=CAU"
+        },
+        {
+            "type": "title_1",
+            "title": "Welcome to Slovenia",
+            "subtitle": "A journey through lush valleys, medieval towns, and pristine lakes."
+        },
+        {
+            "type": "left_image_text_1",
+            "title": "Discover the Heart of Europe in Slovenia",
+            "subtitle": "From alpine peaks to coastal towns, every corner of Slovenia tells a story.",
+            "button": "Explore more",
+            "img": "https://e498h76z5mp.exactdn.com/wp-content/uploads/2021/09/cyprus-scaled.jpg?lossy=1&quality=65&ssl=1"
+        },
+        {
+            "type": "right_image_text_1",
+            "title": "A Land of Natural Wonders and Cultural Richness",
+            "subtitle": "Join us on an exploration of Slovenia’s most captivating destinations.",
+            "button": "Explore more",
+            "image-0": "https://e498h76z5mp.exactdn.com/wp-content/uploads/2021/09/cyprus-scaled.jpg?lossy=1&quality=65&ssl=1",
+            "image-1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAnAkxBMnDLbHYWL5qqEwJGhZjTA0elWLoSpybz9WufM13NXHewdk11w-MW8myUTd960o&usqp=CAU",
+            "image-2": "https://visitestonia.com/content-images/641537/tallinn-en-004-visit-estonia.jpg"
+        },
+        {
+            "type": "blog_2",
+            "title": "Why Slovenia Should Be Your Next Travel Destination",
+            "subtitle": "A blend of adventure, history, and tranquility.",
+            "text": "Slovenia’s natural beauty is matched only by its vibrant cultural scene. From the historic town of Piran to the snow-capped peaks of Triglav, this small country is a paradise for nature lovers and history buffs alike.",
+            "image-0": "https://www.state.gov/wp-content/uploads/2023/07/shutterstock_667548661v2.jpg",
+            "image-1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAnAkxBMnDLbHYWL5qqEwJGhZjTA0elWLoSpybz9WufM13NXHewdk11w-MW8myUTd960o&usqp=CAU",
+            "image-2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt7sURVWRl0P6phqOAH1J978eOEuDIoyu2Iw&s",
+            "image-3": "https://e498h76z5mp.exactdn.com/wp-content/uploads/2021/09/cyprus-scaled.jpg?lossy=1&quality=65&ssl=1",
+            "image-4": "https://i.natgeofe.com/n/81cf55d9-8f0d-4bd7-a69f-9dd17186ed87/helsinki-finland_16x9.jpg"
+        },
+        {
+            "type": "img_1",
+            "image-0": "/static/img/country/Slovenia/1.png",
+            "image-1": "/static/img/country/France/1.png",
+            "image-2": "/static/img/country/Denmark/1.png",
+            "image-3": "/static/img/country/Italy/1.png"
+        }
+    ]
+}

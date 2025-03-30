@@ -1,4 +1,6 @@
 import json
+__selected_country__ = "data/resources/content/slovenia.json"
+__path__ = "data/resources/content.json"
 
 # -------------------------------------------------------------------------------------------------
 # Design
@@ -18,11 +20,11 @@ def header(**context):
     button = context.get("button")
     page_name = context.get("page_name")
 
-    blog_image_amount = 4
+    amount = 4
     item = ""
-    for i in range(blog_image_amount):
+    for i in range(amount):
 
-        with open("data/resources/content.json") as f:
+        with open(__path__) as f:
             data = json.load(f)
 
         for char in data.get(page_name, []):
@@ -58,11 +60,11 @@ def blog_2(**context):
     text = context.get("text")
     page_name = context.get("page_name")
 
-    blog_image_amount = 5
+    amount = 5
     item = ""
-    for i in range(blog_image_amount):
+    for i in range(amount):
 
-        with open("data/resources/content.json") as f:
+        with open(__path__) as f:
             data = json.load(f)
 
         for char in data.get(page_name, []):
@@ -100,11 +102,11 @@ def blog_3(**context):
     text_2 = context.get("text-2")
     page_name = context.get("page_name")
 
-    blog_image_amount = 2
+    amount = 2
     item = ""
-    for i in range(blog_image_amount):
+    for i in range(amount):
 
-        with open("data/resources/content.json") as f:
+        with open(__path__) as f:
             data = json.load(f)
 
         for char in data.get(page_name, []):
@@ -144,11 +146,11 @@ def blog_4(**context):
     page_name = context.get("page_name")
     button = context.get("button")
 
-    blog_image_amount = 4
+    amount = 4
     item = ""
-    for i in range(blog_image_amount):
+    for i in range(amount):
 
-        with open("data/resources/content.json") as f:
+        with open(__path__) as f:
             data = json.load(f)
 
         for char in data.get(page_name, []):
@@ -237,11 +239,11 @@ def title_3(**context):
 def img_1(**context):
     page_name = context.get("page_name")
 
-    image_amount = 4
+    amount = 4
     item = ""
-    for i in range(image_amount):
+    for i in range(amount):
 
-        with open("data/resources/content.json") as f:
+        with open(__path__) as f:
             data = json.load(f)
 
         for char in data.get(page_name, []):
@@ -261,11 +263,11 @@ def img_1(**context):
 def img_2(**context):
     page_name = context.get("page_name")
 
-    image_amount = 5
+    amount = 5
     item = ""
-    for i in range(image_amount):
+    for i in range(amount):
 
-        with open("data/resources/content.json") as f:
+        with open(__path__) as f:
             data = json.load(f)
 
         for char in data.get(page_name, []):
@@ -285,11 +287,11 @@ def img_2(**context):
 def img_3(**context):
     page_name = context.get("page_name")
 
-    image_amount = 3
+    amount = 3
     item = ""
-    for i in range(image_amount):
+    for i in range(amount):
 
-        with open("data/resources/content.json") as f:
+        with open(__path__) as f:
             data = json.load(f)
 
         for char in data.get(page_name, []):
@@ -310,11 +312,11 @@ def img_3(**context):
 # Cards
 def card(**context):
     page_name = context.get("page_name")
-    card_amount = context.get("card_amount")
+    amount = context.get("amount")
     item = ""
-    for i in range(card_amount):
+    for i in range(amount):
 
-        with open("data/resources/content.json") as f:
+        with open(__path__) as f:
             data = json.load(f)
 
         for char in data.get(page_name, []):
@@ -327,7 +329,7 @@ def card(**context):
 
                 item += f"""
                 <div class="card">
-                    <img src="{image}" class="box-shadow ">
+                    <img src="{image}" class="box-shadow">
                     <div class="textframe">
                         <h1 class="title-design text-shadow">{title}</h1>
                         <code class="subtitle-design rating" style="opacity: 1;">
@@ -348,93 +350,93 @@ def card(**context):
     """
     return module
 
-def card_category(**context):
-    page_name = context.get("page_name")
-    card_amount = context.get("card_amount")
-    title = context.get("title")
-    subtitle = context.get("subtitle")
+# def card_category(**context):
+#     page_name = context.get("page_name")
+#     card_amount = context.get("card_amount")
+#     title = context.get("title")
+#     subtitle = context.get("subtitle")
 
 
-    item = ""
-    for i in range(card_amount):
+#     item = ""
+#     for i in range(card_amount):
 
-        with open("data/resources/content.json") as f:
-            data = json.load(f)
+#         with open(__path__) as f:
+#             data = json.load(f)
 
-        for char in data.get(page_name, []):
-            type_ = char.get("type", None)
-            if type_ == "card_category": 
+#         for char in data.get(page_name, []):
+#             type_ = char.get("type", None)
+#             if type_ == "card_category": 
 
-                image = char.get(f"image-{i}", None)                    
-                title_card = char.get(f"title-{i}", None)                    
-                subtitle_card = char.get(f"subtitle-{i}", None)   
+#                 image = char.get(f"image-{i}", None)                    
+#                 title_card = char.get(f"title-{i}", None)                    
+#                 subtitle_card = char.get(f"subtitle-{i}", None)   
 
-                item += f"""
-                <div class="card">
-                    <img src="{image}" class="box-shadow ">
-                    <div class="textframe">
-                        <h1 class="title-design text-shadow">{title_card}</h1>
-                        <code class="subtitle-design rating" style="opacity: 1;">
-                            <img src="../static/img/icons/star.png">
-                            4.53
-                        </code>
-                    </div>
-                </div>
-                """
+#                 item += f"""
+#                 <div class="card">
+#                     <img src="{image}" class="box-shadow ">
+#                     <div class="textframe">
+#                         <h1 class="title-design text-shadow">{title_card}</h1>
+#                         <code class="subtitle-design rating" style="opacity: 1;">
+#                             <img src="../static/img/icons/star.png">
+#                             4.53
+#                         </code>
+#                     </div>
+#                 </div>
+#                 """
 
 
-    module = f"""
-    <section id="card-module">
+#     module = f"""
+#     <section id="card-module">
 
-        <h1 class="title-design text-shadow" style="text-align: center;">{title}</h1>
-        <label class="subtitle-design" style="text-align: center;">{subtitle}</label>
-        <br>
-        <div class="category-frame">
-            <div class="button">
-                <div class="img box-shadow"><img src="../static/img/icons/star.png"></div>
-                <label class="subtitle-design">favorite</label>
-            </div>
-            <div class="button">
-                <div class="img box-shadow"><img src="../static/img/icons/confetti.png"></div>
-                <label class="subtitle-design">fun</label>
-            </div>
-            <div class="button">
-                <div class="img box-shadow"><img src="../static/img/icons/island.png"></div>
-                <label class="subtitle-design">beach</label>
-            </div>
-            <div class="button">
-                <div class="img box-shadow"><img src="../static/img/icons/castle.png"></div>
-                <label class="subtitle-design">castle</label>
-            </div>
-            <div class="button">
-                <div class="img box-shadow"><img src="../static/img/icons/ski.png"></div>
-                <label class="subtitle-design">ski</label>
-            </div>
-            <div class="button">
-                <div class="img box-shadow"><img src="../static/img/icons/swimming-man.png"></div>
-                <label class="subtitle-design">swim</label>
-            </div>
-            <div class="button">
-                <div class="img box-shadow"><img src="../static/img/icons/sailing-boat.png"></div>
-                <label class="subtitle-design">boat</label>
-            </div>
-            <div class="button">
-                <div class="img box-shadow"><img src="../static/img/icons/plane.png"></div>
-                <label class="subtitle-design">flying</label>
-            </div>
-            <div class="button">
-                <div class="img box-shadow"><img src="../static/img/icons/sun.png"></div>
-                <label class="subtitle-design">sunny</label>
-            </div>
+#         <h1 class="title-design text-shadow" style="text-align: center;">{title}</h1>
+#         <label class="subtitle-design" style="text-align: center;">{subtitle}</label>
+#         <br>
+#         <div class="category-frame">
+#             <div class="button">
+#                 <div class="img box-shadow"><img src="../static/img/icons/star.png"></div>
+#                 <label class="subtitle-design">favorite</label>
+#             </div>
+#             <div class="button">
+#                 <div class="img box-shadow"><img src="../static/img/icons/confetti.png"></div>
+#                 <label class="subtitle-design">fun</label>
+#             </div>
+#             <div class="button">
+#                 <div class="img box-shadow"><img src="../static/img/icons/island.png"></div>
+#                 <label class="subtitle-design">beach</label>
+#             </div>
+#             <div class="button">
+#                 <div class="img box-shadow"><img src="../static/img/icons/castle.png"></div>
+#                 <label class="subtitle-design">castle</label>
+#             </div>
+#             <div class="button">
+#                 <div class="img box-shadow"><img src="../static/img/icons/ski.png"></div>
+#                 <label class="subtitle-design">ski</label>
+#             </div>
+#             <div class="button">
+#                 <div class="img box-shadow"><img src="../static/img/icons/swimming-man.png"></div>
+#                 <label class="subtitle-design">swim</label>
+#             </div>
+#             <div class="button">
+#                 <div class="img box-shadow"><img src="../static/img/icons/sailing-boat.png"></div>
+#                 <label class="subtitle-design">boat</label>
+#             </div>
+#             <div class="button">
+#                 <div class="img box-shadow"><img src="../static/img/icons/plane.png"></div>
+#                 <label class="subtitle-design">flying</label>
+#             </div>
+#             <div class="button">
+#                 <div class="img box-shadow"><img src="../static/img/icons/sun.png"></div>
+#                 <label class="subtitle-design">sunny</label>
+#             </div>
            
-        </div>
+#         </div>
 
-        <div class="cards">
-            {item}
-        </div>
-    </section>
-    """
-    return module
+#         <div class="cards">
+#             {item}
+#         </div>
+#     </section>
+#     """
+#     return module
 
 # -------------------------------------------------------------------------------------------------
 # Image title
@@ -447,7 +449,7 @@ def img_title_1(**context):
     item = ""
     for i in range(2):
 
-        with open("data/resources/content.json") as f:
+        with open(__path__) as f:
             data = json.load(f)
 
         for char in data.get(page_name, []):
@@ -480,7 +482,7 @@ def img_title_2(**context):
     item = ""
     for i in range(4):
 
-        with open("data/resources/content.json") as f:
+        with open(__path__) as f:
             data = json.load(f)
 
         for char in data.get(page_name, []):
@@ -513,7 +515,7 @@ def img_title_3(**context):
     item = ""
     for i in range(4):
 
-        with open("data/resources/content.json") as f:
+        with open(__path__) as f:
             data = json.load(f)
 
         for char in data.get(page_name, []):
@@ -546,7 +548,7 @@ def img_title_4(**context):
     item = ""
     for i in range(3):
 
-        with open("data/resources/content.json") as f:
+        with open(__path__) as f:
             data = json.load(f)
 
         for char in data.get(page_name, []):
@@ -574,14 +576,13 @@ def img_title_4(**context):
 def image_text(**context):
     page_name = context.get("page_name")
     title = context.get("title")
-    subtitle = context.get("subtitle")
     text1 = context.get("text")
     text2 = context.get("text2")
 
     item = ""
     for i in range(5):
 
-        with open("data/resources/content.json") as f:
+        with open(__path__) as f:
             data = json.load(f)
 
         for char in data.get(page_name, []):
@@ -607,21 +608,46 @@ def image_text(**context):
     """
     return module
 
-def left_image_text_1(**context):
+def destination_spotlight(**context):
+    page_name = context.get("page_name")
     title = context.get("title")
     subtitle = context.get("subtitle")
-    img = context.get("img")
+    text = context.get("text")
     button = context.get("button")
+    img = context.get("img")
+    
+    item = ""
+    for i in range(5):
+
+        with open(__path__) as f:
+            data = json.load(f)
+
+        for char in data.get(page_name, []):
+            type_ = char.get("type", None)
+            if type_ == "destination_spotlight": 
+
+                rank = char.get(f"rank-{i}", "")        
+                item += f"""<label>{rank}</label>"""
+        
 
     module = f"""
-    <section class="left-image-text-1">
-        <div class="imgframe">
-            <img src="{img}" class="box-shadow">
-        </div>
-        <div class="textframe">
-            <h1 class="title-design text-shadow">{title}</h1>
-            <label class="subtitle-design">{subtitle}</label>
-            <a href="#"><input type="button" value="{button}" class="blue-button-design box-shadow button-hover"></a>  
+    <section class="destination-spotlight-frame">
+        <div class="destination-spotlight">
+            <div class="imgframe">
+                <img src="{img}" class="box-shadow">
+            </div>
+            <div class="textframe">
+                <code class="number-design">01.</code>
+                <h1 class="title-design text-shadow">{title}</h1>
+                <label class="subtitle-design">{subtitle}</label>
+                <br>
+                <label class="text-design">{text}</label>
+                <a href="#"><input type="button" value="{button}" class="blue-button-design box-shadow button-hover"></a>  
+
+                <div class="ranks-frame">
+                    {item}
+                </div>
+            </div>
         </div>
     </section>
     """
@@ -636,7 +662,7 @@ def left_image_text_2(**context):
     item = ""
     for i in range(3):
 
-        with open("data/resources/content.json") as f:
+        with open(__path__) as f:
             data = json.load(f)
 
         for char in data.get(page_name, []):
@@ -669,7 +695,7 @@ def right_image_text_1(**context):
     item = ""
     for i in range(3):
 
-        with open("data/resources/content.json") as f:
+        with open(__path__) as f:
             data = json.load(f)
 
         for char in data.get(page_name, []):
@@ -703,7 +729,7 @@ def recomended(**context):
     item = ""
     for i in range(3):
 
-        with open("data/resources/content.json") as f:
+        with open(__path__) as f:
             data = json.load(f)
 
         for char in data.get(page_name, []):
@@ -711,18 +737,13 @@ def recomended(**context):
             if type_ == "recomended": 
 
                 image = char.get(f"image-{i}", None)                    
-                title_card = char.get(f"title-{i}", None)                    
                 subtitle_card = char.get(f"subtitle-{i}", None)   
 
                 item += f"""
                 <div class="card">
-                    <img src="{image}" class="box-shadow ">
+                    <img src="{image}" class="box-shadow" style="width: 100%;">
                     <div class="textframe">
-                        <h1 class="title-design text-shadow">{title_card}</h1>
-                        <code class="subtitle-design rating" style="opacity: 1;">
-                            <img src="../static/img/icons/star.png">
-                            4.53
-                        </code>
+                        <lable class="subtitle-design text-shadow">{subtitle_card}</lable>
                     </div>
                 </div>
                 """

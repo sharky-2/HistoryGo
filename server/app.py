@@ -21,7 +21,7 @@ def MainPage():
             "subtitle": char.get("subtitle"),
             "button": char.get("button"),
             "img": char.get("img"),
-            "card_amount": char.get("card_amount"),
+            "amount": char.get("amount"),
 
             "page_name": name_
         }
@@ -49,7 +49,7 @@ def selected_country():
             "subtitle": char.get("subtitle"),
             "button": char.get("button"),
             "img": char.get("img"),
-            "card_amount": char.get("card_amount"),
+            "amount": char.get("amount"),
 
             "page_name": name_
         }
@@ -59,7 +59,6 @@ def selected_country():
             module += module_function(**context)
 
     return render_template("selected-country.html", modules = module)
-
 
 @app.route("/Test") 
 def Test(): 
@@ -78,7 +77,7 @@ def Test():
             "subtitle": char.get("subtitle"),
             "button": char.get("button"),
             "img": char.get("img"),
-            "card_amount": char.get("card_amount"),
+            "amount": char.get("amount"),
 
             "page_name": name_
         }

@@ -108,40 +108,7 @@
             "title-8": "Finland's Serene Landscapes",
             "subtitle-8": "Experience the tranquil natural scenery of Finland.",
             "image-8": "https://i.natgeofe.com/n/81cf55d9-8f0d-4bd7-a69f-9dd17186ed87/helsinki-finland_16x9.jpg",
-            "card_amount": 9      
-        },
-        {
-            "type": "card_category",
-            "title": "Category",
-            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-            "title-0": "Austria's Seebensee Lake",
-            "subtitle-0": "A stunning alpine lake located in the Tyrolean Alps.",
-            "image-0": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt7sURVWRl0P6phqOAH1J978eOEuDIoyu2Iw&s",
-            "title-1": "Belgium's Scenic Landscapes",
-            "subtitle-1": "Explore the picturesque natural beauty of Belgium.",
-            "image-1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcbE8_L2pxmr3znOkUSfR3n_6vqsHoy0i2bM0va03pZuy9lSRkQutSGWpc-aDsVMAS8Ws&usqp=CAU",
-            "title-2": "Bulgaria's Natural Wonders",
-            "subtitle-2": "Discover the breathtaking natural sites across Bulgaria.",
-            "image-2": "https://www.aimsinternational.com/_next/image?url=https%3A%2F%2Fjoyful-flame-f4b0b9bf5d.media.strapiapp.com%2FSofia_Bulgaria_4_190cf0c875.jpg&w=3840&q=75",
-            "title-3": "Croatia's Plitvice Lakes",
-            "subtitle-3": "Experience the cascading waterfalls and lakes of Plitvice National Park.",
-            "image-3": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAnAkxBMnDLbHYWL5qqEwJGhZjTA0elWLoSpybz9WufM13NXHewdk11w-MW8myUTd960o&usqp=CAU",
-            "title-4": "Cyprus's Enchanting Waterfalls",
-            "subtitle-4": "Explore the hidden waterfalls nestled within Cyprus's landscapes.",
-            "image-4": "https://e498h76z5mp.exactdn.com/wp-content/uploads/2021/09/cyprus-scaled.jpg?lossy=1&quality=65&ssl=1",
-            "title-5": "Czech Republic's Rock Formations",
-            "subtitle-5": "Marvel at the unique rock formations and natural beauty of the Czech Republic.",
-            "image-5": "https://internationalliving.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fwv75stsetqy3%2F5bM6VkIpGI7SOjLNF2hQUG%2F771657f64d42a6d3635abab0070dcf8d%2FCzech_Republic.jpg%3Fq%3D60%26fit%3Dfill%26fm%3Dwebp&w=3840&q=60",
-            "title-6": "Denmark's Møns Klint",
-            "subtitle-6": "Witness the stunning white chalk cliffs along the eastern coast of the island of Møn.",
-            "image-6": "https://static.independent.co.uk/2023/04/19/13/iStock-971381072.jpg",
-            "title-7": "Estonia's Verdant Forests",
-            "subtitle-7": "Immerse yourself in the lush green forests of Estonia.",
-            "image-7": "https://visitestonia.com/content-images/641537/tallinn-en-004-visit-estonia.jpg",
-            "title-8": "Finland's Serene Landscapes",
-            "subtitle-8": "Experience the tranquil natural scenery of Finland.",
-            "image-8": "https://i.natgeofe.com/n/81cf55d9-8f0d-4bd7-a69f-9dd17186ed87/helsinki-finland_16x9.jpg",
-            "card_amount": 9 
+            "amount": 9      
         },
         {
             "type": "img_title_1",
@@ -180,7 +147,7 @@
             "image-2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAnAkxBMnDLbHYWL5qqEwJGhZjTA0elWLoSpybz9WufM13NXHewdk11w-MW8myUTd960o&usqp=CAU"
         },
         {
-            "type": "left_image_text_1",
+            "type": "destination_spotlight",
             "title": "Travel And Explore World With HistoryGo - Get to know place even more with us.",
             "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "button": "Explore more",
@@ -238,19 +205,19 @@
 
     "selected-country": [
         {
-            "type": "img_title_1",
-            "title": "Start Traveling With Us Today - Create Account And Start Exploring",
+            "type": "img_title_4",
+            "title": "Image title",
             "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-            "button": "Explore",
-            "image-0": "/static/img/country/Slovenia/1.png",      
-            "image-1": "https://e498h76z5mp.exactdn.com/wp-content/uploads/2021/09/cyprus-scaled.jpg?lossy=1&quality=65&ssl=1"
+            "image-0": "https://e498h76z5mp.exactdn.com/wp-content/uploads/2021/09/cyprus-scaled.jpg?lossy=1&quality=65&ssl=1",      
+            "image-1": "/static/img/country/France/1.png",
+            "image-2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAnAkxBMnDLbHYWL5qqEwJGhZjTA0elWLoSpybz9WufM13NXHewdk11w-MW8myUTd960o&usqp=CAU"
         },
         {
             "type": "blog_3",
-            "title": "Travel And Explore World WithHistoryGo - Get to know place even more with us.",
+            "title": "Travel And Explore World With HistoryGo - Get to know place even more with us.",
             "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-            "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-            "text-2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the.",
+            "text-2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
             "image-0": "https://www.state.gov/wp-content/uploads/2023/07/shutterstock_667548661v2.jpg",
             "image-1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAnAkxBMnDLbHYWL5qqEwJGhZjTA0elWLoSpybz9WufM13NXHewdk11w-MW8myUTd960o&usqp=CAU"
         },
@@ -260,11 +227,13 @@
             "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
         },
         {
-            "type": "left_image_text_1",
-            "title": "Travel And Explore World With HistoryGo - Get to know place even more with us.",
-            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "type": "destination_spotlight",
+            "title": "Slovenia",
+            "subtitle": "Koper, Izola",
+            "text": "There's so much to explore at Poipu Beach Park. Strap on a snorkel and check out the lava rocks and their colorful fish inhabitants. Or, stick to the shore to catch Hawaiian monk seals lazily lounging by day and sea turtles making their way onto the beach by sunset.",
             "button": "Explore more",
-            "img": "https://e498h76z5mp.exactdn.com/wp-content/uploads/2021/09/cyprus-scaled.jpg?lossy=1&quality=65&ssl=1"
+            "img": "https://e498h76z5mp.exactdn.com/wp-content/uploads/2021/09/cyprus-scaled.jpg?lossy=1&quality=65&ssl=1",
+            "rank-0": "Family", "rank-1": "Kid-Friendly", "rank-2": "Sport park", "rank-3": "Water park", "rank-4": ""
         },
         {
             "type": "right_image_text_1",
@@ -276,17 +245,10 @@
             "image-2": "https://visitestonia.com/content-images/641537/tallinn-en-004-visit-estonia.jpg"
         },
         {
-            "type": "left_image_text_1",
+            "type": "blog_2",
             "title": "Travel And Explore World With HistoryGo - Get to know place even more with us.",
             "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-            "button": "Explore more",
-            "img": "https://e498h76z5mp.exactdn.com/wp-content/uploads/2021/09/cyprus-scaled.jpg?lossy=1&quality=65&ssl=1"
-        },
-        {
-            "type": "blog_2",
-            "title": "Travel And Explore World WithHistoryGo - Get to know place even more with us.",
-            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-            "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
             "image-0": "https://www.state.gov/wp-content/uploads/2023/07/shutterstock_667548661v2.jpg",
             "image-1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAnAkxBMnDLbHYWL5qqEwJGhZjTA0elWLoSpybz9WufM13NXHewdk11w-MW8myUTd960o&usqp=CAU",
             "image-2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt7sURVWRl0P6phqOAH1J978eOEuDIoyu2Iw&s",
@@ -295,13 +257,31 @@
         },
         {
             "type": "img_1",
-            "image-0": "/static/img/country/Slovenia/1.png",      
-            "image-1": "/static/img/country/France/1.png",     
-            "image-2": "/static/img/country/Denmark/1.png",    
-            "image-3": "/static/img/country/Italy/1.png"        
+            "image-0": "/static/img/country/Slovenia/1.png",
+            "image-1": "/static/img/country/France/1.png",
+            "image-2": "/static/img/country/Denmark/1.png",
+            "image-3": "/static/img/country/Italy/1.png"
+        },
+        {
+            "type": "recomended",
+            "title": "Recomended",
+            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "title-0": "Frane",
+            "subtitle-0": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "image-0": "https://e498h76z5mp.exactdn.com/wp-content/uploads/2021/09/cyprus-scaled.jpg?lossy=1&quality=65&ssl=1",
+            "title-1": "Frane",
+            "subtitle-1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "image-1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAnAkxBMnDLbHYWL5qqEwJGhZjTA0elWLoSpybz9WufM13NXHewdk11w-MW8myUTd960o&usqp=CAU",
+            "title-2": "Frane",
+            "subtitle-2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "image-2": "https://visitestonia.com/content-images/641537/tallinn-en-004-visit-estonia.jpg"
         }
-        
     ],
+
+
+
+
+
     "test-page": [
         {
             "type": "blog_2",
