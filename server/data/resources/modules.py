@@ -616,18 +616,25 @@ def destination_spotlight(**context):
     button = context.get("button")
     img = context.get("img")
     
-    item = ""
-    for i in range(5):
+    
+    rank0 = context.get("rank0")
+    rank1 = context.get("rank1")
+    rank2 = context.get("rank2")
+    rank3 = context.get("rank3")
+    rank4 = context.get("rank4")
+    
+    # item = ""
+    # with open(__path__) as f:
+    #     data = json.load(f)
 
-        with open(__path__) as f:
-            data = json.load(f)
+    # for char in data.get(page_name, []):
+    #     type_ = char.get("type", None)
+    #     if type_ == "destination_spotlight": 
 
-        for char in data.get(page_name, []):
-            type_ = char.get("type", None)
-            if type_ == "destination_spotlight": 
-
-                rank = char.get(f"rank-{i}", "")        
-                item += f"""<label>{rank}</label>"""
+    #         for i in range(5): 
+    #             rank = char.get(f"rank-{i}", "")   
+    #             item += f"""<label>{rank}</label>"""
+    #         break
         
 
     module = f"""
@@ -637,7 +644,7 @@ def destination_spotlight(**context):
                 <img src="{img}" class="box-shadow">
             </div>
             <div class="textframe">
-                <code class="number-design">01.</code>
+                <code class="number-design">Best places to visit.</code>
                 <h1 class="title-design text-shadow">{title}</h1>
                 <label class="subtitle-design">{subtitle}</label>
                 <br>
@@ -645,7 +652,11 @@ def destination_spotlight(**context):
                 <a href="#"><input type="button" value="{button}" class="blue-button-design box-shadow button-hover"></a>  
 
                 <div class="ranks-frame">
-                    {item}
+                    <label>{rank0}</label>
+                    <label>{rank1}</label>
+                    <label>{rank2}</label>
+                    <label>{rank3}</label>
+                    <label>{rank4}</label>
                 </div>
             </div>
         </div>

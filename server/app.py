@@ -23,7 +23,13 @@ def MainPage():
             "img": char.get("img"),
             "amount": char.get("amount"),
 
-            "page_name": name_
+            "page_name": name_,
+
+            "rank0": char.get("rank-0"),
+            "rank1": char.get("rank-1"),
+            "rank2": char.get("rank-2"),
+            "rank3": char.get("rank-3"),
+            "rank4": char.get("rank-4")
         }
 
         module_function = getattr(modules, char.get("type"), None)
@@ -51,7 +57,13 @@ def selected_country():
             "img": char.get("img"),
             "amount": char.get("amount"),
 
-            "page_name": name_
+            "page_name": name_,
+
+            "rank0": char.get("rank-0"),
+            "rank1": char.get("rank-1"),
+            "rank2": char.get("rank-2"),
+            "rank3": char.get("rank-3"),
+            "rank4": char.get("rank-4")
         }
 
         module_function = getattr(modules, char.get("type"), None)
