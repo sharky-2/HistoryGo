@@ -1,6 +1,6 @@
 import json
 __selected_country__ = "data/resources/content/slovenia.json"
-__path__ = "data/resources/content.json"
+# __path__ = "data/resources/content.json"
 
 # -------------------------------------------------------------------------------------------------
 # Design
@@ -19,6 +19,7 @@ def header(**context):
     subtitle = context.get("subtitle")
     button = context.get("button")
     page_name = context.get("page_name")
+    __path__ = context.get("__path__")
 
     amount = 4
     item = ""
@@ -59,6 +60,7 @@ def blog_2(**context):
     subtitle = context.get("subtitle")
     text = context.get("text")
     page_name = context.get("page_name")
+    __path__ = context.get("__path__")
 
     amount = 5
     item = ""
@@ -101,6 +103,7 @@ def blog_3(**context):
     text = context.get("text")
     text_2 = context.get("text-2")
     page_name = context.get("page_name")
+    __path__ = context.get("__path__")
 
     amount = 2
     item = ""
@@ -145,6 +148,7 @@ def blog_4(**context):
     text_2 = context.get("text-2")
     page_name = context.get("page_name")
     button = context.get("button")
+    __path__ = context.get("__path__")
 
     amount = 4
     item = ""
@@ -185,6 +189,7 @@ def blog_4(**context):
 def title_1(**context):
     title = context.get("title")
     subtitle = context.get("subtitle")
+    __path__ = context.get("__path__")
 
     module = f"""
     <section class="title title-1">
@@ -218,6 +223,7 @@ def title_3(**context):
     title = context.get("title")
     subtitle = context.get("subtitle")
     img = context.get("img")
+    __path__ = context.get("__path__")
 
     module = f"""
     <section class="title title-2">
@@ -238,6 +244,7 @@ def title_3(**context):
 # Image 
 def img_1(**context):
     page_name = context.get("page_name")
+    __path__ = context.get("__path__")
 
     amount = 4
     item = ""
@@ -262,6 +269,7 @@ def img_1(**context):
 
 def img_2(**context):
     page_name = context.get("page_name")
+    __path__ = context.get("__path__")
 
     amount = 5
     item = ""
@@ -286,6 +294,7 @@ def img_2(**context):
 
 def img_3(**context):
     page_name = context.get("page_name")
+    __path__ = context.get("__path__")
 
     amount = 3
     item = ""
@@ -313,6 +322,7 @@ def img_3(**context):
 def card(**context):
     page_name = context.get("page_name")
     amount = context.get("amount")
+    __path__ = context.get("__path__")
     item = ""
     for i in range(amount):
 
@@ -355,6 +365,7 @@ def card(**context):
 #     card_amount = context.get("card_amount")
 #     title = context.get("title")
 #     subtitle = context.get("subtitle")
+    # __path__ = context.get("__path__")
 
 
 #     item = ""
@@ -445,6 +456,7 @@ def img_title_1(**context):
     title = context.get("title")
     subtitle = context.get("subtitle")
     button = context.get("button")
+    __path__ = context.get("__path__")
 
     item = ""
     for i in range(2):
@@ -478,6 +490,7 @@ def img_title_2(**context):
     title = context.get("title")
     subtitle = context.get("subtitle")
     button = context.get("button")
+    __path__ = context.get("__path__")
 
     item = ""
     for i in range(4):
@@ -511,6 +524,7 @@ def img_title_3(**context):
     title = context.get("title")
     subtitle = context.get("subtitle")
     button = context.get("button")
+    __path__ = context.get("__path__")
 
     item = ""
     for i in range(4):
@@ -544,6 +558,7 @@ def img_title_4(**context):
     title = context.get("title")
     subtitle = context.get("subtitle")
     button = context.get("button")
+    __path__ = context.get("__path__")
 
     item = ""
     for i in range(3):
@@ -578,6 +593,7 @@ def image_text(**context):
     title = context.get("title")
     text1 = context.get("text")
     text2 = context.get("text2")
+    __path__ = context.get("__path__")
 
     item = ""
     for i in range(5):
@@ -615,13 +631,12 @@ def destination_spotlight(**context):
     text = context.get("text")
     button = context.get("button")
     img = context.get("img")
+    __path__ = context.get("__path__")
     
     
     rank0 = context.get("rank0")
     rank1 = context.get("rank1")
     rank2 = context.get("rank2")
-    rank3 = context.get("rank3")
-    rank4 = context.get("rank4")
     
     # item = ""
     # with open(__path__) as f:
@@ -655,8 +670,6 @@ def destination_spotlight(**context):
                     <label>{rank0}</label>
                     <label>{rank1}</label>
                     <label>{rank2}</label>
-                    <label>{rank3}</label>
-                    <label>{rank4}</label>
                 </div>
             </div>
         </div>
@@ -669,6 +682,7 @@ def left_image_text_2(**context):
     title = context.get("title")
     subtitle = context.get("subtitle")
     button = context.get("button")
+    __path__ = context.get("__path__")
 
     item = ""
     for i in range(3):
@@ -702,6 +716,7 @@ def right_image_text_1(**context):
     title = context.get("title")
     subtitle = context.get("subtitle")
     button = context.get("button")
+    __path__ = context.get("__path__")
 
     item = ""
     for i in range(3):
@@ -736,6 +751,7 @@ def recomended(**context):
     page_name = context.get("page_name")
     title = context.get("title")
     subtitle = context.get("subtitle")
+    __path__ = context.get("__path__")
 
     item = ""
     for i in range(3):

@@ -1,0 +1,112 @@
+{
+    "selected-country": [
+        {
+            "type": "img_title_4",
+            "title": "Italy - A Timeless Treasure in Southern Europe",
+            "subtitle": "From the art-rich cities of Florence and Rome to the stunning Amalfi Coast, Italy offers an unrivaled combination of history, culture, and natural beauty.",
+            "image-0": "../static/img/country/Italy/1.png",
+            "image-1": "../static/img/country/Italy/1.png",
+            "image-2": "../static/img/country/Italy/1.png"
+        },
+        {
+            "type": "blog_3",
+            "title": "Travel And Explore Italy - Discover the Heart of Europe",
+            "subtitle": "Italy is a world-renowned destination filled with historical landmarks, art treasures, and mouthwatering cuisine.",
+            "text": "Italy is a country of extraordinary beauty, known for its rich history, stunning art, and unforgettable cuisine. From the ancient ruins of Rome to the romantic canals of Venice, Italy offers something for every type of traveler. Visit Florence for its Renaissance masterpieces, indulge in authentic Italian cuisine, or explore the gorgeous Tuscan vineyards. Italy’s breathtaking coastlines, including the Amalfi Coast and Cinque Terre, offer scenic views and unforgettable experiences.",
+            "text-2": "Italy is also famous for its diverse landscapes, from the snow-capped Alps in the north to the sun-drenched Mediterranean coastline in the south. Explore charming villages, ancient ruins, and world-class museums. Whether you're savoring the flavors of Rome, relaxing in the Tuscan countryside, or visiting the grand canals of Venice, Italy is a dream destination for travelers seeking culture, history, and adventure.",
+            "image-0": "../static/img/other/noimg.jpg",
+            "image-1": "../static/img/other/noimg.jpg"
+        },
+        {
+            "type": "title_1",
+            "title": "Explore Italy's Natural Wonders",
+            "subtitle": "From the majestic Alps to the idyllic coastal villages, Italy is a land of natural beauty."
+        },
+        {
+            "type": "destination_spotlight",
+            "title": "The Colosseum",
+            "subtitle": "An Ancient Roman Marvel",
+            "text": "The Colosseum in Rome is one of the most iconic and well-preserved landmarks of ancient Rome. This colossal amphitheater once hosted gladiator battles and grand spectacles. Today, it stands as a powerful symbol of Rome’s rich history.",
+            "button": "Explore more",
+            "img": "../static/img/other/noimg.jpg",
+            "rank-0": "History", "rank-1": "Architecture", "rank-2": "Ancient Ruins", "rank-3": "Cultural Heritage"
+        },
+        {
+            "type": "destination_spotlight",
+            "title": "Venice",
+            "subtitle": "The City of Canals",
+            "text": "Venice is one of the most unique cities in the world, famous for its canals, gondola rides, and stunning architecture. The iconic St. Mark's Square, the Doge’s Palace, and the Rialto Bridge are just a few of the highlights of this romantic city.",
+            "button": "Explore more",
+            "img": "../static/img/other/noimg.jpg",
+            "rank-0": "Culture", "rank-1": "Romantic Getaways", "rank-2": "Urban Exploration", "rank-3": "Photography"
+        },
+        {
+            "type": "destination_spotlight",
+            "title": "Amalfi Coast",
+            "subtitle": "A Coastal Paradise",
+            "text": "The Amalfi Coast is one of the most stunning coastal regions in the world. With dramatic cliffs, colorful villages, and crystal-clear waters, it's a haven for travelers seeking a relaxing and scenic getaway.",
+            "button": "Explore more",
+            "img": "../static/img/other/noimg.jpg",
+            "rank-0": "Nature", "rank-1": "Relaxation", "rank-2": "Coastal Beauty", "rank-3": "Photography"
+        },
+        {
+            "type": "destination_spotlight",
+            "title": "Cinque Terre",
+            "subtitle": "The Five Lands",
+            "text": "Cinque Terre is a stunning region of five colorful villages perched on the cliffs of the Ligurian coast. Known for its scenic hiking trails and crystal-clear waters, it's a perfect destination for nature lovers and adventure seekers.",
+            "button": "Explore more",
+            "img": "../static/img/other/noimg.jpg",
+            "rank-0": "Nature", "rank-1": "Hiking", "rank-2": "Coastal Beauty", "rank-3": "Photography"
+        },
+        {
+            "type": "destination_spotlight",
+            "title": "Florence",
+            "subtitle": "The Cradle of the Renaissance",
+            "text": "Florence is a city steeped in history and art. Visit the Uffizi Gallery, see Michelangelo's David, and stroll along the Arno River. Florence is a haven for art lovers and those fascinated by the Renaissance period.",
+            "button": "Explore more",
+            "img": "../static/img/other/noimg.jpg",
+            "rank-0": "Culture", "rank-1": "Art", "rank-2": "History", "rank-3": "Urban Exploration"
+        },
+        {
+            "type": "right_image_text_1",
+            "title": "Travel And Explore the World with HistoryGo - Uncover the beauty of Italy with us.",
+            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "button": "Explore more",
+            "image-0": "../static/img/other/noimg.jpg",
+            "image-1": "../static/img/other/noimg.jpg",
+            "image-2": "../static/img/other/noimg.jpg"
+        },
+        {
+            "type": "blog_2",
+            "title": "Travel And Explore Italy - Discover the Beauty of Italy with Us.",
+            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "text": "Italy is a country that offers endless opportunities for exploration. From the historical streets of Rome to the stunning Amalfi Coast, Italy never fails to impress. Explore Venice's canals, enjoy the art in Florence, and take in the beauty of the countryside in Tuscany. Whether you're hiking in the Alps or relaxing in coastal towns, Italy has something for everyone. Don’t forget to indulge in the local cuisine and wines, which are world-famous for a reason.",
+            "image-0": "../static/img/other/noimg.jpg",
+            "image-1": "../static/img/other/noimg.jpg",
+            "image-2": "../static/img/other/noimg.jpg",
+            "image-3": "../static/img/other/noimg.jpg",
+            "image-4": "../static/img/other/noimg.jpg"
+        },
+        {
+            "type": "img_1",
+            "image-0": "../static/img/other/noimg.jpg",
+            "image-1": "../static/img/other/noimg.jpg",
+            "image-2": "../static/img/other/noimg.jpg",
+            "image-3": "../static/img/other/noimg.jpg"
+        },
+        {
+            "type": "recomended",
+            "title": "Recommended",
+            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "title-0": "The Colosseum",
+            "subtitle-0": "The Colosseum is an ancient amphitheater in Rome and one of the most recognizable landmarks in the world.",
+            "image-0": "../static/img/other/noimg.jpg",
+            "title-1": "Venice",
+            "subtitle-1": "A romantic city known for its canals, gondolas, and stunning architecture.",
+            "image-1": "../static/img/other/noimg.jpg",
+            "title-2": "Amalfi Coast",
+            "subtitle-2": "A beautiful stretch of coastline with charming villages and breathtaking views.",
+            "image-2": "../static/img/other/noimg.jpg"
+        }
+    ]
+}

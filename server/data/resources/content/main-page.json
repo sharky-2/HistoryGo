@@ -1,0 +1,103 @@
+{
+    "main-page": [
+        {
+            "type": "header",
+            "title": "Travel world with HistoryGo.",
+            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "button": "Explore",
+            "image-0": "../static/img/other/noimg.jpg",      
+            "image-1": "../static/img/other/noimg.jpg",     
+            "image-2": "../static/img/other/noimg.jpg",    
+            "image-3": "../static/img/other/noimg.jpg"    
+        },
+        {
+            "type": "title_1",
+            "title": "Title",
+            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        {
+            "type": "image_text",
+            "title": "Lorem Ipsum",
+            "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.",
+            "text2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+            "image-0": "../static/img/other/noimg.jpg",
+            "image-1": "../static/img/other/noimg.jpg",
+            "image-2": "../static/img/other/noimg.jpg",
+            "image-3": "../static/img/other/noimg.jpg",
+            "image-4": "../static/img/other/noimg.jpg"
+        },
+        {
+            "type": "img_2",
+            "image-0": "../static/img/other/noimg.jpg",      
+            "image-1": "../static/img/other/noimg.jpg",     
+            "image-2": "../static/img/other/noimg.jpg",    
+            "image-3": "../static/img/other/noimg.jpg",      
+            "image-4": "../static/img/other/noimg.jpg"      
+        },
+        {
+            "type": "img_title_2",
+            "title": "Start Traveling With Us Today - Create Account And Start Exploring",
+            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "button": "Explore",
+            "image-0": "../static/img/other/noimg.jpg",      
+            "image-1": "../static/img/other/noimg.jpg",
+            "image-2": "../static/img/other/noimg.jpg",
+            "image-3": "../static/img/other/noimg.jpg"
+        },
+        {
+            "type": "blog_4",
+            "title": "Travel And Explore World WithHistoryGo - Get to know place even more with us.",
+            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "button": "Explore more",
+            "image-0": "../static/img/other/noimg.jpg",
+            "image-1": "../static/img/other/noimg.jpg",
+            "image-2": "../static/img/other/noimg.jpg",
+            "image-3": "../static/img/other/noimg.jpg"
+        },
+        {
+            "type": "blog_3",
+            "title": "Travel And Explore World With HistoryGo - Get to know place even more with us.",
+            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the.",
+            "text-2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "image-0": "../static/img/other/noimg.jpg",
+            "image-1": "../static/img/other/noimg.jpg"
+        },
+        {
+            "type": "right_image_text_1",
+            "title": "Travel And Explore World With HistoryGo - Get to know place even more with us.",
+            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "button": "Explore more",
+            "image-0": "../static/img/other/noimg.jpg",
+            "image-1": "../static/img/other/noimg.jpg",
+            "image-2": "../static/img/other/noimg.jpg"
+        },
+        {
+            "type": "blog_2",
+            "title": "Travel And Explore World With HistoryGo - Get to know place even more with us.",
+            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "image-0": "../static/img/other/noimg.jpg",
+            "image-1": "../static/img/other/noimg.jpg",
+            "image-2": "../static/img/other/noimg.jpg",
+            "image-3": "../static/img/other/noimg.jpg",
+            "image-4": "../static/img/other/noimg.jpg"
+        },
+        
+        {
+            "type": "recomended",
+            "title": "Recomended",
+            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "title-0": "Frane",
+            "subtitle-0": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "image-0": "../static/img/other/noimg.jpg",
+            "title-1": "Frane",
+            "subtitle-1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "image-1": "../static/img/other/noimg.jpg",
+            "title-2": "Frane",
+            "subtitle-2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "image-2": "../static/img/other/noimg.jpg"
+        }
+    ]
+}
