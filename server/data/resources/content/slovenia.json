@@ -27,7 +27,7 @@
             "title": "Lake Bled",
             "subtitle": "A Glacial Beauty in the Julian Alps",
             "text": "Lake Bled is one of Slovenia's most iconic natural wonders. The pristine lake, with its picturesque island and medieval castle, offers a magical experience. Enjoy a traditional pletna boat ride to the island, visit the Bled Castle, or relax by the lakeside with breathtaking views of the surrounding Alps.",
-            "button": "Explore more",
+            
             "img": "../static/img/other/noimg.jpg",
             "rank-0": "Nature", "rank-1": "Romantic Getaways", "rank-2": "History", "rank-3": "Photography"
         },
@@ -36,7 +36,7 @@
             "title": "Ljubljana",
             "subtitle": "Slovenia's Capital City of Culture",
             "text": "Ljubljana, Slovenia's capital, is a charming city filled with vibrant culture, history, and picturesque architecture. Explore the Old Town, stroll along the Ljubljanica River, visit the Ljubljana Castle, and experience the city's lively arts scene.",
-            "button": "Explore more",
+            
             "img": "../static/img/other/noimg.jpg",
             "rank-0": "Culture", "rank-1": "History", "rank-2": "Urban Exploration", "rank-3": "Art"
         },
@@ -45,7 +45,7 @@
             "title": "Postojna Cave",
             "subtitle": "A Marvel Beneath the Surface",
             "text": "The Postojna Cave system is one of the largest and most famous cave complexes in Europe. With a thrilling underground train ride and stunning stalactites and stalagmites, it's a must-visit for anyone fascinated by natural wonders.",
-            "button": "Explore more",
+            
             "img": "../static/img/other/noimg.jpg",
             "rank-0": "Nature", "rank-1": "Adventure", "rank-2": "Geology", "rank-3": "Underground Exploration"
         },
@@ -54,7 +54,7 @@
             "title": "Triglav National Park",
             "subtitle": "Slovenia's Wild Heart",
             "text": "Triglav National Park is the country's only national park and home to the iconic Mount Triglav. It offers a range of activities like hiking, mountaineering, and skiing. The park is a sanctuary for diverse flora and fauna and offers stunning views of the Julian Alps.",
-            "button": "Explore more",
+            
             "img": "../static/img/other/noimg.jpg",
             "rank-0": "Nature", "rank-1": "Hiking", "rank-2": "Adventure", "rank-3": "Wildlife"
         },
@@ -63,7 +63,7 @@
             "title": "Lake Bohinj",
             "subtitle": "A Serene Alpine Escape",
             "text": "Lake Bohinj, located in the heart of the Julian Alps, is a serene and tranquil lake surrounded by stunning mountains. It's perfect for kayaking, hiking, and enjoying the peaceful natural environment.",
-            "button": "Explore more",
+            
             "img": "../static/img/other/noimg.jpg",
             "rank-0": "Nature", "rank-1": "Relaxation", "rank-2": "Outdoor Activities", "rank-3": "Photography"
         },
@@ -96,17 +96,17 @@
         },
         {
             "type": "recomended",
-            "title": "Recommended",
+            "title": "Recomended",
             "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-            "title-0": "Lake Bled",
-            "subtitle-0": "Lake Bled is a beautiful glacial lake in the Julian Alps, known for its island with a church and its castle overlooking the water.",
-            "image-0": "../static/img/other/noimg.jpg",
-            "title-1": "Ljubljana",
-            "subtitle-1": "The charming capital city of Slovenia, known for its historic old town, Ljubljana Castle, and vibrant culture.",
-            "image-1": "../static/img/other/noimg.jpg",
-            "title-2": "Postojna Cave",
-            "subtitle-2": "A world-famous karst cave system, with a stunning variety of rock formations and an underground railway.",
-            "image-2": "../static/img/other/noimg.jpg"
+            "title-0": "Slovenia",
+            "subtitle-0": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "image-0": "../static/img/country/Slovenia/1.png",
+            "title-1": "Italy",
+            "subtitle-1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "image-1": "../static/img/country/Austria/1.png",
+            "title-2": "Belgium",
+            "subtitle-2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "image-2": "../static/img/country/Belgium/Brussels.png"
         }
     ]
 }

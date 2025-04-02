@@ -27,7 +27,7 @@
             "title": "The Colosseum",
             "subtitle": "An Ancient Roman Marvel",
             "text": "The Colosseum in Rome is one of the most iconic and well-preserved landmarks of ancient Rome. This colossal amphitheater once hosted gladiator battles and grand spectacles. Today, it stands as a powerful symbol of Rome’s rich history.",
-            "button": "Explore more",
+            
             "img": "../static/img/other/noimg.jpg",
             "rank-0": "History", "rank-1": "Architecture", "rank-2": "Ancient Ruins", "rank-3": "Cultural Heritage"
         },
@@ -36,7 +36,7 @@
             "title": "Venice",
             "subtitle": "The City of Canals",
             "text": "Venice is one of the most unique cities in the world, famous for its canals, gondola rides, and stunning architecture. The iconic St. Mark's Square, the Doge’s Palace, and the Rialto Bridge are just a few of the highlights of this romantic city.",
-            "button": "Explore more",
+            
             "img": "../static/img/other/noimg.jpg",
             "rank-0": "Culture", "rank-1": "Romantic Getaways", "rank-2": "Urban Exploration", "rank-3": "Photography"
         },
@@ -45,7 +45,7 @@
             "title": "Amalfi Coast",
             "subtitle": "A Coastal Paradise",
             "text": "The Amalfi Coast is one of the most stunning coastal regions in the world. With dramatic cliffs, colorful villages, and crystal-clear waters, it's a haven for travelers seeking a relaxing and scenic getaway.",
-            "button": "Explore more",
+            
             "img": "../static/img/other/noimg.jpg",
             "rank-0": "Nature", "rank-1": "Relaxation", "rank-2": "Coastal Beauty", "rank-3": "Photography"
         },
@@ -54,7 +54,7 @@
             "title": "Cinque Terre",
             "subtitle": "The Five Lands",
             "text": "Cinque Terre is a stunning region of five colorful villages perched on the cliffs of the Ligurian coast. Known for its scenic hiking trails and crystal-clear waters, it's a perfect destination for nature lovers and adventure seekers.",
-            "button": "Explore more",
+            
             "img": "../static/img/other/noimg.jpg",
             "rank-0": "Nature", "rank-1": "Hiking", "rank-2": "Coastal Beauty", "rank-3": "Photography"
         },
@@ -63,7 +63,7 @@
             "title": "Florence",
             "subtitle": "The Cradle of the Renaissance",
             "text": "Florence is a city steeped in history and art. Visit the Uffizi Gallery, see Michelangelo's David, and stroll along the Arno River. Florence is a haven for art lovers and those fascinated by the Renaissance period.",
-            "button": "Explore more",
+            
             "img": "../static/img/other/noimg.jpg",
             "rank-0": "Culture", "rank-1": "Art", "rank-2": "History", "rank-3": "Urban Exploration"
         },
@@ -98,15 +98,15 @@
             "type": "recomended",
             "title": "Recomended",
             "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-            "title-0": "slovenia",
+            "title-0": "Slovenia",
             "subtitle-0": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-            "image-0": "../static/img/other/noimg.jpg",
-            "title-1": "italy",
+            "image-0": "../static/img/country/Slovenia/1.png",
+            "title-1": "Italy",
             "subtitle-1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-            "image-1": "../static/img/other/noimg.jpg",
-            "title-2": "belgium",
+            "image-1": "../static/img/country/Austria/1.png",
+            "title-2": "Belgium",
             "subtitle-2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-            "image-2": "../static/img/other/noimg.jpg"
+            "image-2": "../static/img/country/Belgium/Brussels.png"
         }
     ]
 }

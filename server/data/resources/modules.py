@@ -646,7 +646,7 @@ def destination_spotlight(**context):
                 <img src="{img}" class="box-shadow">
             </div>
             <div class="textframe">
-                <code class="number-design">Best places to visit.</code>
+                <!-- <code class="number-design"> </code> -->
                 <h1 class="title-design text-shadow">{title}</h1>
                 <label class="subtitle-design">{subtitle}</label>
                 <br>
@@ -654,7 +654,7 @@ def destination_spotlight(**context):
 
                 <a href="https://www.google.com/maps/search/?api=1&query={title}" target="_blank" class="map-button-design">
                     <img src="../static/img/icons/maps-and-flags.png">
-                    <input type="submit" value="{button}">
+                    <input type="submit" value="View on Google Maps">
                 </a>
                 <div class="ranks-frame">
                     <label>{rank0}</label>
