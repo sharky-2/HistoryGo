@@ -18,6 +18,8 @@ HistoryGo helps you explore the world by providing historical insights and recom
 ## Technologies Used
 - Python
 - Flask
+- HTML & CSS
+- JavaScript
 
 ## Installation
 1. Make sure you have Python installed on your system.
@@ -37,6 +39,7 @@ HistoryGo helps you explore the world by providing historical insights and recom
 ## Running the Project
 Start the Flask server:
 ```bash
+cd server
 python app.py
 ```
 
@@ -46,14 +49,6 @@ The website will be available at `http://localhost:5000/`.
 - Open the web app in your browser.
 - Choose a country from the list or map.
 - Explore historical information and recommended places to visit.
-
-## Contributing
-Contributions are welcome! Please follow these steps:
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes and commit them.
-4. Push to your branch (`git push origin feature-branch`).
-5. Open a Pull Request.
 
 ## License
 This project is licensed under the MIT License.
