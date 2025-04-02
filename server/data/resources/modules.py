@@ -637,6 +637,7 @@ def destination_spotlight(**context):
     rank0 = context.get("rank0")
     rank1 = context.get("rank1")
     rank2 = context.get("rank2")
+    rank3 = context.get("rank3")
     
     # item = ""
     # with open(__path__) as f:
@@ -670,6 +671,7 @@ def destination_spotlight(**context):
                     <label>{rank0}</label>
                     <label>{rank1}</label>
                     <label>{rank2}</label>
+                    <label>{rank3}</label>
                 </div>
             </div>
         </div>
@@ -765,14 +767,18 @@ def recomended(**context):
 
                 image = char.get(f"image-{i}", None)                    
                 subtitle_card = char.get(f"subtitle-{i}", None)   
+                __country__ = char.get(f"title-{i}", None)   
 
                 item += f"""
-                <div class="card">
-                    <img src="{image}" class="box-shadow" style="width: 100%;">
-                    <div class="textframe">
-                        <lable class="subtitle-design text-shadow">{subtitle_card}</lable>
+                <form method="POST" action="/get_country_name">
+                    <div class="card">
+                        <img src="{image}" class="box-shadow" style="width: 100%;">
+                        <div class="textframe">
+                            <lable class="subtitle-design text-shadow">{subtitle_card}</lable>
+                        </div>
+                        <input class="blue-button-design button-hover" type="submit" name="{__country__.lower()}" value="{__country__.lower()}">    
                     </div>
-                </div>
+                </form>
                 """
 
 

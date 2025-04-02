@@ -96,16 +96,16 @@
         },
         {
             "type": "recomended",
-            "title": "Recommended",
+            "title": "Recomended",
             "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-            "title-0": "The Colosseum",
-            "subtitle-0": "The Colosseum is an ancient amphitheater in Rome and one of the most recognizable landmarks in the world.",
+            "title-0": "slovenia",
+            "subtitle-0": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "image-0": "../static/img/other/noimg.jpg",
-            "title-1": "Venice",
-            "subtitle-1": "A romantic city known for its canals, gondolas, and stunning architecture.",
+            "title-1": "italy",
+            "subtitle-1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "image-1": "../static/img/other/noimg.jpg",
-            "title-2": "Amalfi Coast",
-            "subtitle-2": "A beautiful stretch of coastline with charming villages and breathtaking views.",
+            "title-2": "belgium",
+            "subtitle-2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "image-2": "../static/img/other/noimg.jpg"
         }
     ]

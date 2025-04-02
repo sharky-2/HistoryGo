@@ -1,0 +1,112 @@
+{
+    "selected-country": [
+        {
+            "type": "img_title_4",
+            "title": "Belgium - A Jewel of Western Europe",
+            "subtitle": "From the medieval towns of Bruges to the vibrant city of Brussels, Belgium offers a unique blend of history, culture, and cuisine.",
+            "image-0": "../static/img/country/Belgium/1.png",
+            "image-1": "../static/img/country/Belgium/2.png",
+            "image-2": "../static/img/country/Belgium/3.png"
+        },
+        {
+            "type": "blog_3",
+            "title": "Travel And Explore Belgium - Discover the Heart of Western Europe",
+            "subtitle": "Belgium is renowned for its rich history, stunning architecture, and delicious cuisine, including waffles and chocolate.",
+            "text": "Belgium is a country filled with charm and culture. Explore the grand architecture of Brussels, the canals of Bruges, or the historic sites in Antwerp. Belgium's diverse landscape, from lush forests to vibrant cities, offers something for every type of traveler. Don't miss the opportunity to sample Belgium's famous beer and indulge in world-class chocolates while experiencing the beauty and culture of this fascinating country.",
+            "text-2": "Belgium’s cities like Ghent and Bruges transport you back in time with their medieval charm, while Brussels is home to modern marvels and political hubs. The Belgian coast offers picturesque seaside views, and the Ardennes region is perfect for nature lovers. Whether you're exploring the lively city life or relaxing in tranquil countryside, Belgium is sure to captivate you.",
+            "image-0": "../static/img/country/Belgium/5.png",
+            "image-1": "../static/img/country/Belgium/4.png"
+        },
+        {
+            "type": "title_1",
+            "title": "Explore Belgium's Natural Wonders",
+            "subtitle": "From the rolling hills of the Ardennes to the stunning Belgian coastline, Belgium is home to diverse natural landscapes."
+        },
+        {
+            "type": "destination_spotlight",
+            "title": "Grand Place, Brussels",
+            "subtitle": "A Stunning Square of History and Architecture",
+            "text": "The Grand Place in Brussels is one of the most beautiful squares in the world, surrounded by ornate guildhalls and the stunning Town Hall. This UNESCO World Heritage site is a must-visit for anyone traveling to Belgium.",
+            "button": "Explore more",
+            "img": "../static/img/country/Belgium/3.png",
+            "rank-0": "History", "rank-1": "Architecture", "rank-2": "Cultural Heritage", "rank-3": "Urban Exploration"
+        },
+        {
+            "type": "destination_spotlight",
+            "title": "Bruges",
+            "subtitle": "The Venice of the North",
+            "text": "Bruges is a picturesque city famous for its medieval buildings, canals, and cobblestone streets. The Belfry Tower, the Basilica of the Holy Blood, and the Markt Square are just a few of the highlights of this charming city.",
+            "button": "Explore more",
+            "img": "../static/img/country/Belgium/1.png",
+            "rank-0": "Culture", "rank-1": "Romantic Getaways", "rank-2": "Urban Exploration", "rank-3": "Photography"
+        },
+        {
+            "type": "destination_spotlight",
+            "title": "Antwerp",
+            "subtitle": "The Diamond City",
+            "text": "Antwerp is a vibrant city known for its fashion, art, and diamonds. Visit the Cathedral of Our Lady and admire works by Rubens, or explore the trendy shops and restaurants in this fashionable city.",
+            "button": "Explore more",
+            "img": "../static/img/country/Belgium/2.png",
+            "rank-0": "Culture", "rank-1": "Art", "rank-2": "Shopping", "rank-3": "History"
+        },
+        {
+            "type": "destination_spotlight",
+            "title": "Ardennes",
+            "subtitle": "The Heart of Belgian Nature",
+            "text": "The Ardennes is a beautiful region full of forests, rivers, and charming villages. It's perfect for outdoor activities like hiking, cycling, and kayaking.",
+            "button": "Explore more",
+            "img": "../static/img/country/Belgium/3.png",
+            "rank-0": "Nature", "rank-1": "Hiking", "rank-2": "Outdoor Adventure", "rank-3": "Relaxation"
+        },
+        {
+            "type": "destination_spotlight",
+            "title": "The Belgian Coast",
+            "subtitle": "Seaside Tranquility",
+            "text": "Belgium's coast is a wonderful place to unwind, with sandy beaches, seaside resorts, and peaceful walks along the dunes. The town of Ostend is a great spot for a beach vacation.",
+            "button": "Explore more",
+            "img": "../static/img/country/Belgium/4.png",
+            "rank-0": "Nature", "rank-1": "Relaxation", "rank-2": "Coastal Beauty", "rank-3": "Photography"
+        },
+        {
+            "type": "right_image_text_1",
+            "title": "Travel And Explore the World with HistoryGo - Uncover the beauty of Belgium with us.",
+            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "button": "Explore more",
+            "image-0": "../static/img/country/Belgium/5.png",
+            "image-1": "../static/img/country/Belgium/1.png",
+            "image-2": "../static/img/country/Belgium/3.png"
+        },
+        {
+            "type": "blog_2",
+            "title": "Travel And Explore Belgium - Discover the Beauty of Belgium with Us.",
+            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "text": "Belgium offers a wide variety of experiences for travelers. From the medieval beauty of Bruges to the art and history of Brussels and Antwerp, Belgium has it all. Indulge in world-famous chocolates and beers, and explore the natural beauty of the Ardennes. Whether you're exploring cities or enjoying the countryside, Belgium is a country that offers endless opportunities for discovery.",
+            "image-0": "../static/img/country/Belgium/1.png",
+            "image-1": "../static/img/country/Belgium/2.png",
+            "image-2": "../static/img/country/Belgium/3.png",
+            "image-3": "../static/img/country/Belgium/4.png",
+            "image-4": "../static/img/country/Belgium/5.png"
+        },
+        {
+            "type": "img_1",
+            "image-0": "../static/img/country/Belgium/4.png",
+            "image-1": "../static/img/country/Belgium/3.png",
+            "image-2": "../static/img/country/Belgium/2.png",
+            "image-3": "../static/img/country/Belgium/5.png"
+        },
+        {
+            "type": "recomended",
+            "title": "Recomended",
+            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "title-0": "Slovenia",
+            "subtitle-0": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "image-0": "../static/img/country/Slovenia/1.png",
+            "title-1": "Italy",
+            "subtitle-1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "image-1": "../static/img/country/Austria/1.png",
+            "title-2": "Belgium",
+            "subtitle-2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "image-2": "../static/img/country/Belgium/1.png"
+        }
+    ]
+}

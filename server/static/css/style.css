@@ -392,11 +392,11 @@ header {
     width: 20px;
     height: 20px;
 }
-.card:hover {
+/* .card:hover {
     transform: scale(1.1);
     z-index: 1;
-}
-.card:hover img {transform: rotate(0deg) !important;}
+} */
+/* .card:hover img {transform: rotate(0deg) !important;} */
 
 
 .category-frame {
@@ -1002,5 +1002,18 @@ header {
     height: fit-content;
     width: 350px;
     text-align: center;
-    gap: 20px;
+    gap: 10px;
+
+    position: relative;
 }
+.recomended .cards .card .textframe {height: fit-content;}
+.recomended .cards .card input {
+    margin-top: -25px; 
+    width: 100%; 
+    transform: rotate(0);
+    background: none;
+    text-decoration: underline;
+}
+.recomended .cards .card input:hover {transform: scale(1.1);}
+
+.card-link {text-decoration: none; color: black; text-shadow: none;}
