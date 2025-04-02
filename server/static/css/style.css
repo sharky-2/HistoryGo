@@ -845,6 +845,51 @@ header {
 
     position: relative;
 }
+.destination-spotlight .textframe .map-button-design {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    bottom: 55px;
+    left: 0;
+
+    border-radius: 100px;
+    border: 1px solid var(--light-black);
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    padding: 10px 10px;
+
+    transition: all .3s;
+
+    text-decoration: none;
+
+}
+.destination-spotlight .textframe .map-button-design img {
+    height: 20px;
+    width: 20px;
+    object-fit: cover;
+    transition: all .3s;
+}
+.destination-spotlight .textframe .map-button-design input {
+    background: none;
+    
+    transition: all .3s;
+    cursor: pointer;
+
+    font-family: var(--subtitle-font-family);
+    font-size: 15px;
+    font-weight: bold;
+
+    outline: none;
+    border: none;
+}
+.destination-spotlight .textframe .map-button-design:hover {
+    padding: 10px 20px;
+}
 .destination-spotlight .textframe h1 {
     font-weight: bold;
     text-shadow: none;

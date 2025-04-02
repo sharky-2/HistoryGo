@@ -27,7 +27,7 @@
             "title": "Grand Place, Brussels",
             "subtitle": "A Stunning Square of History and Architecture",
             "text": "The Grand Place in Brussels is one of the most beautiful squares in the world, surrounded by ornate guildhalls and the stunning Town Hall. This UNESCO World Heritage site is a must-visit for anyone traveling to Belgium.",
-            "button": "Explore more",
+            "button": "View on Google Maps",
             "img": "../static/img/country/Belgium/3.png",
             "rank-0": "History", "rank-1": "Architecture", "rank-2": "Cultural Heritage", "rank-3": "Urban Exploration"
         },
@@ -36,7 +36,7 @@
             "title": "Bruges",
             "subtitle": "The Venice of the North",
             "text": "Bruges is a picturesque city famous for its medieval buildings, canals, and cobblestone streets. The Belfry Tower, the Basilica of the Holy Blood, and the Markt Square are just a few of the highlights of this charming city.",
-            "button": "Explore more",
+            "button": "View on Google Maps",
             "img": "../static/img/country/Belgium/1.png",
             "rank-0": "Culture", "rank-1": "Romantic Getaways", "rank-2": "Urban Exploration", "rank-3": "Photography"
         },
@@ -45,7 +45,7 @@
             "title": "Antwerp",
             "subtitle": "The Diamond City",
             "text": "Antwerp is a vibrant city known for its fashion, art, and diamonds. Visit the Cathedral of Our Lady and admire works by Rubens, or explore the trendy shops and restaurants in this fashionable city.",
-            "button": "Explore more",
+            "button": "View on Google Maps",
             "img": "../static/img/country/Belgium/2.png",
             "rank-0": "Culture", "rank-1": "Art", "rank-2": "Shopping", "rank-3": "History"
         },
@@ -54,7 +54,7 @@
             "title": "Ardennes",
             "subtitle": "The Heart of Belgian Nature",
             "text": "The Ardennes is a beautiful region full of forests, rivers, and charming villages. It's perfect for outdoor activities like hiking, cycling, and kayaking.",
-            "button": "Explore more",
+            "button": "View on Google Maps",
             "img": "../static/img/country/Belgium/3.png",
             "rank-0": "Nature", "rank-1": "Hiking", "rank-2": "Outdoor Adventure", "rank-3": "Relaxation"
         },
@@ -63,7 +63,7 @@
             "title": "The Belgian Coast",
             "subtitle": "Seaside Tranquility",
             "text": "Belgium's coast is a wonderful place to unwind, with sandy beaches, seaside resorts, and peaceful walks along the dunes. The town of Ostend is a great spot for a beach vacation.",
-            "button": "Explore more",
+            "button": "View on Google Maps",
             "img": "../static/img/country/Belgium/4.png",
             "rank-0": "Nature", "rank-1": "Relaxation", "rank-2": "Coastal Beauty", "rank-3": "Photography"
         },

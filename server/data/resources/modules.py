@@ -639,20 +639,6 @@ def destination_spotlight(**context):
     rank2 = context.get("rank2")
     rank3 = context.get("rank3")
     
-    # item = ""
-    # with open(__path__) as f:
-    #     data = json.load(f)
-
-    # for char in data.get(page_name, []):
-    #     type_ = char.get("type", None)
-    #     if type_ == "destination_spotlight": 
-
-    #         for i in range(5): 
-    #             rank = char.get(f"rank-{i}", "")   
-    #             item += f"""<label>{rank}</label>"""
-    #         break
-        
-
     module = f"""
     <section class="destination-spotlight-frame">
         <div class="destination-spotlight">
@@ -665,8 +651,11 @@ def destination_spotlight(**context):
                 <label class="subtitle-design">{subtitle}</label>
                 <br>
                 <label class="text-design">{text}</label>
-                <a href="#"><input type="button" value="{button}" class="blue-button-design box-shadow button-hover"></a>  
 
+                <a href="https://www.google.com/maps/search/?api=1&query={title}" target="_blank" class="map-button-design">
+                    <img src="../static/img/icons/maps-and-flags.png">
+                    <input type="submit" value="{button}">
+                </a>
                 <div class="ranks-frame">
                     <label>{rank0}</label>
                     <label>{rank1}</label>
