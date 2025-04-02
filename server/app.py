@@ -53,10 +53,10 @@ def get_country_name():
 # Web Sites
 @app.route("/", methods=['POST', 'GET'])
 def MainPage():
-    if request.method == "POST":
-        country_name = request.form.get("__country__")
-        session['__country__'] = country_name
-        return redirect(url_for("selected_country"))
+    # if request.method == "POST":
+    #     country_name = request.form.get("__country__")
+    #     session['__country__'] = country_name
+    #     return redirect(url_for("selected_country"))
 
     name_ = "main-page"
     __path__ = f"data/resources/content/{name_}.json"
