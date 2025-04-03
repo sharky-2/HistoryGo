@@ -1,4 +1,7 @@
 import json
+import subprocess
+import sys
+
 from flask import Flask, render_template, request, redirect, url_for, session
 from data.resources import modules
 
@@ -74,4 +77,6 @@ def selected_country():
     module = load_and_process_context(name_, __path__)
     return render_template("selected-country.html", modules=module)
 
-if __name__ == '__main__': app.run(debug=True)
+if __name__ == '__main__': 
+    # subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", "requirements.txt"])
+    app.run(debug=True)
