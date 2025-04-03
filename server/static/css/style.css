@@ -959,7 +959,6 @@ header {
     justify-content: center;
     align-self: center;
 }
-.right-image-text-1 input {background-color: var(--light-pink); transform: rotate(3deg);}
 .right-image-text-1 .imgframe {
     height: 100%;
     width: 55%;
@@ -1047,7 +1046,7 @@ header {
     height: fit-content;
     width: 350px;
     text-align: center;
-    gap: 10px;
+    gap: 20px;
 
     position: relative;
 }
@@ -1057,7 +1056,8 @@ header {
     width: 100%; 
     transform: rotate(0);
     background: none;
-    text-decoration: underline;
+    border: 1px solid black;
+    text-transform: uppercase;
 }
 .recomended .cards .card input:hover {transform: scale(1.1);}
 

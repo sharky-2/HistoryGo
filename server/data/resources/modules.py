@@ -42,7 +42,7 @@ def header(**context):
         <div class="text-frame" style="text-align: center; align-items: center; justify-content: center;">
             <h1 class="title-design text-shadow">{title}</h1>
             <label class="subtitle-design">{subtitle}</label>
-            <a href="#"><input type="button" value="{button}" class="blue-button-design box-shadow button-hover"></a>
+            <a href="#"><input type="button" value="{button}" class="button-design"></a>
         </div>
 
         <div class="hero-container">
@@ -171,7 +171,7 @@ def blog_4(**context):
             <div class="top text-frame">
                 <h1 class="title-design text-shadow">{title}.</h1>
                 <label class="subtitle-design">{subtitle}</label>
-                <a href="#"><input type="button" value="{button}" class="blue-button-design box-shadow button-hover"></a>
+                <a href="#"><input type="button" value="{button}" class="button-design"></a>
             </div>
             <div class="bottom">
                 <label class="text-design">{text}</label>
@@ -212,7 +212,7 @@ def title_2(**context):
                 <label class="subtitle-design">{subtitle}</label>
             </div>
             <div class="right">
-                <a href="#"><input type="button" value="{button}" class="blue-button-design box-shadow button-hover"></a>
+                <a href="#"><input type="button" value="{button}" class="button-design"></a>
             </div>
         </div>
     </section>
@@ -476,7 +476,7 @@ def img_title_1(**context):
         <div class="textframe">
             <h1 class="title-design text-shadow">{title}</h1>
             <label class="subtitle-design">{subtitle}</label>
-            <a href="#"><input type="button" value="{button}" class="blue-button-design box-shadow button-hover"></a>  
+            <a href="#"><input type="button" value="{button}" class="button-design"></a>  
         </div>
         <div class="imgframe">
             {item}
@@ -510,7 +510,7 @@ def img_title_2(**context):
         <div class="textframe">
             <h1 class="title-design text-shadow">{title}</h1>
             <label class="subtitle-design">{subtitle}</label>
-            <a href="#"><input type="button" value="{button}" class="blue-button-design box-shadow button-hover"></a>  
+            <a href="#"><input type="button" value="{button}" class="button-design"></a>  
         </div>
         <div class="imgframe">
             {item}
@@ -544,7 +544,7 @@ def img_title_3(**context):
         <div class="textframe">
             <h1 class="title-design text-shadow">{title}</h1>
             <label class="subtitle-design">{subtitle}</label>
-            <a href="#"><input type="button" value="{button}" class="blue-button-design box-shadow button-hover"></a>  
+            <a href="#"><input type="button" value="{button}" class="button-design"></a>  
         </div>
         <div class="imgframe">
             {item}
@@ -696,7 +696,7 @@ def left_image_text_2(**context):
         <div class="textframe">
             <h1 class="title-design text-shadow">{title}</h1>
             <label class="subtitle-design">{subtitle}</label>
-            <a href="#"><input type="button" value="{button}" class="blue-button-design box-shadow button-hover"></a>  
+            <a href="#"><input type="button" value="{button}" class="button-design"></a>  
         </div>
     </section>
     """
@@ -727,7 +727,7 @@ def right_image_text_1(**context):
         <div class="textframe">
             <h1 class="title-design text-shadow">{title}</h1>
             <label class="subtitle-design">{subtitle}</label>
-            <a href="#"><input type="button" value="{button}" class="blue-button-design box-shadow button-hover"></a>  
+            <a href="#"><input type="button" value="{button}" class="button-design"></a>  
         </div>
         <div class="imgframe">
             {item}
@@ -765,7 +765,7 @@ def recomended(**context):
                         <div class="textframe">
                             <lable class="subtitle-design text-shadow">{subtitle_card}</lable>
                         </div>
-                        <input class="blue-button-design button-hover" type="submit" name="{__country__.lower()}" value="{__country__.lower()}">    
+                        <input class="button-design" type="submit" name="{__country__.lower()}" value="{__country__.lower()}">    
                     </div>
                 </form>
                 """
