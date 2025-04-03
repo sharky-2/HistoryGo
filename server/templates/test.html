@@ -21,17 +21,34 @@
     <link rel="stylesheet" href="../static/css/root.css">
     <link rel="stylesheet" href="../static/css/animation.css">
 </head>
-<body>
+<body style="height: 100vh; justify-content: center; align-items: center;">
 
-    <section class="left-image-text-1">
-        <div class="imgframe"></div>
-        <div class="textframe">
-            <h1 class="title-design text-shadow">{title}</h1>
-            <label class="subtitle-design">{subtitle}</label>
-            <a href="#"><input type="button" value="{button}" class="blue-button-design box-shadow button-hover"></a>  
+    <section class="map-frame">
+        <div class="left">
+            <form method="POST" action="/get_country_name">
+                <div class="textframe">
+                    <h1 class="title-design text-shadow" id="country-title">Country name</h1>
+                    <label class="subtitle-design" id="country-subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</label>
+                    <input type="submit" id="__country__" name="{__country__.lower()}" value="Explore more" class="button-design"></a>
+                    <label class="text-design" style="width: 80%;" id="country-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more.</label>
+                </div>
+            </form>
+            <div class="imgframe">
+                <img src="../static/img/country/Italy/AmalfiCoast.png" class="box-shadow">
+                <img src="../static/img/country/Italy/Florence.png" class="box-shadow">
+                <img src="../static/img/country/Italy/Naples.png" class="box-shadow">
+                <img src="../static/img/country/Italy/Milan.png" class="box-shadow">
+            </div>
+        </div>
+        <div class="right">
+            <img src="../static/img/map/EU.png" class="EU-map">
+            <img src="../static/img/map/italy.png" id="italy" class="country-map" onclick="displayCountry('italy')">
+            <img src="../static/img/map/belgium.png" id="belgium" class="country-map" onclick="displayCountry('belgium')">
+            <img src="../static/img/map/slovenia.png" id="slovenia" class="country-map" onclick="displayCountry('slovenia')">
         </div>
     </section>
 
     <script src="../static/scripts/img-hover.js"></script>
+    <script src="../static/scripts/script.js"></script>
 </body>
 </html>

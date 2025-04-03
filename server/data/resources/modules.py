@@ -821,3 +821,36 @@ def accordion(**context):
     </div>
     """
     return module
+
+# -------------------------------------------------------------------------------------------------
+# Map
+def country_selector(**context):
+    __path__ = context.get("__path__")
+
+    module = f"""
+    <section class="map-frame">
+        <div class="left">
+            <form method="POST" action="/get_country_name">
+                <div class="textframe">
+                    <h1 class="title-design text-shadow" id="country-title">Italy</h1>
+                    <label class="subtitle-design" id="country-subtitle">A Timeless Journey Through Art, Culture, and Cuisine</label>
+                    <input type="submit" id="__country__" name="" value="Explore more" class="button-design">
+                    <label class="text-design" style="width: 80%;" id="country-text">Italy is a captivating country where ancient history meets modern vibrancy. Explore Rome’s Colosseum, Florence’s Renaissance art, and Venice’s romantic canals. From the sunlit Amalfi Coast to Tuscany’s rolling hills, Italy’s landscapes are stunning. Enjoy regional culinary delights like Neapolitan pizza, handmade pasta, and creamy gelato. Italian festivals celebrate food, music, and tradition, reflecting the passion of its people. Whether wandering Milan’s fashion streets or tasting wine in Sicily, Italy offers unforgettable experiences rooted in culture and community. Embrace the spirit of La Dolce Vita and Italy’s timeless charm.</label>
+                </div>
+            </form>
+            <div class="imgframe">
+                <img src="../static/img/country/Italy/AmalfiCoast.png" id="img1" class="box-shadow">
+                <img src="../static/img/country/Italy/Florence.png" id="img2" class="box-shadow">
+                <img src="../static/img/country/Italy/Naples.png" id="img3" class="box-shadow">
+                <img src="../static/img/country/Italy/Milan.png" id="img4" class="box-shadow">
+            </div>
+        </div>
+        <div class="right">
+            <img src="../static/img/map/EU.png" class="EU-map">
+            <img src="../static/img/map/italy.png" id="italy" class="country-map active" onclick="displayCountry('italy')">
+            <img src="../static/img/map/belgium.png" id="belgium" class="country-map" onclick="displayCountry('belgium')">
+            <img src="../static/img/map/slovenia.png" id="slovenia" class="country-map" onclick="displayCountry('slovenia')">
+        </div>
+    </section>
+    """
+    return module

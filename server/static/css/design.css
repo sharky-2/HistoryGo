@@ -128,3 +128,29 @@ section {
 }
 .ranks-frame label:empty {display: none;}
 .ranks-frame label:hover {padding: 10px 30px;}
+
+.button-design {
+    background: none;
+    width: fit-content;
+    height: fit-content;
+
+    border-radius: 100px;
+    border: 1px solid var(--light-black);
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    padding: 10px 10px;
+
+    transition: all .3s;
+
+    font-family: var(--subtitle-font-family);
+    font-size: 15px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+.button-design:hover {padding: 10px 30px;}
