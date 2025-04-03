@@ -783,3 +783,41 @@ def recomended(**context):
     </section>
     """
     return module
+
+# -------------------------------------------------------------------------------------------------
+# Accordion
+def accordion(**context):
+    page_name = context.get("page_name")
+    amount = context.get("amount")
+    __path__ = context.get("__path__")
+
+    item = ""
+    for i in range(amount):
+
+        with open(__path__) as f:
+            data = json.load(f)
+
+        for char in data.get(page_name, []):
+            type_ = char.get("type", None)
+            if type_ == "accordion": 
+                
+                title = char.get(f"title-{i}")
+                text = char.get(f"text-{i}")
+
+                item += f"""
+                <div class="item">
+                    <div class="question">
+                        <label class="text">{title}</label>
+                        <div class="dropdown">></div>
+                    </div>
+                    <div class="answer">{text}</div>
+                </div>
+                """
+
+
+    module = f"""
+    <div id="accordion-list">
+        {item}        
+    </div>
+    """
+    return module

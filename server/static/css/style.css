@@ -1062,3 +1062,53 @@ header {
 .recomended .cards .card input:hover {transform: scale(1.1);}
 
 .card-link {text-decoration: none; color: black; text-shadow: none;}
+
+/* --------------------------------------------------------------------- */
+/* Accordion */
+#accordion-list .item {
+    padding: 10px 20px;
+    width: 100%;
+    
+    border: 1px solid var(--light-black);
+    border-radius: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+    transition: all .3s;
+}
+#accordion-list .item .question {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    transition: all .3s;
+}
+#accordion-list .item .question .text {
+    width: calc(100% - 10px);
+}
+#accordion-list .item .question .dropdown {
+    width: max-content;
+    transform: rotate(90deg);
+    transition: all .3s;
+}
+#accordion-list .item .answer {
+    overflow: hidden;
+    max-height: 0;
+    transition: all .3s;
+}
+
+
+/* On click */
+#accordion-list .item.active {
+    background-color: white;
+}
+#accordion-list .item.active .question {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#accordion-list .item.active .question .dropdown {
+    transform: rotate(270deg);
+}
+#accordion-list .item.active .answer {
+    max-height: 100px;
+}

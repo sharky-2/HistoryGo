@@ -2,110 +2,111 @@
     "selected-country": [
         {
             "type": "img_title_4",
-            "title": "Italy - A Timeless Treasure in Southern Europe",
-            "subtitle": "From the art-rich cities of Florence and Rome to the stunning Amalfi Coast, Italy offers an unrivaled combination of history, culture, and natural beauty.",
-            "image-0": "../static/img/country/Italy/1.png",
-            "image-1": "../static/img/country/Italy/1.png",
-            "image-2": "../static/img/country/Italy/1.png"
+            "title": "Italy - A Journey Through Time",
+            "subtitle": "From ancient Rome to Renaissance Florence, Italy’s rich history has shaped the world in countless ways.",
+            "image-0": "../static/img/country/Italy/Florence.png",
+            "image-1": "../static/img/country/Italy/Rome.png",
+            "image-2": "../static/img/country/Italy/Naples.png"
         },
         {
             "type": "blog_3",
-            "title": "Travel And Explore Italy - Discover the Heart of Europe",
-            "subtitle": "Italy is a world-renowned destination filled with historical landmarks, art treasures, and mouthwatering cuisine.",
-            "text": "Italy is a country of extraordinary beauty, known for its rich history, stunning art, and unforgettable cuisine. From the ancient ruins of Rome to the romantic canals of Venice, Italy offers something for every type of traveler. Visit Florence for its Renaissance masterpieces, indulge in authentic Italian cuisine, or explore the gorgeous Tuscan vineyards. Italy’s breathtaking coastlines, including the Amalfi Coast and Cinque Terre, offer scenic views and unforgettable experiences.",
-            "text-2": "Italy is also famous for its diverse landscapes, from the snow-capped Alps in the north to the sun-drenched Mediterranean coastline in the south. Explore charming villages, ancient ruins, and world-class museums. Whether you're savoring the flavors of Rome, relaxing in the Tuscan countryside, or visiting the grand canals of Venice, Italy is a dream destination for travelers seeking culture, history, and adventure.",
-            "image-0": "../static/img/other/noimg.jpg",
-            "image-1": "../static/img/other/noimg.jpg"
+            "title": "Travel And Explore Italy",
+            "subtitle": "Italy offers a journey through history, art, and culture.",
+            "text": "Italy, a land that has influenced the course of history, is home to some of the world’s most celebrated monuments, art, and traditions. From the ancient ruins of Rome to the cultural treasures of Florence, Italy has always been at the heart of European civilization. The ancient Romans, famous for their engineering, architecture, and legal systems, laid the foundations for much of Western culture. During the Renaissance, Italy became a hub of art and intellectualism, producing some of the greatest artists like Leonardo da Vinci and Michelangelo. Today, Italy’s stunning cities and landscapes attract millions of travelers seeking to explore its history, art, and vibrant culture. ",
+            "text-2": "Italy is divided into regions, each offering a unique blend of history, culture, and stunning landscapes. From the architectural splendor of Milan to the rustic beauty of Tuscany, Italy’s regions have their own stories to tell. Its rich heritage, world-class cuisine, and scenic beauty continue to captivate visitors from around the globe.",
+            "image-0": "../static/img/country/Italy/Rome.png",
+            "image-1": "../static/img/country/Italy/Florence.png"
         },
         {
             "type": "title_1",
-            "title": "Explore Italy's Natural Wonders",
-            "subtitle": "From the majestic Alps to the idyllic coastal villages, Italy is a land of natural beauty."
+            "title": "Explore Italy's Wonders",
+            "subtitle": "Italy’s rich cultural heritage, art, and history are waiting for you."
         },
         {
             "type": "destination_spotlight",
-            "title": "The Colosseum",
-            "subtitle": "An Ancient Roman Marvel",
-            "text": "The Colosseum in Rome is one of the most iconic and well-preserved landmarks of ancient Rome. This colossal amphitheater once hosted gladiator battles and grand spectacles. Today, it stands as a powerful symbol of Rome’s rich history.",
-            
-            "img": "../static/img/other/noimg.jpg",
-            "rank-0": "History", "rank-1": "Architecture", "rank-2": "Ancient Ruins", "rank-3": "Cultural Heritage"
+            "title": "Florence - Tuscany",
+            "subtitle": "The Heart of the Renaissance",
+            "text": "Florence is the birthplace of the Renaissance, and its historical significance is woven into its architecture, museums, and cultural landmarks. The city was once the home of the Medici family, who played a pivotal role in fostering art, science, and architecture. Florence is a living museum, with treasures like the Uffizi Gallery and the Florence Cathedral. Visitors can admire masterpieces by Botticelli, Michelangelo, and Leonardo da Vinci. The city’s charm extends beyond its artistic heritage, with quaint streets, artisan shops, and delightful Tuscan cuisine. Surrounded by the picturesque Tuscan countryside, Florence remains one of Italy’s most beloved destinations, offering a perfect blend of art, history, and natural beauty.",
+            "img": "../static/img/country/Italy/Florence.png",
+            "rank-0": "Art", "rank-1": "History", "rank-2": "", "rank-3": ""
         },
         {
             "type": "destination_spotlight",
-            "title": "Venice",
-            "subtitle": "The City of Canals",
-            "text": "Venice is one of the most unique cities in the world, famous for its canals, gondola rides, and stunning architecture. The iconic St. Mark's Square, the Doge’s Palace, and the Rialto Bridge are just a few of the highlights of this romantic city.",
-            
-            "img": "../static/img/other/noimg.jpg",
-            "rank-0": "Culture", "rank-1": "Romantic Getaways", "rank-2": "Urban Exploration", "rank-3": "Photography"
+            "title": "Milan - Lombardy",
+            "subtitle": "Italy's Fashion Capital",
+            "text": "Milan is a vibrant, modern city known for its world-class fashion, finance, and design industries. It’s also home to stunning historical landmarks like the Duomo Cathedral and Leonardo da Vinci’s 'The Last Supper.' While the city is synonymous with high-end fashion and luxury shopping, Milan’s rich cultural heritage extends to its many museums, opera houses, and theaters. The city is also a major hub for contemporary art and design, with numerous exhibitions and events attracting creative minds from around the world. Milan is a perfect blend of modern innovation and rich history, making it a must-visit for travelers interested in both culture and cutting-edge trends.",
+            "img": "../static/img/country/Italy/Milan.png",
+            "rank-0": "Fashion", "rank-1": "Design", "rank-2": "", "rank-3": ""
         },
         {
             "type": "destination_spotlight",
-            "title": "Amalfi Coast",
-            "subtitle": "A Coastal Paradise",
-            "text": "The Amalfi Coast is one of the most stunning coastal regions in the world. With dramatic cliffs, colorful villages, and crystal-clear waters, it's a haven for travelers seeking a relaxing and scenic getaway.",
-            
-            "img": "../static/img/other/noimg.jpg",
-            "rank-0": "Nature", "rank-1": "Relaxation", "rank-2": "Coastal Beauty", "rank-3": "Photography"
+            "title": "Rome - Lazio",
+            "subtitle": "The Eternal City",
+            "text": "Rome is often called 'The Eternal City' because of its extensive history that spans thousands of years. As the heart of the Roman Empire, it is home to iconic landmarks like the Colosseum, the Roman Forum, and the Pantheon. The city’s streets are lined with ruins, ancient monuments, and churches that tell the story of a civilization that has shaped much of Western culture. Visitors can stroll through historical sites or explore its vibrant piazzas and cafes. In addition to its ancient history, Rome is also known for its stunning Baroque architecture, its role as the seat of the Catholic Church, and its dynamic modern atmosphere. A trip to Rome is like stepping back in time while enjoying the vibrant pulse of a modern city.",
+            "img": "../static/img/country/Italy/Rome.png",
+            "rank-0": "History", "rank-1": "Culture", "rank-2": "", "rank-3": ""
         },
         {
             "type": "destination_spotlight",
-            "title": "Cinque Terre",
-            "subtitle": "The Five Lands",
-            "text": "Cinque Terre is a stunning region of five colorful villages perched on the cliffs of the Ligurian coast. Known for its scenic hiking trails and crystal-clear waters, it's a perfect destination for nature lovers and adventure seekers.",
-            
-            "img": "../static/img/other/noimg.jpg",
-            "rank-0": "Nature", "rank-1": "Hiking", "rank-2": "Coastal Beauty", "rank-3": "Photography"
+            "title": "Naples - Campania",
+            "subtitle": "The Gateway to the Amalfi Coast",
+            "text": "Naples, one of Italy’s most vibrant cities, offers a unique blend of history, culture, and cuisine. Known as the birthplace of pizza, Naples is also famous for its proximity to the ancient ruins of Pompeii and the towering Mount Vesuvius. The city is a gateway to the Amalfi Coast, where visitors can enjoy stunning coastal views, charming seaside towns, and exceptional seafood. Naples is a city of passion, from its lively streets and historic markets to its world-renowned culinary traditions. While in Naples, you can explore the historical city center, a UNESCO World Heritage site, or take a boat trip to nearby islands like Capri.",
+            "img": "../static/img/country/Italy/Naples.png",
+            "rank-0": "Cuisine", "rank-1": "History", "rank-2": "", "rank-3": ""
         },
         {
             "type": "destination_spotlight",
-            "title": "Florence",
-            "subtitle": "The Cradle of the Renaissance",
-            "text": "Florence is a city steeped in history and art. Visit the Uffizi Gallery, see Michelangelo's David, and stroll along the Arno River. Florence is a haven for art lovers and those fascinated by the Renaissance period.",
-            
-            "img": "../static/img/other/noimg.jpg",
-            "rank-0": "Culture", "rank-1": "Art", "rank-2": "History", "rank-3": "Urban Exploration"
+            "title": "Cinque Terre - Liguria",
+            "subtitle": "The Jewel of the Italian Riviera",
+            "text": "Cinque Terre, a UNESCO World Heritage site, is a collection of five colorful villages nestled along the cliffs of the Ligurian coast. Known for its rugged beauty and dramatic seaside views, Cinque Terre is a haven for nature lovers and hikers. The five villages—Riomaggiore, Manarola, Corniglia, Vernazza, and Monterosso—are connected by scenic walking trails that offer stunning views of the Mediterranean Sea. Visitors can relax on the beaches, explore the charming streets, or enjoy the delicious local seafood and pesto. Cinque Terre is not only a natural paradise but also a place steeped in history, with centuries-old traditions still visible in its architecture and way of life.",
+            "img": "../static/img/country/Italy/CinqueTerre.png",
+            "rank-0": "Nature", "rank-1": "Hiking", "rank-2": "", "rank-3": ""
         },
         {
             "type": "right_image_text_1",
-            "title": "Travel And Explore the World with HistoryGo - Uncover the beauty of Italy with us.",
-            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "title": "Travel And Explore the World with HistoryGo - Uncover Italy with us.",
+            "subtitle": "Explore Italy’s beauty, from ancient ruins to charming coastal villages.",
             "button": "Explore more",
-            "image-0": "../static/img/other/noimg.jpg",
-            "image-1": "../static/img/other/noimg.jpg",
-            "image-2": "../static/img/other/noimg.jpg"
+            "image-0": "../static/img/country/Italy/Florence.png",
+            "image-1": "../static/img/country/Italy/Rome.png",
+            "image-2": "../static/img/country/Italy/Naples.png"
         },
         {
-            "type": "blog_2",
-            "title": "Travel And Explore Italy - Discover the Beauty of Italy with Us.",
-            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-            "text": "Italy is a country that offers endless opportunities for exploration. From the historical streets of Rome to the stunning Amalfi Coast, Italy never fails to impress. Explore Venice's canals, enjoy the art in Florence, and take in the beauty of the countryside in Tuscany. Whether you're hiking in the Alps or relaxing in coastal towns, Italy has something for everyone. Don’t forget to indulge in the local cuisine and wines, which are world-famous for a reason.",
-            "image-0": "../static/img/other/noimg.jpg",
-            "image-1": "../static/img/other/noimg.jpg",
-            "image-2": "../static/img/other/noimg.jpg",
-            "image-3": "../static/img/other/noimg.jpg",
-            "image-4": "../static/img/other/noimg.jpg"
-        },
-        {
-            "type": "img_1",
-            "image-0": "../static/img/other/noimg.jpg",
-            "image-1": "../static/img/other/noimg.jpg",
-            "image-2": "../static/img/other/noimg.jpg",
-            "image-3": "../static/img/other/noimg.jpg"
-        },
+            "type": "accordion",
+            "title-0": "Explore the Historic Ruins of Rome",
+            "text-0": "Rome is known for its ancient ruins and historical monuments, such as the Colosseum, the Roman Forum, and the Pantheon. Explore the iconic landmarks that reflect the grandeur of the Roman Empire and step back in time to understand the roots of Western civilization.",
+            "title-1": "Admire Renaissance Art in Florence",
+            "text-1": "Florence is the birthplace of the Renaissance and home to some of the world’s greatest art collections. Visit the Uffizi Gallery and see masterpieces by artists like Botticelli, Michelangelo, and Leonardo da Vinci. Don’t miss the stunning Florence Cathedral and its dome by Brunelleschi.",
+            "title-2": "Discover Milan’s Fashion and Design Scene",
+            "text-2": "Milan is Italy’s fashion capital, known for its high-end boutiques, shopping districts, and sleek design. Aside from fashion, you can visit landmarks like the Duomo Cathedral and admire Leonardo da Vinci’s famous painting, 'The Last Supper,' at the Convent of Santa Maria delle Grazie.",
+            "title-3": "Visit the Amalfi Coast from Naples",
+            "text-3": "Naples is a gateway to the Amalfi Coast, offering breathtaking views, charming seaside towns, and delicious Italian cuisine. Explore the nearby ruins of Pompeii and relax along the stunning coastline, where you can enjoy sun, sea, and exceptional food.",
+            "title-4": "Hike Through the Cliffs of Cinque Terre",
+            "text-4": "Cinque Terre, a UNESCO World Heritage site, offers a stunning mix of colorful villages, rugged cliffs, and the Mediterranean Sea. Hike the scenic trails between the five villages and enjoy views of the crystal-clear waters, vibrant buildings, and lush landscapes.",
+            "title-5": "Experience the Taste of Italian Cuisine",
+            "text-5": "Italy is renowned for its cuisine, and each region offers unique flavors. From pasta and pizza in Naples to Tuscan wines and cheeses in Florence, every dish is a celebration of fresh, local ingredients. Don’t forget to sample authentic Italian gelato for the ultimate sweet treat.",
+            "title-6": "Explore Venice’s Canals and Architecture",
+            "text-6": "Venice is one of the most unique cities in the world, known for its canals, gondola rides, and historic buildings. Visit St. Mark’s Square and the iconic Rialto Bridge, and get lost in the labyrinth of narrow streets that make Venice so enchanting.",
+            "title-7": "Wander Through the Medieval Streets of Siena",
+            "text-7": "Siena, located in the heart of Tuscany, is famous for its medieval architecture and the Palio horse race. Explore its historic center, visit the stunning Siena Cathedral, and wander through its charming squares and streets that have remained almost unchanged for centuries.",
+            "title-8": "Relax on the Beaches of Sardinia",
+            "text-8": "Sardinia is home to some of Italy’s most beautiful beaches, with crystal-clear waters and pristine shores. Whether you’re seeking a peaceful getaway or thrilling water sports, Sardinia’s beaches are perfect for relaxation and adventure.",
+            "title-9": "Tour the Vineyards of Tuscany",
+            "text-9": "Tuscany is world-famous for its vineyards and wine production, particularly its Chianti and Brunello wines. Take a wine tour through the rolling hills, visit historic wineries, and savor the rich flavors of Tuscany’s wines paired with local delicacies.",
+            "amount": 10
+        },        
         {
             "type": "recomended",
-            "title": "Recomended",
-            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "title": "Recommended",
+            "subtitle": "Discover more destinations.",
             "title-0": "Slovenia",
-            "subtitle-0": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "subtitle-0": "Discover the charm of Slovenia.",
             "image-0": "../static/img/country/Slovenia/1.png",
             "title-1": "Italy",
-            "subtitle-1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-            "image-1": "../static/img/country/Austria/1.png",
+            "subtitle-1": "Explore Italy’s rich history and culture.",
+            "image-1": "../static/img/country/Italy/Rome.png",
             "title-2": "Belgium",
-            "subtitle-2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "subtitle-2": "Explore Belgium’s art, history, and beer.",
             "image-2": "../static/img/country/Belgium/Brussels.png"
         }
     ]

@@ -39,7 +39,7 @@ def load_and_process_context(name_, __path__):
 
     return module
 
-__country__ = "Belgium"
+__country__ = "italy"
 # ---------------------------------------------------------------------------------
 # Recive country name from "recomended"
 @app.route("/get_country_name", methods=['POST'])
@@ -78,5 +78,5 @@ def selected_country():
     return render_template("selected-country.html", modules=module)
 
 if __name__ == '__main__': 
-    # subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", "requirements.txt"])
+    #subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", "requirements.txt"])
     app.run(debug=True)
