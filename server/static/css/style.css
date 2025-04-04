@@ -1186,4 +1186,5 @@ header {
 .right img:nth-child(3) {right: 368px; bottom: 238px; z-index: 1;}
 .right img:nth-child(4) {right: 243px; bottom: 164px;}
 .right img:nth-child(5) {right: 330px; bottom: 103px;}
+.right img:nth-child(6) {right: 235px; bottom: 180px;}
 .right .active {opacity: 1 !important; filter: grayscale(0);}

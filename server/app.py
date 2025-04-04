@@ -37,7 +37,7 @@ def load_and_process_context(name_, __path__):
 
     return module
 
-__country__ = None
+__country__ = "austria"
 # ---------------------------------------------------------------------------------
 # Recive country name from "recomended"
 @app.route("/get_country_name", methods=['POST'])

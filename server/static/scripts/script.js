@@ -44,7 +44,17 @@ const country_info_list = {
         img2: "../static/img/country/France/lyon.png",
         img3: "../static/img/country/France/marseille.png",
         img4: "../static/img/country/France/paris.png"
+    },
+    austria: {
+        subtitle: "A Tapestry of Music, Alps, and Imperial Grandeur",
+        text: "Austria, a country where the beauty of the Alps meets a rich history of music and imperial grandeur, offers a mesmerizing mix of culture and natural beauty. Vienna, the city of music, is home to timeless architecture, grand palaces, and world-renowned opera houses. Salzburg, the birthplace of Mozart, echoes with classical harmony, while Innsbruck's alpine landscapes offer outdoor adventure year-round. Hallstatt, a fairy-tale village, is a UNESCO World Heritage site surrounded by stunning mountains and serene lakes, while Graz boasts a vibrant arts scene and medieval charm. ",
+        img1: "../static/img/country/Austria/graz.png",
+        img2: "../static/img/country/Austria/hallstatt.png",
+        img3: "../static/img/country/Austria/innsbruck.png",
+        img4: "../static/img/country/Austria/salzburg.png",
+        img5: "../static/img/country/Austria/vienna.png"
     }
+    
     
 }
 
@@ -93,7 +103,9 @@ function displayCountry(country) {
 
 // Recomended countries
 function display_recomended_countrys() {
-    const frame = document.getElementById("recomended-cards-frame")
+    const frame = document.getElementById("recomended-cards-frame");
+    if (!frame) return;
+
     const countries = [
         {
             "name": "Slovenia",
@@ -109,21 +121,45 @@ function display_recomended_countrys() {
             "name": "Belgium",
             "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "img": "../static/img/country/Belgium/Brussels.png",
+        },
+        {
+            "name": "Austria",
+            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "img": "../static/img/country/Austria/vienne.png"
+        },
+        {
+            "name": "France",
+            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "img": "../static/img/country/France/Paris.png"
         }
-    ]
-    countries.forEach(country => {
+    ];
+
+    function shuffleArray(arr) {
+        for (let i = arr.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [arr[i], arr[j]] = [arr[j], arr[i]]; 
+        }
+    }
+
+    shuffleArray(countries);
+    const randomCountries = countries.slice(0, 3);
+
+    frame.innerHTML = '';
+
+    randomCountries.forEach(country => {
         const card = `
         <form method="POST" action="/get_country_name">
             <div class="card">
                 <img src="${country.img}" class="box-shadow" style="width: 100%;">
                 <div class="textframe">
-                    <lable class="subtitle-design text-shadow">${country.subtitle}</lable>
+                    <label class="subtitle-design text-shadow">${country.subtitle}</label>
                 </div>
                 <input class="button-design" type="submit" name="${country.name.toLowerCase()}" value="${country.name.toLowerCase()}">    
             </div>
         </form>
-        `
-        frame.innerHTML += card
+        `;
+        frame.innerHTML += card;
     });
 }
+
 display_recomended_countrys()
