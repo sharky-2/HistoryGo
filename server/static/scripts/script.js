@@ -117,7 +117,7 @@ function display_recomended_countrys() {
             <div class="card">
                 <img src="${country.img}" class="box-shadow" style="width: 100%;">
                 <div class="textframe">
-                    <lable class="subtitle-design text-shadow">${country.subtitle}/lable>
+                    <lable class="subtitle-design text-shadow">${country.subtitle}</lable>
                 </div>
                 <input class="button-design" type="submit" name="${country.name.toLowerCase()}" value="${country.name.toLowerCase()}">    
             </div>

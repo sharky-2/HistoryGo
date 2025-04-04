@@ -42,7 +42,7 @@ def header(**context):
         <div class="text-frame" style="text-align: center; align-items: center; justify-content: center;">
             <h1 class="title-design text-shadow">{title}</h1>
             <label class="subtitle-design">{subtitle}</label>
-            <a href="#"><input type="button" value="{button}" class="button-design"></a>
+            <a href="/country-list"><input type="button" value="{button}" class="button-design"></a>
         </div>
 
         <div class="hero-container">
@@ -847,7 +847,7 @@ def country_selector(**context):
                 <div class="textframe">
                     <h1 class="title-design text-shadow" id="country-title">Italy</h1>
                     <label class="subtitle-design" id="country-subtitle">A Timeless Journey Through Art, Culture, and Cuisine</label>
-                    <input type="submit" id="__country__" name="" value="Explore more" class="button-design">
+                    <input type="submit" id="__country__" name="Italy" value="Explore Italy more" class="button-design">
                     <label class="text-design" style="width: 80%;" id="country-text">Italy is a captivating country where ancient history meets modern vibrancy. Explore Rome’s Colosseum, Florence’s Renaissance art, and Venice’s romantic canals. From the sunlit Amalfi Coast to Tuscany’s rolling hills, Italy’s landscapes are stunning. Enjoy regional culinary delights like Neapolitan pizza, handmade pasta, and creamy gelato. Italian festivals celebrate food, music, and tradition, reflecting the passion of its people. Whether wandering Milan’s fashion streets or tasting wine in Sicily, Italy offers unforgettable experiences rooted in culture and community. Embrace the spirit of La Dolce Vita and Italy’s timeless charm.</label>
                 </div>
             </form>
