@@ -68,5 +68,13 @@ def selected_country(country):
     module = load_and_process_context(name_, __path__)
     return render_template("selected-country.html", modules=module)
 
+@app.route("/country-list")
+def country_list():
+
+    name_ = "country-list"
+    __path__ = f"data/resources/content/{name_}.json"
+    module = load_and_process_context(name_, __path__)
+    return render_template("country-list.html", modules=module)
+
 if __name__ == '__main__': 
     app.run(debug=True)

@@ -36,7 +36,16 @@ const country_info_list = {
         img2: "../static/img/country/Belgium/Belgian Coast.png",
         img3: "../static/img/country/Belgium/Flanders.png",
         img4: "../static/img/country/Belgium/Wallonia.png"
+    },
+    france: {
+        subtitle: "A Symphony of Art, History, and Gastronomy",
+        text: "France, a timeless symbol of culture and elegance, is a country that captivates with its blend of history, art, and culinary delights. From the romantic streets of Paris to the sun-drenched vineyards of Bordeaux, France offers a diverse landscape of experiences. Iconic landmarks like the Eiffel Tower, the Louvre, and Notre-Dame embody centuries of history and art. The French Riviera and Provence showcase the country’s natural beauty, while regions like Normandy and Loire Valley are steeped in medieval charm. Known for its exquisite cuisine and wine, France is a paradise for food lovers.",
+        img1: "../static/img/country/France/Paris.png",
+        img2: "../static/img/country/France/French Riviera.png",
+        img3: "../static/img/country/France/Bordeaux.png",
+        img4: "../static/img/country/France/Loire Valley.png"
     }
+    
 }
 
 function displayCountry(country) {

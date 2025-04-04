@@ -1183,6 +1183,7 @@ header {
 .right .EU-map { opacity: .5; z-index: -1;}
 .right .country-map {position: absolute; opacity: .2; transition: all .3s; cursor: pointer; filter:grayscale(10);}
 .right img:nth-child(2) {right: 224px; bottom: 28px;}
-.right img:nth-child(3) {right: 368px; bottom: 238px;}
+.right img:nth-child(3) {right: 368px; bottom: 238px; z-index: 1;}
 .right img:nth-child(4) {right: 243px; bottom: 165px;}
+.right img:nth-child(5) {right: 330px; bottom: 103px; opacity: 1;}
 .right .active {opacity: 1 !important; filter: grayscale(0);}

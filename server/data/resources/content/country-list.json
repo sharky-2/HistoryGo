@@ -1,0 +1,17 @@
+{
+    "country-list": [
+        {
+            "type": "card",
+            "title-0": "Italy",
+            "subtitle-0": "Tuscany is world-famous for its vineyards and wine production, particularly its Chianti and Brunello wines. Take a wine tour through the rolling hills, visit historic wineries, and savor the rich flavors of Tuscany’s wines paired with local delicacies.",
+            "image-0": "../static/img/country/Slovenia/Piran.png",
+            "title-1": "Italy",
+            "subtitle-1": "Tuscany is world-famous for its vineyards and wine production, particularly its Chianti and Brunello wines. Take a wine tour through the rolling hills, visit historic wineries, and savor the rich flavors of Tuscany’s wines paired with local delicacies.",
+            "image-1": "../static/img/country/Slovenia/Piran.png",
+            "title-2": "Italy",
+            "subtitle-2": "Tuscany is world-famous for its vineyards and wine production, particularly its Chianti and Brunello wines. Take a wine tour through the rolling hills, visit historic wineries, and savor the rich flavors of Tuscany’s wines paired with local delicacies.",
+            "image-2": "../static/img/country/Slovenia/Piran.png",
+            "amount": 3
+        }
+    ]
+}
