@@ -1,0 +1,120 @@
+{
+    "selected-country": [
+        {
+            "type": "img_title_4",
+            "title": "France - The Heart of Europe",
+            "subtitle": "From the enchanting streets of Paris to the vineyards of Bordeaux, France offers a timeless blend of history, culture, and cuisine.",
+            "image-0": "../static/img/country/France/Bordeaux.png",
+            "image-1": "../static/img/country/France/Paris.png",
+            "image-2": "../static/img/country/France/MontSaintMichel.png"
+        },
+        {
+            "type": "blog_3",
+            "title": "Travel And Explore France - Discover the Beauty of French Culture",
+            "subtitle": "France is famed for its rich history, stunning landscapes, art, and, of course, its cuisine, from wine to croissants.",
+            "text": "France is a country where culture and beauty go hand in hand. Explore the timeless elegance of Paris, the history and beauty of Mont Saint-Michel, and the gastronomic delights of Lyon. France’s diverse regions, from the vineyards of Bordeaux to the Mediterranean vibes of Marseille, offer something for every type of traveler. The country’s cuisine is as varied as its landscape, with wines, cheeses, and pastries that have made it world-famous.",
+            "text-2": "From the romantic streets of Paris to the seaside charm of Marseille, every region in France has its own unique appeal. Don’t miss the medieval beauty of Mont Saint-Michel or the vibrant city life of Lyon. Whether you’re savoring a gourmet meal or exploring the French Riviera, France has something for everyone.",
+            "image-0": "../static/img/country/France/Paris.png",
+            "image-1": "../static/img/country/France/Bordeaux.png"
+        },
+        {
+            "type": "title_1",
+            "title": "Explore France’s Natural and Historical Wonders",
+            "subtitle": "From the towering Alps to the coastal beauty of the French Riviera, France offers diverse landscapes and a rich history to uncover."
+        },
+        {
+            "type": "destination_spotlight",
+            "title": "Paris",
+            "subtitle": "The City of Lights",
+            "text": "Paris, the capital of France, is a city that blends romance, art, and history. From the iconic Eiffel Tower to the world-class art collections of the Louvre, Paris offers an abundance of cultural treasures. Take a stroll along the Seine, explore the charming neighborhoods of Montmartre, and enjoy the cuisine at local cafés. Paris is the heart of French culture and history, with stunning architecture, lively markets, and an atmosphere that draws visitors from around the world.",
+            "img": "../static/img/country/France/Paris.png",
+            "rank-0": "Art", "rank-1": "History", "rank-2": "Cuisine", "rank-3": "Romance"
+        },
+        {
+            "type": "destination_spotlight",
+            "title": "Bordeaux",
+            "subtitle": "The Wine Capital of the World",
+            "text": "Bordeaux, located in southwestern France, is renowned for its vineyards and wine culture. The city’s neoclassical architecture is complemented by its bustling riverfront and vibrant atmosphere. Bordeaux is a perfect destination for wine enthusiasts, offering numerous wineries and wine-tasting experiences. Don’t miss the chance to visit the futuristic La Cité du Vin wine museum, where you can learn about the history of wine and enjoy tastings from around the world.",
+            "img": "../static/img/country/France/Bordeaux.png",
+            "rank-0": "Wine", "rank-1": "History", "rank-2": "Architecture", "rank-3": "Culture"
+        },
+        {
+            "type": "destination_spotlight",
+            "title": "Lyon",
+            "subtitle": "The Gastronomic Capital of France",
+            "text": "Lyon, known as the gastronomic capital of France, is famous for its culinary heritage and vibrant food scene. The city’s old town, Vieux Lyon, is a UNESCO World Heritage site and offers a glimpse into its medieval past. Lyon’s restaurants and bouchons are the perfect places to indulge in traditional French dishes. The city also boasts vibrant festivals, particularly the Festival of Lights, and stunning parks and riverside walks.",
+            "img": "../static/img/country/France/Lyon.png",
+            "rank-0": "Cuisine", "rank-1": "History", "rank-2": "Culture", "rank-3": "Festivals"
+        },
+        {
+            "type": "destination_spotlight",
+            "title": "Marseille",
+            "subtitle": "The Gateway to the Mediterranean",
+            "text": "Marseille, France’s second-largest city, offers a unique blend of cultural influences from its Mediterranean location. The city is known for its historic Old Port, vibrant markets, and seafood cuisine. Explore the dramatic calanques (rocky inlets) along the coast, enjoy Mediterranean cuisine at waterfront restaurants, and experience the dynamic energy of this diverse city. Marseille also has a rich history, including the stunning Basilique Notre-Dame de la Garde, which overlooks the city from a hilltop.",
+            "img": "../static/img/country/France/Marseille.png",
+            "rank-0": "Coastline", "rank-1": "History", "rank-2": "Culture", "rank-3": "Cuisine"
+        },
+        {
+            "type": "destination_spotlight",
+            "title": "Mont Saint-Michel",
+            "subtitle": "A Medieval Wonder Rising From the Sea",
+            "text": "Mont Saint-Michel, a UNESCO World Heritage site, is a stunning island commune located off the coast of Normandy. With its medieval abbey perched atop a rocky hill, it’s one of France’s most iconic landmarks. The island is surrounded by tidal flats, creating a mesmerizing spectacle as the tides come in and out. Visitors can explore the abbey, wander through narrow cobblestone streets, and experience the unique atmosphere of this historic site.",
+            "img": "../static/img/country/France/MontSaintMichel.png",
+            "rank-0": "History", "rank-1": "Architecture", "rank-2": "Nature", "rank-3": "Culture"
+        },
+        {
+            "type": "right_image_text_1",
+            "title": "Travel And Explore the World with HistoryGo - Discover the beauty of France with us.",
+            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "button": "Explore more",
+            "image-0": "../static/img/country/France/Paris.png",
+            "image-1": "../static/img/country/France/Bordeaux.png",
+            "image-2": "../static/img/country/France/Marseille.png"
+        },
+        {
+            "type": "blog_2",
+            "title": "Travel And Explore France - Discover the Beauty of France with Us.",
+            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "text": "France offers a rich mix of culture, history, and cuisine. Whether you’re in the heart of Paris, tasting wine in Bordeaux, or exploring the historic Mont Saint-Michel, France provides unforgettable experiences. Explore cities, towns, and villages with rich histories, delightful food, and spectacular landscapes.",
+            "image-0": "../static/img/country/France/Paris.png",
+            "image-1": "../static/img/country/France/Marseille.png",
+            "image-2": "../static/img/country/France/Bordeaux.png",
+            "image-3": "../static/img/country/France/MontSaintMichel.png",
+            "image-4": "../static/img/country/France/Lyon.png"
+        },
+        {
+            "type": "img_1",
+            "image-0": "../static/img/country/France/Bordeaux.png",
+            "image-1": "../static/img/country/France/Paris.png",
+            "image-2": "../static/img/country/France/Marseille.png",
+            "image-3": "../static/img/country/France/Lyon.png"
+        },
+        {
+            "type": "accordion",
+            "title-0": "Visit the Eiffel Tower",
+            "text-0": "No trip to Paris is complete without seeing the Eiffel Tower. This iconic structure offers breathtaking views of the city from its observation decks. Whether you take an elevator or climb the stairs, the experience is unforgettable.",
+            "title-1": "Explore the Louvre Museum",
+            "text-1": "The Louvre in Paris is the world’s largest art museum and a historic monument. It’s home to thousands of works of art, including the famous Mona Lisa and Venus de Milo. Spend hours exploring its vast galleries.",
+            "title-2": "Take a Stroll Along the Seine",
+            "text-2": "The Seine River winds through Paris, and taking a boat tour along the river is a perfect way to see the city’s landmarks. You can also walk along the riverbanks and enjoy the beautiful scenery.",
+            "title-3": "Taste French Pastries and Cuisine",
+            "text-3": "From croissants to macarons, French pastries are renowned worldwide. Enjoy delicious meals in charming cafés, and don’t forget to try French wine and cheese.",
+            "title-4": "Visit Mont Saint-Michel",
+            "text-4": "Mont Saint-Michel is one of the most beautiful and awe-inspiring landmarks in France. Visit its medieval abbey and enjoy the breathtaking views of the surrounding sea.",
+            "title-5": "Discover the Vineyards of Bordeaux",
+            "text-5": "Bordeaux is famous for its wine, and visitors can take guided tours of vineyards, enjoy wine tastings, and learn about the history of winemaking in the region.",
+            "title-6": "Wander the Streets of Lyon",
+            "text-6": "Lyon is a UNESCO World Heritage site, known for its historical and architectural landmarks. Explore its old town and enjoy the city’s incredible food scene.",
+            "title-7": "Relax by the Mediterranean in Marseille",
+            "text-7": "Marseille offers stunning Mediterranean views and a rich history. Explore the Old Port, enjoy fresh seafood, and discover the vibrant culture of this coastal city.",
+            "title-8": "Admire the Architecture of the Palais des Papes in Avignon",
+            "text-8": "Avignon’s Palais des Papes is a remarkable Gothic structure and a UNESCO World Heritage site. Take a guided tour and learn about its fascinating history.",
+            "title-9": "Explore the Calanques National Park in Marseille",
+            "text-9": "The Calanques National Park near Marseille offers beautiful coastal hikes, turquoise waters, and dramatic cliffs. It's an outdoor paradise for nature lovers.",
+            "amount": 10
+        },
+        {
+            "type": "recomended_auto"
+        }
+    ]
+}

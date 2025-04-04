@@ -96,18 +96,7 @@
             "amount": 10
         },        
         {
-            "type": "recomended",
-            "title": "Recommended",
-            "subtitle": "Discover more destinations.",
-            "title-0": "Slovenia",
-            "subtitle-0": "Discover the charm of Slovenia.",
-            "image-0": "../static/img/country/Slovenia/Piran.png",
-            "title-1": "Italy",
-            "subtitle-1": "Explore Italy’s rich history and culture.",
-            "image-1": "../static/img/country/Italy/Rome.png",
-            "title-2": "Belgium",
-            "subtitle-2": "Explore Belgium’s art, history, and beer.",
-            "image-2": "../static/img/country/Belgium/Brussels.png"
+            "type": "recomended_auto"
         }
     ]
 }

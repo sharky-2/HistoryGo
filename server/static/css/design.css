@@ -134,8 +134,7 @@ section {
 
 .button-design {
     background: none;
-    width: fit-content;
-    height: fit-content;
+    text-align: center;
 
     border-radius: 100px;
     border: 1px solid var(--light-black);

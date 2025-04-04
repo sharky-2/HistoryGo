@@ -2,8 +2,8 @@
     "main-page": [
         {
             "type": "header",
-            "title": "Travel world with HistoryGo.",
-            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "title": "Travel the world with HistoryGo.",
+            "subtitle": "Discover the beauty of history and culture at your next travel destination.",
             "button": "Explore",
             "image-0": "../static/img/country/Slovenia/Soca_Valley.png",      
             "image-1": "../static/img/country/Austria/Hallstatt.png",     
@@ -12,77 +12,77 @@
         },
         {
             "type": "title_1",
-            "title": "Title",
-            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+            "title": "Explore New Destinations",
+            "subtitle": "Dive deep into the history and attractions of the world’s most iconic locations."
         },
         {
             "type": "image_text",
-            "title": "Lorem Ipsum",
-            "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.",
-            "text2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
-            "image-0": "../static/img/other/noimg.jpg",
-            "image-1": "../static/img/other/noimg.jpg",
-            "image-2": "../static/img/other/noimg.jpg",
-            "image-3": "../static/img/other/noimg.jpg",
-            "image-4": "../static/img/other/noimg.jpg"
+            "title": "Discover Slovenia",
+            "text": "Slovenia is known for its beautiful lakes, stunning mountains, and charming cities. It’s a hidden gem in Central Europe, offering a unique mix of culture, history, and natural beauty. From Lake Bled’s fairytale scenery to the rich medieval heritage in Ljubljana, Slovenia is a country full of enchanting spots.",
+            "text2": "Slovenia's rich history dates back to Roman times. With its picturesque countryside, Slovenia offers travelers a mix of adventures and serene spots. The capital, Ljubljana, is a charming, walkable city with a lively atmosphere, while places like the Soča Valley offer outdoor enthusiasts the chance to explore nature like never before.",
+            "image-0": "../static/img/country/Slovenia/Soca_Valley.png",
+            "image-1": "../static/img/country/Slovenia/LakeBohinj.png",
+            "image-2": "../static/img/country/Slovenia/PostojnaCave.png",
+            "image-3": "../static/img/country/Slovenia/LjubljanaMarshes.png",
+            "image-4": "../static/img/country/Slovenia/Piran.png"
         },
         {
             "type": "img_2",
-            "image-0": "../static/img/other/noimg.jpg",      
-            "image-1": "../static/img/other/noimg.jpg",     
-            "image-2": "../static/img/other/noimg.jpg",    
-            "image-3": "../static/img/other/noimg.jpg",      
-            "image-4": "../static/img/other/noimg.jpg"      
+            "image-0": "../static/img/country/France/Paris.png",      
+            "image-1": "../static/img/country/Austria/Salzburg.png",     
+            "image-2": "../static/img/country/Belgium/Ardennes.png",    
+            "image-3": "../static/img/country/Slovenia/PostojnaCave.png",      
+            "image-4": "../static/img/country/France/Bordeaux.png"      
         },
         {
             "type": "img_title_2",
-            "title": "Start Traveling With Us Today - Create Account And Start Exploring",
-            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-            "button": "Explore",
-            "image-0": "../static/img/other/noimg.jpg",      
-            "image-1": "../static/img/other/noimg.jpg",
-            "image-2": "../static/img/other/noimg.jpg",
-            "image-3": "../static/img/other/noimg.jpg"
+            "title": "Start Traveling With Us Today - Create an Account and Explore the World",
+            "subtitle": "Join HistoryGo to uncover hidden historical gems around the world.",
+            "button": "Create Account",
+            "image-0": "../static/img/country/Italy/Rome.png",      
+            "image-1": "../static/img/country/France/Lyon.png",
+            "image-2": "../static/img/country/Belgium/Flanders.png",
+            "image-3": "../static/img/country/Austria/Innsbruck.png"
         },
         {
             "type": "blog_4",
-            "title": "Travel And Explore World WithHistoryGo - Get to know place even more with us.",
-            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-            "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "title": "Travel and Explore with HistoryGo - Get to Know Places Even More",
+            "subtitle": "With HistoryGo, you can learn the hidden stories behind the world’s most visited places.",
+            "text": "Traveling is about discovering new places, cultures, and stories. With HistoryGo, each journey becomes an opportunity to dive deep into a location’s historical significance. From ancient landmarks to modern marvels, our guides will take you through time, offering a richer experience wherever you go.",
             "button": "Explore more",
-            "image-0": "../static/img/other/noimg.jpg",
-            "image-1": "../static/img/other/noimg.jpg",
-            "image-2": "../static/img/other/noimg.jpg",
-            "image-3": "../static/img/other/noimg.jpg"
+            "image-0": "../static/img/country/Belgium/Flanders.png",
+            "image-1": "../static/img/country/Italy/Florence.png",
+            "image-2": "../static/img/country/Belgium/Brussels.png",
+            "image-3": "../static/img/country/Slovenia/LakeBohinj.png"
         },
         {
             "type": "blog_3",
-            "title": "Travel And Explore World With HistoryGo - Get to know place even more with us.",
-            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-            "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the.",
-            "text-2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-            "image-0": "../static/img/other/noimg.jpg",
-            "image-1": "../static/img/other/noimg.jpg"
+            "title": "Travel and Explore World with HistoryGo - Get to Know Places Even More",
+            "subtitle": "Let HistoryGo enhance your travel experience by uncovering the stories behind iconic destinations.",
+            "text": "Our platform offers a unique way to explore the world. Whether you're wandering through the cobbled streets of Rome, marveling at the landscapes of New Zealand, or visiting the majestic pyramids of Egypt, HistoryGo ensures you understand the significance behind every place you visit. It's more than just a trip – it's an immersive journey through time.",
+            "text-2": "No matter where you go, HistoryGo will be there to guide you through history. Our curated travel suggestions are designed to help you explore each destination from a historical perspective, making your travels even more meaningful. Learn about past civilizations, their achievements, and how they have shaped the world we live in today.",
+            "image-0": "../static/img/country/Italy/Florence.png",
+            "image-1": "../static/img/country/France/Paris.png"
         },
         {
             "type": "right_image_text_1",
-            "title": "Travel And Explore World With HistoryGo - Get to know place even more with us.",
-            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "title": "Travel the World with HistoryGo - Explore Places with a Rich History",
+            "subtitle": "Discover the world's cultural heritage and explore its historical landmarks with us.",
             "button": "Explore more",
-            "image-0": "../static/img/other/noimg.jpg",
-            "image-1": "../static/img/other/noimg.jpg",
-            "image-2": "../static/img/other/noimg.jpg"
+            "image-0": "../static/img/country/France/Bordeaux.png",
+            "image-1": "../static/img/country/Italy/Florence.png",
+            "image-2": "../static/img/country/France/Lyon.png"
         },
         {
             "type": "blog_2",
-            "title": "Travel And Explore World With HistoryGo - Get to know place even more with us.",
-            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-            "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-            "image-0": "../static/img/other/noimg.jpg",
-            "image-1": "../static/img/other/noimg.jpg",
-            "image-2": "../static/img/other/noimg.jpg",
-            "image-3": "../static/img/other/noimg.jpg",
-            "image-4": "../static/img/other/noimg.jpg"
+            "title": "Travel the World with HistoryGo - Unlock the History Behind Every Destination",
+            "subtitle": "Dive into a world of knowledge and culture as you travel with HistoryGo.",
+            "text": "HistoryGo is more than just a travel tool – it’s an opportunity to enrich your journey. By providing historical insights, cultural tips, and must-visit locations, we ensure that your trip is more than just sightseeing. Let HistoryGo help you uncover the secrets behind every landmark, city, and country you visit.",
+            "image-0": "../static/img/country/Belgium/Ardennes.png",
+            "image-1": "../static/img/country/Italy/Florence.png",
+            "image-2": "../static/img/country/Austria/Salzburg.png",
+            "image-3": "../static/img/country/France/Paris.png",
+            "image-4": "../static/img/country/Italy/Rome.png"
         },
         {
             "type": "country_selector"
