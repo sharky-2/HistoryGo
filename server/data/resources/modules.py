@@ -784,6 +784,19 @@ def recomended(**context):
     """
     return module
 
+def recomended_auto(**context):
+    module = f"""
+    <section id="card-module" class="recomended">
+        <div class="titleframe">
+            <h1 class="title-design text-shadow">Recomended places</h1>
+            <label class="subtitle-design">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</label>
+        </div>
+        <div class="cards" id="recomended-cards-frame">
+        </div>
+    </section>
+    """
+    return module
+
 # -------------------------------------------------------------------------------------------------
 # Accordion
 def accordion(**context):

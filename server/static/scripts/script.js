@@ -81,3 +81,40 @@ function displayCountry(country) {
     clickedImage.style.opacity = 1
 
 }
+
+// Recomended countries
+function display_recomended_countrys() {
+    const frame = document.getElementById("recomended-cards-frame")
+    const countries = [
+        {
+            "name": "Slovenia",
+            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "img": "../static/img/country/Slovenia/Piran.png",
+        },
+        {
+            "name": "Italy",
+            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "img": "../static/img/country/Italy/Rome.png",
+        },
+        {
+            "name": "Belgium",
+            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "img": "../static/img/country/Belgium/Brussels.png",
+        }
+    ]
+    countries.forEach(country => {
+        const card = `
+        <form method="POST" action="/get_country_name">
+            <div class="card">
+                <img src="${country.img}" class="box-shadow" style="width: 100%;">
+                <div class="textframe">
+                    <lable class="subtitle-design text-shadow">${country.subtitle}/lable>
+                </div>
+                <input class="button-design" type="submit" name="${country.name.toLowerCase()}" value="${country.name.toLowerCase()}">    
+            </div>
+        </form>
+        `
+        frame.innerHTML += card
+    });
+}
+display_recomended_countrys()

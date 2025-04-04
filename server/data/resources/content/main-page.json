@@ -88,18 +88,7 @@
             "type": "country_selector"
         },
         {
-            "type": "recomended",
-            "title": "Recomended",
-            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-            "title-0": "Slovenia",
-            "subtitle-0": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-            "image-0": "../static/img/country/Slovenia/Piran.png",
-            "title-1": "Italy",
-            "subtitle-1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-            "image-1": "../static/img/country/Italy/Rome.png",
-            "title-2": "Belgium",
-            "subtitle-2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-            "image-2": "../static/img/country/Belgium/Brussels.png"
+            "type": "recomended_auto"
         }
     ]
 }
