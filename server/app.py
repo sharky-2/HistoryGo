@@ -64,7 +64,7 @@ def selected_country(country):
     if not country: return redirect(url_for("MainPage"))
 
     name_ = "selected-country"
-    __path__ = f"data/resources/content/{country}.json"
+    __path__ = f"data/resources/content/country/{country}.json"
     module = load_and_process_context(name_, __path__)
     return render_template("selected-country.html", modules=module)
 
@@ -72,6 +72,14 @@ def selected_country(country):
 def country_list():
 
     name_ = "country-list"
+    __path__ = f"data/resources/content/{name_}.json"
+    module = load_and_process_context(name_, __path__)
+    return render_template("country-list.html", modules=module)
+
+@app.route("/about")
+def about():
+
+    name_ = "about"
     __path__ = f"data/resources/content/{name_}.json"
     module = load_and_process_context(name_, __path__)
     return render_template("country-list.html", modules=module)
