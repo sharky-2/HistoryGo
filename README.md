@@ -90,7 +90,7 @@
 
 </details>
 
-<details>
+<details open>
 <summary>
    📄Other data
    
