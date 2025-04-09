@@ -40,7 +40,7 @@ def header(**context):
     <header>
 
         <div class="text-frame" style="text-align: center; align-items: center; justify-content: center;">
-            <h1 class="title-design text-shadow">{title}</h1>
+            <h1 class="title-design ">{title}</h1>
             <label class="subtitle-design">{subtitle}</label>
             <a href="/country-list"><input type="button" value="{button}" class="button-design"></a>
         </div>

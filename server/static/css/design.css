@@ -32,6 +32,7 @@ img:hover {transform: rotate(0deg) !important; z-index: 10;} */
     margin: 0;
     text-transform: capitalize;
     width: 80%;
+    font-weight: bold;
 
 }
 .subtitle-design {
@@ -43,7 +44,7 @@ img:hover {transform: rotate(0deg) !important; z-index: 10;} */
     line-height: 15px;
 }
 .text-design {
-    font-family: var(--text-font-family);
+    font-family: var(--subtitle-font-family);
     font-size: 18px;
 }
 .number-design {
@@ -80,7 +81,8 @@ img:hover {transform: rotate(0deg) !important; z-index: 10;} */
 
 /* Other smaller designs */
 .box-shadow {box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);}
-.text-shadow {text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);}
+.text-shadow {font-weight: bold;}
+/* .text-shadow {text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);} */
 
 /* Sections */
 section {
