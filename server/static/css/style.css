@@ -22,7 +22,6 @@ header {
     height: 200px;
     width: 200px;
     object-fit: cover;
-    transition: transform 0.1s ease-out;
     border-radius: 15px;
     position: absolute;
 }
@@ -228,7 +227,9 @@ header {
     flex-direction: column;
 }
 .blog-4 .right {
-    width: 50%;
+    background-color: var(--light-black);
+    border-radius: 20px;
+    width: 40%;
     height: 100%;
     position: relative;
 }
@@ -250,9 +251,9 @@ header {
 
     position: absolute;
 }
-.blog-4 .right img:nth-child(1) {left: 15%; top: 0%; transform: rotate(-5deg);}
-.blog-4 .right img:nth-child(2) {left: 50%; top: 0%; transform: rotate(-15deg);}
-.blog-4 .right img:nth-child(3) {left: 15%; top: 40%; transform: rotate(10deg);}
+.blog-4 .right img:nth-child(1) {left: -5%; top: 0%; transform: rotate(-5deg);}
+.blog-4 .right img:nth-child(2) {left: 50%; top: 0%; transform: rotate(5deg);}
+.blog-4 .right img:nth-child(3) {left: -5%; top: 40%; transform: rotate(10deg);}
 .blog-4 .right img:nth-child(4) {left: 50%; top: 40%; transform: rotate(-5deg);}
 
 /* --------------------------------------------------------------------- */
@@ -1055,7 +1056,6 @@ header {
     background-color: var(--light-black);
     z-index: -1;
 }
-
 .recomended .titleframe {
     width: 95%;
     display: flex;
@@ -1068,16 +1068,23 @@ header {
 .recomended .cards .card {
     height: fit-content;
     width: 350px;
-    text-align: center;
     gap: 20px;
 
     position: relative;
 }
-.recomended .cards .card .textframe {height: fit-content;}
+.recomended .cards .card .textframe {
+    border-radius: 10px;
+    height: fit-content;
+
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+
+    gap: 10px;
+}
 .recomended .cards .card input {
-    margin-top: -25px; 
     padding: 10px 20px;
-    transform: rotate(0);
     background: none;
     border: 1px solid black;
     text-transform: uppercase;
@@ -1093,7 +1100,7 @@ header {
     width: 100%;
     
     border: 1px solid var(--light-black);
-    border-radius: 20px;
+    border-radius: 10px;
     margin-bottom: 10px;
     cursor: pointer;
 

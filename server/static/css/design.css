@@ -139,7 +139,7 @@ section {
     background: none;
     text-align: center;
 
-    border-radius: 100px;
+    border-radius: 10px;
     border: 1px solid var(--light-black);
     overflow: hidden;
 
