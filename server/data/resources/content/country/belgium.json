@@ -13,7 +13,7 @@
             "title": "Travel And Explore Belgium - Discover the Heart of Western Europe",
             "subtitle": "Belgium is renowned for its rich history, stunning architecture, and delicious cuisine, including waffles and chocolate.",
             "text": "Belgium is a country filled with charm and culture. Explore the grand architecture of Brussels, the canals of Bruges, or the historic sites in Antwerp. Belgium's diverse landscape, from lush forests to vibrant cities, offers something for every type of traveler. Don't miss the opportunity to sample Belgium's famous beer and indulge in world-class chocolates while experiencing the beauty and culture of this fascinating country.",
-            "text-2": "Belgium’s cities like Ghent and Bruges transport you back in time with their medieval charm, while Brussels is home to modern marvels and political hubs. The Belgian coast offers picturesque seaside views, and the Ardennes region is perfect for nature lovers. Whether you're exploring the lively city life or relaxing in tranquil countryside, Belgium is sure to captivate you.",
+            "text-2": "Belgium's cities like Ghent and Bruges transport you back in time with their medieval charm, while Brussels is home to modern marvels and political hubs. The Belgian coast offers picturesque seaside views, and the Ardennes region is perfect for nature lovers. Whether you're exploring the lively city life or relaxing in tranquil countryside, Belgium is sure to captivate you.",
             "image-0": "../static/img/country/Belgium/Flanders.png",
             "image-1": "../static/img/country/Belgium/Brussels.png"
         },
@@ -26,7 +26,7 @@
             "type": "destination_spotlight",
             "title": "Brussels",
             "subtitle": "The Heart of Europe",
-            "text": "Brussels, the capital of Belgium and the de facto capital of the European Union, is a city that seamlessly blends modernity with history. At its heart lies the Grand Place, a UNESCO World Heritage site surrounded by ornate guildhalls and the stunning Town Hall. The Atomium, a symbol of the city, offers panoramic views and fascinating exhibitions. Art lovers will find solace in the Royal Museums of Fine Arts, showcasing masterpieces from Magritte to Bruegel. Brussels is also famous for its culinary scene, with its iconic waffles, fries, and an extensive array of Belgian beers. The city’s multicultural vibe is reflected in its diverse neighborhoods, each with its own character. From historic architecture to vibrant street art, Brussels captivates visitors with its dynamic energy.",
+            "text": "Brussels, the capital of Belgium and the de facto capital of the European Union, is a city that seamlessly blends modernity with history. At its heart lies the Grand Place, a UNESCO World Heritage site surrounded by ornate guildhalls and the stunning Town Hall. The Atomium, a symbol of the city, offers panoramic views and fascinating exhibitions. Art lovers will find solace in the Royal Museums of Fine Arts, showcasing masterpieces from Magritte to Bruegel. Brussels is also famous for its culinary scene, with its iconic waffles, fries, and an extensive array of Belgian beers. The city's multicultural vibe is reflected in its diverse neighborhoods, each with its own character. From historic architecture to vibrant street art, Brussels captivates visitors with its dynamic energy.",
             "img": "../static/img/country/Belgium/Brussels.png",
             "rank-0": "Culture", "rank-1": "Politics", "rank-2": "Cuisine", "rank-3": "Architecture"
         },
@@ -50,7 +50,7 @@
             "type": "destination_spotlight",
             "title": "Ardennes",
             "subtitle": "Nature's Playground",
-            "text": "The Ardennes is a paradise for nature enthusiasts. Known for dense forests and rolling hills, it’s perfect for hiking, cycling, and kayaking. In winter, the region transforms into a snowy wonderland. The town of Dinant and the caves of Han-sur-Lesse are must-visits. The Ardennes offers a refreshing escape into nature.",
+            "text": "The Ardennes is a paradise for nature enthusiasts. Known for dense forests and rolling hills, it's perfect for hiking, cycling, and kayaking. In winter, the region transforms into a snowy wonderland. The town of Dinant and the caves of Han-sur-Lesse are must-visits. The Ardennes offers a refreshing escape into nature.",
             "img": "../static/img/country/Belgium/Ardennes.png",
             "rank-0": "Nature", "rank-1": "Outdoor Adventure", "rank-2": "History", "rank-3": "Relaxation"
         },
@@ -96,7 +96,7 @@
             "title-1": "Taste Belgian Waffles and Chocolate",
             "text-1": "Belgium is famous for its delicious waffles and chocolate. While in Belgium, don't miss the chance to visit a local chocolatier and indulge in world-renowned Belgian chocolates. Pair this with a freshly made waffle from a street vendor to satisfy your sweet tooth.",
             "title-2": "Tour the Grand Place in Brussels",
-            "text-2": "The Grand Place in Brussels is a UNESCO World Heritage site and the heart of the city. Surrounded by ornate guildhalls and the impressive Town Hall, it’s a must-visit for those who enjoy history, art, and architecture. Don't forget to stop by one of the many cafes around the square to relax.",
+            "text-2": "The Grand Place in Brussels is a UNESCO World Heritage site and the heart of the city. Surrounded by ornate guildhalls and the impressive Town Hall, it's a must-visit for those who enjoy history, art, and architecture. Don't forget to stop by one of the many cafes around the square to relax.",
             "title-3": "Visit the Atomium",
             "text-3": "The Atomium, built for the 1958 Brussels World's Fair, is an iconic symbol of Brussels. You can explore its futuristic spheres, enjoy panoramic views of the city, and learn about the science behind this architectural wonder.",
             "title-4": "Discover the Royal Museums of Fine Arts",
@@ -104,13 +104,13 @@
             "title-5": "Wander Through Ghent's Historic Streets",
             "text-5": "Ghent offers a perfect blend of medieval architecture and modern flair. Visit Gravensteen Castle, stroll through the beautiful Patershol district, and relax along the scenic riverbanks. The city's vibrant atmosphere and historical charm will captivate you.",
             "title-6": "Admire the Canals of Antwerp",
-            "text-6": "Antwerp's canals add to the city's charm. Wander through its historic streets, visit the stunning Cathedral of Our Lady, and explore the Museum aan de Stroom (MAS) for an amazing cultural experience. Antwerp is also the world’s diamond capital, so don't forget to check out its dazzling jewelry shops.",
+            "text-6": "Antwerp's canals add to the city's charm. Wander through its historic streets, visit the stunning Cathedral of Our Lady, and explore the Museum aan de Stroom (MAS) for an amazing cultural experience. Antwerp is also the world's diamond capital, so don't forget to check out its dazzling jewelry shops.",
             "title-7": "Explore the Ardennes for Outdoor Adventure",
-            "text-7": "The Ardennes region is perfect for nature lovers and outdoor enthusiasts. With its dense forests, rolling hills, and scenic valleys, it’s ideal for hiking, cycling, and kayaking. In winter, the area transforms into a magical snow-covered landscape, perfect for skiing and snowshoeing.",
+            "text-7": "The Ardennes region is perfect for nature lovers and outdoor enthusiasts. With its dense forests, rolling hills, and scenic valleys, it's ideal for hiking, cycling, and kayaking. In winter, the area transforms into a magical snow-covered landscape, perfect for skiing and snowshoeing.",
             "title-8": "Relax at the Belgian Coast",
             "text-8": "The Belgian Coast offers sandy beaches and charming seaside resorts. Towns like Ostend, Knokke-Heist, and De Haan offer a mix of relaxation, beautiful nature, and maritime charm. Enjoy fresh seafood, stroll along the beach, or explore the seaside towns with their lovely 19th-century architecture.",
             "title-9": "Visit the Historic City of Liège",
-            "text-9": "Liège is rich in history and culture. From the stunning Liège-Guillemins train station to the medieval fortifications of the Citadel, there’s much to see. Explore the city's lively squares, visit its fascinating museums, and enjoy the local cuisine, such as Liège waffles and boulets à la Liégeoise.",
+            "text-9": "Liège is rich in history and culture. From the stunning Liège-Guillemins train station to the medieval fortifications of the Citadel, there's much to see. Explore the city's lively squares, visit its fascinating museums, and enjoy the local cuisine, such as Liège waffles and boulets à la Liégeoise.",
             "amount": 10
         },        
         {

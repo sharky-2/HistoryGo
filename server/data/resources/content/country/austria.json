@@ -12,21 +12,21 @@
         "type": "blog_3",
         "title": "Travel And Explore Austria",
         "subtitle": "Austria offers a harmonious blend of imperial history, alpine landscapes, and musical legacy.",
-        "text": "Austria, nestled in the heart of Europe, is a country where majestic alpine beauty meets timeless imperial grandeur. From the Habsburg legacy in Vienna to the baroque charm of Salzburg, Austria has played a pivotal role in shaping European culture, especially in music, art, and architecture. The country’s historical cities reflect a deep cultural heritage, while the Alps provide opportunities for skiing, hiking, and peaceful reflection. ",
-        "text-2": "Each region in Austria has its own story. From the lakeside tranquility of Hallstatt to the vibrant streets of Graz, visitors can experience both serenity and cultural vibrance. Whether you’re exploring medieval towns, imperial palaces, or mountain trails, Austria promises unforgettable experiences steeped in beauty and tradition.",
+        "text": "Austria, nestled in the heart of Europe, is a country where majestic alpine beauty meets timeless imperial grandeur. From the Habsburg legacy in Vienna to the baroque charm of Salzburg, Austria has played a pivotal role in shaping European culture, especially in music, art, and architecture. The country's historical cities reflect a deep cultural heritage, while the Alps provide opportunities for skiing, hiking, and peaceful reflection. ",
+        "text-2": "Each region in Austria has its own story. From the lakeside tranquility of Hallstatt to the vibrant streets of Graz, visitors can experience both serenity and cultural vibrance. Whether you're exploring medieval towns, imperial palaces, or mountain trails, Austria promises unforgettable experiences steeped in beauty and tradition.",
         "image-0": "../static/img/country/Austria/vienne.png",
         "image-1": "../static/img/country/Austria/Salzburg.png"
       },
       {
         "type": "title_1",
         "title": "Explore Austria's Wonders",
-        "subtitle": "Austria’s landscapes, history, and cultural richness await you."
+        "subtitle": "Austria's landscapes, history, and cultural richness await you."
       },
       {
         "type": "destination_spotlight",
-        "title": "Vienna - Austria’s Capital",
+        "title": "Vienna - Austria's Capital",
         "subtitle": "Imperial Elegance and Cultural Mastery",
-        "text": "Vienna, Austria's capital, is a hub of elegance and culture. As the former Habsburg center, it boasts landmarks like Schönbrunn Palace and the Hofburg. The city resonates with music, from Mozart to Beethoven, and intellectual legacies, including Freud. Explore grand Baroque architecture, stroll the Ringstrasse, or attend an opera at the Vienna State Opera. Its vibrant café culture and classical music heritage make Vienna a must-see destination.",
+        "text": "Vienna, Austria's capital, is a hub of elegance and culture. As the former Habsburg center, it boasts landmarks like Schonbrunn Palace and the Hofburg. The city resonates with music, from Mozart to Beethoven, and intellectual legacies, including Freud. Explore grand Baroque architecture, stroll the Ringstrasse, or attend an opera at the Vienna State Opera. Its vibrant café culture and classical music heritage make Vienna a must-see destination.",
         "img": "../static/img/country/Austria/vienne.png",
         "rank-0": "Culture", "rank-1": "Architecture", "rank-2": "", "rank-3": ""
       },
@@ -34,7 +34,7 @@
         "type": "destination_spotlight",
         "title": "Salzburg - Salzburg State",
         "subtitle": "The Birthplace of Mozart",
-        "text": "Salzburg is a city of baroque charm, musical heritage, and alpine beauty. Its old town, a UNESCO World Heritage site, features quaint streets, palaces, and Salzburg Cathedral. Music enthusiasts will love visiting Mozart’s birthplace and exploring 'The Sound of Music' locations. From classical concerts to scenic hikes up to Hohensalzburg Fortress, Salzburg blends culture and natural splendor effortlessly.",
+        "text": "Salzburg is a city of baroque charm, musical heritage, and alpine beauty. Its old town, a UNESCO World Heritage site, features quaint streets, palaces, and Salzburg Cathedral. Music enthusiasts will love visiting Mozart's birthplace and exploring 'The Sound of Music' locations. From classical concerts to scenic hikes up to Hohensalzburg Fortress, Salzburg blends culture and natural splendor effortlessly.",
         "img": "../static/img/country/Austria/Salzburg.png",
         "rank-0": "Music", "rank-1": "Heritage", "rank-2": "", "rank-3": ""
       },
@@ -42,7 +42,7 @@
         "type": "destination_spotlight",
         "title": "Hallstatt - Upper Austria",
         "subtitle": "Austria's Fairytale Lakeside Village",
-        "text": "Hallstatt, a village framed by the Dachstein mountains and a serene lake, is renowned for its postcard-perfect charm. One of Europe’s oldest inhabited places, it holds a rich history of salt mining. Explore narrow alleys, take a boat on the lake, or visit the historic Hallstatt Salt Mine. Its beauty and tranquility attract photographers and nature lovers alike.",
+        "text": "Hallstatt, a village framed by the Dachstein mountains and a serene lake, is renowned for its postcard-perfect charm. One of Europe's oldest inhabited places, it holds a rich history of salt mining. Explore narrow alleys, take a boat on the lake, or visit the historic Hallstatt Salt Mine. Its beauty and tranquility attract photographers and nature lovers alike.",
         "img": "../static/img/country/Austria/Hallstatt.png",
         "rank-0": "Nature", "rank-1": "History", "rank-2": "", "rank-3": ""
       },
@@ -57,7 +57,7 @@
       {
         "type": "destination_spotlight",
         "title": "Graz - Styria",
-        "subtitle": "Austria’s Hidden Gem",
+        "subtitle": "Austria's Hidden Gem",
         "text": "Graz, Austria's second-largest city, blends history with modern creativity. Its old town is a UNESCO site, while contemporary art spaces like Kunsthaus add innovation. Enjoy the Mediterranean ambiance, culinary delights, and a mix of old and new on Schlossberg hill. Graz is where tradition meets fresh perspectives.",
         "img": "../static/img/country/Austria/graz.png",
         "rank-0": "Cuisine", "rank-1": "Design", "rank-2": "", "rank-3": ""
@@ -65,7 +65,7 @@
       {
         "type": "right_image_text_1",
         "title": "Travel And Explore the World with HistoryGo - Discover Austria with us.",
-        "subtitle": "From Vienna’s imperial beauty to the alpine charm of Hallstatt.",
+        "subtitle": "From Vienna's imperial beauty to the alpine charm of Hallstatt.",
         "button": "Explore more",
         "image-0": "../static/img/country/Austria/Salzburg.png",
         "image-1": "../static/img/country/Austria/Hallstatt.png",
@@ -74,25 +74,25 @@
       {
         "type": "accordion",
         "title-0": "Tour the Imperial Palaces of Vienna",
-        "text-0": "Explore Schönbrunn Palace and the Hofburg, symbols of the once-powerful Habsburg dynasty. These sites reveal the luxury and history of Austria’s imperial past.",
-        "title-1": "Experience Salzburg’s Musical Heritage",
-        "text-1": "Walk in Mozart’s footsteps and enjoy classical performances in Salzburg’s historic venues, all while exploring its beautifully preserved baroque old town.",
-        "title-2": "Discover Hallstatt’s Lakeside Serenity",
+        "text-0": "Explore Schönbrunn Palace and the Hofburg, symbols of the once-powerful Habsburg dynasty. These sites reveal the luxury and history of Austria's imperial past.",
+        "title-1": "Experience Salzburg's Musical Heritage",
+        "text-1": "Walk in Mozart's footsteps and enjoy classical performances in Salzburg's historic venues, all while exploring its beautifully preserved baroque old town.",
+        "title-2": "Discover Hallstatt's Lakeside Serenity",
         "text-2": "Wander through this fairy-tale village by the lake, visit ancient salt mines, and enjoy panoramic alpine views from the Skywalk.",
         "title-3": "Embrace Alpine Adventure in Innsbruck",
-        "text-3": "Whether skiing in winter or hiking in summer, Innsbruck offers the best of the Alps. Don’t miss the views from the Nordkette cable car.",
-        "title-4": "Explore Graz’s Blend of Old and New",
+        "text-3": "Whether skiing in winter or hiking in summer, Innsbruck offers the best of the Alps. Don't miss the views from the Nordkette cable car.",
+        "title-4": "Explore Graz's Blend of Old and New",
         "text-4": "From the historic Schlossberg and clock tower to cutting-edge modern art museums, Graz is a city of contrasts and creativity.",
-        "title-5": "Taste Austria’s Culinary Delights",
+        "title-5": "Taste Austria's Culinary Delights",
         "text-5": "Savor Wiener Schnitzel, apple strudel, and local wines. Each region offers its own specialties, blending traditional flavors with modern twists.",
-        "title-6": "Relax in Austria’s Natural Spas",
+        "title-6": "Relax in Austria's Natural Spas",
         "text-6": "Austria is dotted with natural thermal spas, perfect for unwinding amidst mountain views and tranquil settings.",
         "title-7": "Visit Austrian Christmas Markets",
         "text-7": "During the holiday season, towns and cities light up with festive cheer, handmade crafts, and warm treats like mulled wine and roasted chestnuts.",
         "title-8": "Follow the Sound of Music Trail",
         "text-8": "Relive the magic of the famous film by visiting its shooting locations in and around Salzburg, including Mirabell Gardens and Leopoldskron Palace.",
         "title-9": "Take a Scenic Train Ride Through the Alps",
-        "text-9": "Hop on one of Austria’s panoramic trains for breathtaking views of mountains, lakes, and charming villages.",
+        "text-9": "Hop on one of Austria's panoramic trains for breathtaking views of mountains, lakes, and charming villages.",
         "amount": 10
       },
       {
