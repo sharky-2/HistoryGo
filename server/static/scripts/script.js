@@ -131,7 +131,13 @@ function display_recomended_countrys() {
             "name": "France",
             "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "img": "../static/img/country/France/Paris.png"
+        },
+        {
+            "name": "Bulgaria",
+            "subtitle": "A land of ancient history, scenic beauty, and vibrant traditions in the heart of the Balkans.",
+            "img": "../static/img/country/Bulgaria/sofija.png"
         }
+        
     ];
 
     function shuffleArray(arr) {

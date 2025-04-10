@@ -1,0 +1,102 @@
+{
+    "selected-country": [
+      {
+        "type": "img_title_4",
+        "title": "Bulgaria - A Crossroads of Civilizations",
+        "subtitle": "From Thracian tombs to Orthodox monasteries, Bulgaria is where East meets West in a rich tapestry of history and culture.",
+        "image-0": "../static/img/country/Bulgaria/sofija.png",
+        "image-1": "../static/img/country/Bulgaria/plovdiv.png",
+        "image-2": "../static/img/country/Bulgaria/velikotarnovo.png"
+      },
+      {
+        "type": "blog_3",
+        "title": "Travel And Explore Bulgaria",
+        "subtitle": "Bulgaria offers ancient history, vibrant traditions, and stunning natural beauty.",
+        "text": "Bulgaria is a land steeped in history and tradition, from the mysterious Thracians to the grandeur of the Bulgarian Empire. Its capital, Sofia, blends Roman ruins with modern life, while cities like Plovdiv—one of Europe’s oldest—boast Roman theaters and ancient streets. Bulgaria’s position at the crossroads of Europe and Asia has made it a melting pot of cultures. Orthodox Christianity flourishes here, with ornate monasteries tucked in the mountains. Today, Bulgaria offers a fascinating mix of history, folklore, and natural wonders.",
+        "text-2": "Each region in Bulgaria presents its own unique story—from the Black Sea coast with its sandy beaches and seaside towns to the rugged peaks of the Balkan and Rhodope Mountains. Visitors can enjoy cultural festivals, explore ancient fortresses, or hike through unspoiled national parks. Bulgaria’s diverse landscape, warm hospitality, and rich traditions make it an underrated European gem.",
+        "image-0": "../static/img/country/Bulgaria/plovdiv.png",
+        "image-1": "../static/img/country/Bulgaria/sofija.png"
+      },
+      {
+        "type": "title_1",
+        "title": "Discover Bulgaria's Hidden Treasures",
+        "subtitle": "Ancient ruins, majestic mountains, and timeless traditions await you."
+      },
+      {
+        "type": "destination_spotlight",
+        "title": "Sofia - Capital City",
+        "subtitle": "The City of Layers",
+        "text": "Sofia, Bulgaria's capital, is a city layered with history. Roman ruins lie beneath modern buildings, and Byzantine churches coexist with communist-era architecture. Key landmarks include Alexander Nevsky Cathedral, the Roman Serdica complex, and Vitosha Mountain, which looms just outside the city and offers outdoor adventures year-round. Sofia is a dynamic blend of cultures, where past and present collide in surprising harmony.",
+        "img": "../static/img/country/Bulgaria/sofija.png",
+        "rank-0": "History", "rank-1": "Architecture", "rank-2": "", "rank-3": ""
+      },
+      {
+        "type": "destination_spotlight",
+        "title": "Plovdiv - Plovdiv Province",
+        "subtitle": "Europe's Oldest Living City",
+        "text": "Plovdiv is one of the oldest continuously inhabited cities in Europe. Its Old Town is a museum of cobbled streets, Revival-era houses, and Roman heritage. The Roman amphitheater, still in use today, is a testament to the city’s ancient grandeur. Plovdiv was a European Capital of Culture in 2019 and remains a vibrant hub for art, music, and cultural events.",
+        "img": "../static/img/country/Bulgaria/plovdiv.png",
+        "rank-0": "Culture", "rank-1": "Ancient History", "rank-2": "", "rank-3": ""
+      },
+      {
+        "type": "destination_spotlight",
+        "title": "Veliko Tarnovo - Veliko Tarnovo Province",
+        "subtitle": "The City of the Tsars",
+        "text": "Veliko Tarnovo is a medieval gem, once the capital of the Second Bulgarian Empire. Perched on dramatic hills above the Yantra River, the city is famous for the Tsarevets Fortress, which offers stunning panoramic views and historical reenactments. Its charming old quarter, traditional crafts, and rich heritage attract history buffs and romantics alike.",
+        "img": "../static/img/country/Bulgaria/velikotarnovo.png",
+        "rank-0": "Medieval", "rank-1": "Scenic", "rank-2": "", "rank-3": ""
+      },
+      {
+        "type": "destination_spotlight",
+        "title": "Burgas - Black Sea Coast",
+        "subtitle": "Seaside Culture and Nature",
+        "text": "Burgas is a vibrant coastal city known for its laid-back charm, sea gardens, and cultural festivals. With access to beaches, nature reserves like Lake Atanasovsko, and a growing art scene, Burgas is a relaxing yet lively destination on the Black Sea.",
+        "img": "../static/img/country/Bulgaria/burgas.png",
+        "rank-0": "Beach", "rank-1": "Relaxation", "rank-2": "", "rank-3": ""
+      },
+      {
+        "type": "destination_spotlight",
+        "title": "Varna - Bulgaria's Maritime Capital",
+        "subtitle": "Where History Meets the Sea",
+        "text": "Varna, often called the Sea Capital of Bulgaria, is known for its Roman Baths, Naval Museum, and the stunning Sea Garden along the Black Sea. With a mix of beaches, history, and nightlife, Varna is a coastal gem that blends leisure and learning.",
+        "img": "../static/img/country/Bulgaria/varna.png",
+        "rank-0": "Seaside", "rank-1": "Nightlife", "rank-2": "", "rank-3": ""
+      },
+      {
+        "type": "right_image_text_1",
+        "title": "Travel And Explore the World with HistoryGo - Discover Bulgaria with us.",
+        "subtitle": "Unveil Bulgaria's magic—from mountain monasteries to coastal cities.",
+        "button": "Explore more",
+        "image-0": "../static/img/country/Bulgaria/sofija.png",
+        "image-1": "../static/img/country/Bulgaria/plovdiv.png",
+        "image-2": "../static/img/country/Bulgaria/velikotarnovo.png"
+      },
+      {
+        "type": "accordion",
+        "title-0": "Explore Roman History in Plovdiv",
+        "text-0": "Walk through the ancient Roman amphitheater and discover the layered past of one of Europe's oldest cities. The city is a living museum of Thracian, Roman, and Ottoman heritage.",
+        "title-1": "Visit Sofia's Iconic Landmarks",
+        "text-1": "Discover the mix of Roman ruins, Orthodox churches, and modern culture in Bulgaria's capital. Don't miss the Alexander Nevsky Cathedral and the ancient Serdica ruins beneath the city center.",
+        "title-2": "Relax on the Beaches of Burgas",
+        "text-2": "Burgas offers laid-back vibes, beautiful promenades, and scenic nature reserves. Perfect for sunseekers and nature lovers alike.",
+        "title-3": "Wander Through Veliko Tarnovo's Tsarevets Fortress",
+        "text-3": "Step into medieval Bulgaria at this historic stronghold. Watch the nightly light shows and walk the ancient walls that once protected the Bulgarian tsars.",
+        "title-4": "Unwind in Varna's Sea Garden",
+        "text-4": "The Sea Garden is the heart of Varna's seaside charm. Explore museums, gardens, and panoramic views over the Black Sea, or just enjoy a stroll by the waves.",
+        "title-5": "Experience Traditional Bulgarian Cuisine",
+        "text-5": "Try hearty mountain dishes, fresh coastal seafood, and world-famous yogurt. Bulgarian cuisine is flavorful, fresh, and deeply tied to the land.",
+        "title-6": "Discover Thracian Tombs and Gold",
+        "text-6": "Explore ancient Thracian burial mounds and treasure troves like the Panagyurishte Gold. These sites tell the story of a mysterious and powerful civilization.",
+        "title-7": "Hike Bulgaria's Mountain Trails",
+        "text-7": "Whether it's Rila, Pirin, or the Rhodopes, Bulgaria offers some of Europe's most beautiful hiking trails—filled with lakes, wildlife, and monasteries.",
+        "title-8": "Enjoy Summer Festivals",
+        "text-8": "From folk music in the mountains to jazz on the coast, Bulgaria's cultural calendar is packed with vibrant festivals all year round.",
+        "title-9": "Visit the Black Sea Riviera",
+        "text-9": "The Bulgarian coast is perfect for sun, sea, and history. Discover ancient seaside towns, golden beaches, and vibrant nightlife.",
+        "amount": 10
+      },
+      {
+        "type": "recomended_auto"
+      }
+    ]
+  }
