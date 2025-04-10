@@ -1206,4 +1206,5 @@ header {
 .right img:nth-child(4) {right: 243px; bottom: 164px;}
 .right img:nth-child(5) {right: 330px; bottom: 103px;}
 .right img:nth-child(6) {right: 235px; bottom: 180px;}
+.right img:nth-child(7) {right: 102px; bottom: 93px;}
 .right .active {opacity: 1 !important; filter: grayscale(0);}

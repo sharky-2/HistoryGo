@@ -53,7 +53,17 @@ const country_info_list = {
         img3: "../static/img/country/Austria/innsbruck.png",
         img4: "../static/img/country/Austria/salzburg.png",
         img5: "../static/img/country/Austria/vienna.png"
+    },
+    bulgaria: {
+        subtitle: "A Land of Ancient History, Rose Valleys, and Mountain Majesty",
+        text: "Bulgaria, a country where centuries-old history meets natural splendor, offers a rich mosaic of cultures, traditions, and breathtaking landscapes. Sofia, the vibrant capital, blends Roman ruins with dynamic modern life. Plovdiv, one of the oldest cities in Europe, charms with its cobbled streets and Roman amphitheater. The Rila Monastery, nestled in majestic mountains, stands as a spiritual and architectural gem. The Valley of the Roses blooms with beauty and tradition, while the Black Sea coast—from Sunny Beach to Sozopol—offers golden sands and seaside charm. Bansko and the Pirin Mountains call to adventurers year-round with skiing, hiking, and folklore.",
+        img1: "../static/img/country/Bulgaria/burgas.png",
+        img2: "../static/img/country/Bulgaria/plovdiv.png",
+        img3: "../static/img/country/Bulgaria/sofija.png",
+        img4: "../static/img/country/Bulgaria/varna.png",
+        img5: "../static/img/country/Bulgaria/velikotarnovo.png"
     }
+    
     
     
 }
