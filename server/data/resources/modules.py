@@ -510,7 +510,7 @@ def img_title_2(**context):
         <div class="textframe">
             <h1 class="title-design text-shadow">{title}</h1>
             <label class="subtitle-design">{subtitle}</label>
-            <a href="#"><input type="button" value="{button}" class="button-design"></a>  
+            <a href="{button}"><input type="button" value="{button}" class="button-design"></a>  
         </div>
         <div class="imgframe">
             {item}

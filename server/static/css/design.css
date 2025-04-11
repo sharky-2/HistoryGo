@@ -151,6 +151,7 @@ section {
 
     transition: all .3s;
 
+    text-transform: capitalize;
     font-family: var(--subtitle-font-family);
     font-size: 15px;
     font-weight: bold;

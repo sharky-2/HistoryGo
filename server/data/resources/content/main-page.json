@@ -38,7 +38,7 @@
             "type": "img_title_2",
             "title": "Start Traveling With Us Today - Create an Account and Explore the World",
             "subtitle": "Join HistoryGo to uncover hidden historical gems around the world.",
-            "button": "Create Account",
+            "button": "registration",
             "image-0": "../static/img/country/Italy/Rome.png",      
             "image-1": "../static/img/country/France/Lyon.png",
             "image-2": "../static/img/country/Belgium/Flanders.png",
