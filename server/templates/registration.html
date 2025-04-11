@@ -28,17 +28,19 @@
             <h1 class="title-design">Sign in</h1>
             <label class="subtitle-design">Create account so you can explore more and post comments on our website.</label>
         </div>
-        <div class="input-design">
-            <label class="subtitle-design">Email address</label>
+
+        <div class="input-design" id="input-frame">
+            <label class="subtitle-design" id="label">Name & Surname</label>
+            
+            <input type="text" placeholder="Name" id="name" class="input-design">
+            <input type="text" placeholder="Surname" id="surname" class="input-design">
+
             <input type="text" placeholder="email@example.com" id="email" class="input-design">
             <input type="text" placeholder="********" id="password" class="input-design">
-            <input type="text" placeholder="John" id="name" class="input-design">
-            <input type="text" placeholder="Doe" id="surname" class="input-design">
-            <input type="text" placeholder="Profile Picture URL" id="pfp" class="input-design">
         </div>
-        <a href="#"><input type="button" value="Continue" onclick="register()" class="button-design"></a>
 
-        
+        <input type="button" id="submit-button" value="Continue" onclick="displayInputs()" class="button-design">
+
 
         <div class="other-sign-in">
 

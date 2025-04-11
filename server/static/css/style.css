@@ -86,13 +86,19 @@ header {
     gap: 5px;
 }
 #sign-in .input-design label {opacity: 1;}
-#sign-in > a {width: 100%;}
-#sign-in > a input[type="button"] {
+#sign-in .input-design input:nth-child(4),
+#sign-in .input-design input:nth-child(5) {
+    display: none;
+}
+#sign-in .input-design input {
+    width: calc(100% - 40px);
+}
+#sign-in > {width: 100%;}
+#sign-in > input {
     background-color: black;
     color: var(--white);
 }
-#sign-in a {width: 100%;}
-#sign-in input[type="button"] {width: 100%;}
+#sign-in input {width: 100%;}
 #sign-in .other-sign-in {
     width: 100%;
     display: none;

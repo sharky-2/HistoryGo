@@ -180,16 +180,58 @@ function display_recomended_countrys() {
 
 // ================================================================
 // Sign In
+var step = 0
 function displayInputs() {
-    
-    var i = 0
-    const client_email = document.getElementById("email")
-    const client_password = document.getElementById("password")
+
+    const label = document.getElementById("label")
+    const button = document.getElementById("submit-button")
+
     const client_name = document.getElementById("name")
     const client_surname = document.getElementById("surname")
-    const client_profile_picature = document.getElementById("pfp")
+    
+    const client_email = document.getElementById("email")
+    const client_password = document.getElementById("password")
 
+    step += 1
+    label.style.color = ""
+    if (step == 1) {
 
+        if (!client_name.value.trim() || !client_surname.value.trim()) {
+            label.innerText = "You forgot to input name or surname!"
+            label.style.color = "red"
+            step = 0
+            return
+        }
+
+        label.innerText = "Email"
+        client_name.style.display = "none"
+        client_surname.style.display = "none"
+        client_email.style.display = "flex"
+    } else if (step == 2) {
+
+        if (!client_email.value.trim()) {
+            label.innerText = "You forgot to input email!"
+            label.style.color = "red"
+            step = 1
+            return
+        }
+
+        label.innerText = "Password"
+        client_email.style.display = "none"
+        client_password.style.display = "flex"
+
+        button.value = "Create"
+        button.onclick = function() {
+
+            if (!client_password.value.trim()) {
+                label.innerText = "You forgot to input password!"
+                label.style.color = "red"
+                step = 2
+                return
+            }
+
+            register()
+        }
+    }
 }
-
 display_recomended_countrys()

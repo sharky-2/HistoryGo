@@ -6,9 +6,6 @@ function register() {
     const client_password = document.getElementById("password").value || "none";
     const client_name = document.getElementById("name").value || "none";
     const client_surname = document.getElementById("surname").value || "none";
-    const client_profile_picature = document.getElementById("pfp").value || "none";
-
-    console.log(`Sending Data: ${client_email}, ${client_password}, ${client_name}, ${client_surname}, ${client_profile_picature}`);
     
     // ================================================================
     // Send data to py
@@ -20,15 +17,10 @@ function register() {
             password: client_password,
             name: client_name,
             surname: client_surname,
-            pfp: client_profile_picature
         },
         dataType: "json",
-        success: function(response) {
-            if (response.success) {
-                window.location.href = "/"
-            } else {
-                window.location.href = "/registration"
-            }
+        success: function() {
+            window.location.href = "/"
         }
     })
 }

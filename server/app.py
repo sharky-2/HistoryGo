@@ -5,6 +5,7 @@ from tinydb import TinyDB, Query
 from data.resources import modules
 
 app = Flask(__name__)
+app.secret_key = "aVeryRandomString123"
 
 def load_and_process_context(name_, __path__):
     module = ""
@@ -38,8 +39,8 @@ def load_and_process_context(name_, __path__):
 
     return module
 
-__country__ = "austria"
-# ---------------------------------------------------------------------------------
+__country__ = None
+# =========================================================================================
 # Recive country name from "recomended"
 @app.route("/get_country_name", methods=['POST'])
 def get_country_name():
@@ -49,6 +50,7 @@ def get_country_name():
 
     return redirect(url_for("selected_country", country=__country__))
 
+# Registration
 user_registration_DB = TinyDB("data/json/user-registry.json")
 User = Query()
 @app.route("/create_account", methods=["POST"])
@@ -59,7 +61,6 @@ def create_account():
             password = request.form["password"]
             name = request.form["name"]
             surname = request.form["surname"]
-            pfp = request.form["pfp"]
             
             if user_registration_DB.search(User.email == email):
                 return jsonify({'success': False, 'error': 'Email already exists'})
@@ -68,15 +69,13 @@ def create_account():
                 'email': email,
                 'password': password,
                 'name': name,
-                'surname': surname,
-                'pfp': pfp
+                'surname': surname
             })
 
             session['email'] = email
             session['password'] = password
             session['name'] = name
             session['surname'] = surname
-            session['pfp'] = pfp
 
             return jsonify({'success': True})
 
@@ -98,6 +97,8 @@ def MainPage():
 
 @app.route(f"/selected-country/<country>")
 def selected_country(country):
+    if "email" not in session:
+        return redirect(url_for("registration"))
     
     if not country: return redirect(url_for("MainPage"))
 
