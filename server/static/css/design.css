@@ -33,7 +33,6 @@ img:hover {transform: rotate(0deg) !important; z-index: 10;} */
     text-transform: capitalize;
     width: 80%;
     font-weight: bold;
-
 }
 .subtitle-design {
     font-family: var(--subtitle-font-family);
@@ -159,3 +158,59 @@ section {
     cursor: pointer;
 }
 .button-design:hover {padding: 10px 30px;}
+
+.input-design input[type="text"] {
+    background: none;
+    width: calc(100% - 40px);
+    text-align: left;
+
+    border-radius: 10px;
+    border: 1px solid var(--light-black);
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    padding: 10px 20px;
+
+    transition: all .3s;
+
+    font-family: var(--subtitle-font-family);
+    font-size: 15px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.split {
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    position: relative;
+
+    margin: 20px 0 20px 0;
+}
+.split::before {
+    content: "";
+    background-color: var(--black);
+    width: 45%;
+    height: 2px;
+
+    position: absolute;
+    left: 0;
+    bottom: 50%;
+    transform: translateY(-50%);
+}
+.split::after {
+    content: "";
+    background-color: var(--black);
+    width: 45%;
+    height: 2px;
+
+    position: absolute;
+    right: 0;
+    bottom: 50%;
+    transform: translateY(-50%);
+}

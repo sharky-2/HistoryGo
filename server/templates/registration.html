@@ -23,8 +23,37 @@
 </head>
 <body style="overflow: hidden; margin-top: 0;">
 
+    <section id="sign-in">
+        <div class="text-frame">
+            <h1 class="title-design">Sign in</h1>
+            <label class="subtitle-design">Create account so you can explore more and post comments on our website.</label>
+        </div>
+        <div class="input-design">
+            <label class="subtitle-design">Email address</label>
+            <input type="text" placeholder="email@example.com" id="email" class="input-design">
+            <input type="text" placeholder="********" id="password" class="input-design">
+            <input type="text" placeholder="John" id="name" class="input-design">
+            <input type="text" placeholder="Doe" id="surname" class="input-design">
+            <input type="text" placeholder="Profile Picture URL" id="pfp" class="input-design">
+        </div>
+        <a href="#"><input type="button" value="Continue" onclick="register()" class="button-design"></a>
 
+        
+
+        <div class="other-sign-in">
+
+            <label class="subtitle-design split">OR</label>
+
+            <a href="#"><input type="button" value="Sign in with Google" class="button-design"></a>
+            <a href="#"><input type="button" value="Sign in with GitHub" class="button-design"></a>
+            <a href="#"><input type="button" value="Sign in with FaceBook" class="button-design"></a>
+            <a href="#"><input type="button" value="Other options" class="button-design"></a>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="../static/scripts/img-hover.js"></script>
+    <script src="../static/scripts/registration.js"></script>
     <script src="../static/scripts/script.js"></script>
 </body>
 </html>

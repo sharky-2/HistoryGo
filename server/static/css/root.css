@@ -8,7 +8,8 @@
 
     /* Colors */
     --white: #FFFFFF;
-    --light-black: rgba(165, 165, 165, 0.2);
+    --black: #a5a5a5;
+    --light-black: #a5a5a533;
     --light-blue: #ACD4E4;
     --light-green: #ace4ae;
     --light-pink: #F8EFFF;

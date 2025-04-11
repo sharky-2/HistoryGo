@@ -1,3 +1,4 @@
+// ================================================================
 // Accordion script
 let accordion_list = document.querySelectorAll("#accordion-list .item")
 accordion_list.forEach(item => {
@@ -11,6 +12,7 @@ accordion_list.forEach(item => {
     })
 })
 
+// ================================================================
 // Map texts
 const country_info_list = {
     italy: {
@@ -63,9 +65,6 @@ const country_info_list = {
         img4: "../static/img/country/Bulgaria/varna.png",
         img5: "../static/img/country/Bulgaria/velikotarnovo.png"
     }
-    
-    
-    
 }
 
 function displayCountry(country) {
@@ -111,6 +110,7 @@ function displayCountry(country) {
 
 }
 
+// ================================================================
 // Recomended countries
 function display_recomended_countrys() {
     const frame = document.getElementById("recomended-cards-frame");
@@ -176,6 +176,20 @@ function display_recomended_countrys() {
         `;
         frame.innerHTML += card;
     });
+}
+
+// ================================================================
+// Sign In
+function displayInputs() {
+    
+    var i = 0
+    const client_email = document.getElementById("email")
+    const client_password = document.getElementById("password")
+    const client_name = document.getElementById("name")
+    const client_surname = document.getElementById("surname")
+    const client_profile_picature = document.getElementById("pfp")
+
+
 }
 
 display_recomended_countrys()

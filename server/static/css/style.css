@@ -1,4 +1,4 @@
-/* --------------------------------------------------------------------- */
+/* ========================================================================================= */
 /* Header */
 header {
     height: 100vh;
@@ -34,7 +34,7 @@ header {
 .hero-image:nth-child(3) { rotate: -10deg; bottom: -80px; left: 260px; height: 250px; width: 230px;}
 .hero-image:nth-child(4) { rotate: 5deg; bottom: 10px; left: 380px; width: 250px;}
 
-/* --------------------------------------------------------------------- */
+/* ========================================================================================= */
 /* Menu */
 .menu {
     background-color: white;
@@ -47,7 +47,7 @@ header {
     z-index: 1000;
 
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
 
     box-shadow: 0 0 10px 1px var(--light-black);
@@ -57,7 +57,51 @@ header {
     padding: 10px 20px;
 }
 
-/* --------------------------------------------------------------------- */
+/* ========================================================================================= */
+/* Registration */
+#sign-in {
+    width: 400px;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+
+}
+#sign-in .text-frame {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+
+    margin-bottom: 20px;
+}
+#sign-in .input-design {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 5px;
+}
+#sign-in .input-design label {opacity: 1;}
+#sign-in > a {width: 100%;}
+#sign-in > a input[type="button"] {
+    background-color: black;
+    color: var(--white);
+}
+#sign-in a {width: 100%;}
+#sign-in input[type="button"] {width: 100%;}
+#sign-in .other-sign-in {
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+}
+/* ========================================================================================= */
 /* Blogs desing */
 .blog-2 {
     justify-content: start;
@@ -254,7 +298,7 @@ header {
 .blog-4 .right img:nth-child(3) {left: -5%; top: 40%; transform: rotate(10deg);}
 .blog-4 .right img:nth-child(4) {left: 50%; top: 40%; transform: rotate(-5deg);}
 
-/* --------------------------------------------------------------------- */
+/* ========================================================================================= */
 /* Title */
 .title {
     height: fit-content;
@@ -310,7 +354,7 @@ header {
     transform: rotate(-5deg);
 }
 
-/* --------------------------------------------------------------------- */
+/* ========================================================================================= */
 /* Card */
 #card-module {
     display: flex;
@@ -433,7 +477,7 @@ header {
 
 .category-frame .button:hover {transform: scale(1.1);z-index: 1;}
 
-/* --------------------------------------------------------------------- */
+/* ========================================================================================= */
 /* Img module */
 #img-1 {
     position: relative;
@@ -527,7 +571,7 @@ header {
 #img-3 img:nth-child(odd) {transform: rotate(-5deg);}
 #img-3 img:nth-child(even) {transform: rotate(5deg);}
 
-/* --------------------------------------------------------------------- */
+/* ========================================================================================= */
 /* Image title */
 .img-title-1 {
     display: flex;
@@ -761,7 +805,7 @@ header {
     transform: rotate(10deg);
 }
 
-/* --------------------------------------------------------------------- */
+/* ========================================================================================= */
 /* Image text */
 .image-text {
     border-radius: 20px;
@@ -1024,7 +1068,7 @@ header {
     z-index: 3;
 }
 
-/* --------------------------------------------------------------------- */
+/* ========================================================================================= */
 /* Recomended */
 .recomended {
     width: 100%;
@@ -1082,7 +1126,7 @@ header {
 .recomended .cards .card input:hover {padding: 10px 30px;}
 .card-link {text-decoration: none; color: black; text-shadow: none;}
 
-/* --------------------------------------------------------------------- */
+/* ========================================================================================= */
 /* Accordion */
 #accordion-list .item {
     padding: 10px 20px;
@@ -1132,7 +1176,7 @@ header {
     max-height: 200px;
 }
 
-/* --------------------------------------------------------------------- */
+/* ========================================================================================= */
 /* Map frame */
 .map-frame {height: 750px;}
 .left {
