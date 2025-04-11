@@ -150,8 +150,7 @@
 Make sure the following are installed:
 
 - Python 3.8+
-- `pip` (Python package manager)
-- Git (for cloning the repo)
+- Flask
 
 <details>
 <summary>
@@ -175,7 +174,7 @@ venv\Scripts\activate        # On Windows
 
 - **3. Install the Dependencies**
 ```bash
-pip install flask
+pip install -r requirements.txt
 ```
 
 </details>
