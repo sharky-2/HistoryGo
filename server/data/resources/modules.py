@@ -866,6 +866,7 @@ def country_selector(**context):
             <img src="../static/img/map/france.png" id="france" class="country-map" onclick="displayCountry('france')">
             <img src="../static/img/map/austria.png" id="austria" class="country-map" onclick="displayCountry('austria')">
             <img src="../static/img/map/bulgaria.png" id="bulgaria" class="country-map" onclick="displayCountry('bulgaria')">
+            <img src="../static/img/map/croatia.png" id="croatia" class="country-map" onclick="displayCountry('croatia')">
         </div>
     </section>
     """

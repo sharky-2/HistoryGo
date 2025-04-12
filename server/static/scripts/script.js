@@ -64,7 +64,17 @@ const country_info_list = {
         img3: "../static/img/country/Bulgaria/sofija.png",
         img4: "../static/img/country/Bulgaria/varna.png",
         img5: "../static/img/country/Bulgaria/velikotarnovo.png"
+    },
+    coratia:{
+        "subtitle": "A Land of Medieval Charm, Island Escapes, and Adriatic Allure",
+        "text": "Croatia, a coastal treasure along the Adriatic Sea, captivates with its blend of historic cities, sun-drenched islands, and crystal-clear waters. Dubrovnik, the 'Pearl of the Adriatic', enchants with its ancient city walls and baroque beauty. Zagreb, the capital, pulses with cultural energy and architectural elegance. Split, home to Diocletian’s Palace, combines Roman heritage with vibrant seaside life. Hvar Island tempts travelers with lavender fields, nightlife, and Venetian charm, while Pula reveals a Roman amphitheater and coastal serenity. From national parks like Plitvice Lakes to its dazzling coastline, Croatia invites you to explore its timeless wonders.",
+        "img1": "../static/img/country/Croatia/dubrovnik.png",
+        "img2": "../static/img/country/Croatia/zagreb.png",
+        "img3": "../static/img/country/Croatia/split.png",
+        "img4": "../static/img/country/Croatia/otokhvar.png",
+        "img5": "../static/img/country/Croatia/pulj.png"
     }
+    
 }
 
 function displayCountry(country) {
@@ -146,6 +156,11 @@ function display_recomended_countrys() {
             "name": "Bulgaria",
             "subtitle": "A land of ancient history, scenic beauty, and vibrant traditions in the heart of the Balkans.",
             "img": "../static/img/country/Bulgaria/sofija.png"
+        },
+        {
+            "name": "Croatia",
+            "subtitle": "A coastal paradise of medieval cities, turquoise waters, and rich cultural heritage along the Adriatic Sea.",
+            "img": "../static/img/country/Croatia/dubrovnik.png"
         }
         
     ];
