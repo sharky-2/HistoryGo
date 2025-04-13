@@ -165,16 +165,11 @@ git clone https://github.com/sharky-2/historygo.git
 cd historygo
 ```
 
-- **2. Set Up a Virtual Environment (Optional but recommended)**
-```bash
-python -m venv venv
-source venv/bin/activate       # On macOS/Linux
-venv\Scripts\activate        # On Windows
-```
-
-- **3. Install the Dependencies**
+- **2. Install the Dependencies**
 ```bash
 pip install -r requirements.txt
+or
+pip install flask tinydb
 ```
 
 </details>
