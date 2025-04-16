@@ -1249,13 +1249,31 @@ header {
 
     position: relative;
 }
-.right .EU-map { opacity: .5; z-index: -1;}
+.right .EU-map { opacity: 0; z-index: -1;}
 .right .country-map {position: absolute; opacity: .3; transition: all .3s; cursor: pointer; filter:grayscale(5);}
-.right img:nth-child(2) {right: 224px; bottom: 28px;}
-.right img:nth-child(3) {right: 368px; bottom: 238px; z-index: 1;}
-.right img:nth-child(4) {right: 243px; bottom: 164px; z-index: 2;}
-.right img:nth-child(5) {right: 330px; bottom: 103px;}
-.right img:nth-child(6) {right: 235px; bottom: 180px;}
-.right img:nth-child(7) {right: 102px; bottom: 93px;}
-.right img:nth-child(8) {right: 213px; bottom: 127px;}
+.right #italy {right: 224px; bottom: 28px;}
+.right #belgium {right: 368px; bottom: 238px; z-index: 1;}
+.right #slovenia {right: 243px; bottom: 164px; z-index: 2;}
+.right #france {right: 330px; bottom: 103px;}
+.right #austria {right: 235px; bottom: 180px;}
+.right #bulgaria {right: 102px; bottom: 93px;}
+.right #croatia {right: 213px; bottom: 127px;}
+.right #czechia {right: 217px; bottom: 222px; z-index: 5;}
+.right #estonia {right: 109px; bottom: 401px;}
+.right #finland {right: 68px; bottom: 455px;}
+.right #germany {right: 264px; bottom: 202px;}
+.right #greece {right: 30px; bottom: -1px;}
+.right #hungary {right: 173px; bottom: 173px;}
+.right #ireland {right: 516px; bottom: 280px;}
+.right #latvia {right: 105px; bottom: 362px;}
+.right #lithuania {right: 125px; bottom: 324px;}
+.right #netherlands {right: 356px; bottom: 270px;}
+.right #poland {right: 156px; bottom: 235px;}
+.right #portugal {right: 519px; bottom:34px; z-index: 1;}
+.right #romania {right: 88px; bottom: 136px;}
+.right #slovakia {right: 172px; bottom: 208px;}
+.right #spain {right: 401px; bottom: 21px;}
+.right #sweden {right: 159px; bottom: 357px;}
+.right #denmark {right: 260px; bottom: 340px;}
+
 .right .active {opacity: 1 !important; filter: grayscale(0);}

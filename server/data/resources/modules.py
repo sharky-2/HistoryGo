@@ -867,6 +867,23 @@ def country_selector(**context):
             <img src="../static/img/map/austria.png" id="austria" class="country-map" onclick="displayCountry('austria')">
             <img src="../static/img/map/bulgaria.png" id="bulgaria" class="country-map" onclick="displayCountry('bulgaria')">
             <img src="../static/img/map/croatia.png" id="croatia" class="country-map" onclick="displayCountry('croatia')">
+            <img src="../static/img/map/czechia.png" id="czechia" class="country-map" onclick="displayCountry('czechia')">
+            <img src="../static/img/map/estonia.png" id="estonia" class="country-map" onclick="displayCountry('estonia')">
+            <img src="../static/img/map/finland.png" id="finland" class="country-map" onclick="displayCountry('finland')">
+            <img src="../static/img/map/germany.png" id="germany" class="country-map" onclick="displayCountry('germany')">
+            <img src="../static/img/map/greece.png" id="greece" class="country-map" onclick="displayCountry('greece')">
+            <img src="../static/img/map/hungary.png" id="hungary" class="country-map" onclick="displayCountry('hungary')">
+            <img src="../static/img/map/ireland.png" id="ireland" class="country-map" onclick="displayCountry('ireland')">
+            <img src="../static/img/map/latvia.png" id="latvia" class="country-map" onclick="displayCountry('latvia')">
+            <img src="../static/img/map/lithuania.png" id="lithuania" class="country-map" onclick="displayCountry('lithuania')">
+            <img src="../static/img/map/netherlands.png" id="netherlands" class="country-map" onclick="displayCountry('netherlands')">
+            <img src="../static/img/map/poland.png" id="poland" class="country-map" onclick="displayCountry('poland')">
+            <img src="../static/img/map/portugal.png" id="portugal" class="country-map" onclick="displayCountry('portugal')">
+            <img src="../static/img/map/romania.png" id="romania" class="country-map" onclick="displayCountry('romania')">
+            <img src="../static/img/map/slovakia.png" id="slovakia" class="country-map" onclick="displayCountry('slovakia')">
+            <img src="../static/img/map/spain.png" id="spain" class="country-map" onclick="displayCountry('spain')">
+            <img src="../static/img/map/sweden.png" id="sweden" class="country-map" onclick="displayCountry('sweden')">
+            <img src="../static/img/map/denmark.png" id="denmark" class="country-map" onclick="displayCountry('denmark')">
         </div>
     </section>
     """
