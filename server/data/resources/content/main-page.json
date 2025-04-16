@@ -13,12 +13,12 @@
         {
             "type": "title_1",
             "title": "Explore New Destinations",
-            "subtitle": "Dive deep into the history and attractions of the world’s most iconic locations."
+            "subtitle": "Dive deep into the history and attractions of the world's most iconic locations."
         },
         {
             "type": "image_text",
             "title": "Discover Slovenia",
-            "text": "Slovenia is known for its beautiful lakes, stunning mountains, and charming cities. It’s a hidden gem in Central Europe, offering a unique mix of culture, history, and natural beauty. From Lake Bled’s fairytale scenery to the rich medieval heritage in Ljubljana.",
+            "text": "Slovenia is known for its beautiful lakes, stunning mountains, and charming cities. It's a hidden gem in Central Europe, offering a unique mix of culture, history, and natural beauty. From Lake Bled's fairytale scenery to the rich medieval heritage in Ljubljana.",
             "text2": "Slovenia's rich history dates back to Roman times. With its picturesque countryside, Slovenia offers travelers a mix of adventures and serene spots. The capital, Ljubljana, is a charming, walkable city with a lively atmosphere, while places like the Soča Valley offer outdoor enthusiasts the chance to explore nature like never before.",
             "image-0": "../static/img/country/Slovenia/Soca_Valley.png",
             "image-1": "../static/img/country/Slovenia/LakeBohinj.png",
@@ -47,8 +47,8 @@
         {
             "type": "blog_4",
             "title": "Travel and Explore with HistoryGo - Get to Know Places Even More",
-            "subtitle": "With HistoryGo, you can learn the hidden stories behind the world’s most visited places.",
-            "text": "Traveling is about discovering new places, cultures, and stories. With HistoryGo, each journey becomes an opportunity to dive deep into a location’s historical significance. From ancient landmarks to modern marvels, our guides will take you through time, offering a richer experience wherever you go.",
+            "subtitle": "With HistoryGo, you can learn the hidden stories behind the world's most visited places.",
+            "text": "Traveling is about discovering new places, cultures, and stories. With HistoryGo, each journey becomes an opportunity to dive deep into a location's historical significance. From ancient landmarks to modern marvels, our guides will take you through time, offering a richer experience wherever you go.",
             "button": "Explore more",
             "image-0": "../static/img/country/Belgium/Flanders.png",
             "image-1": "../static/img/country/Italy/Florence.png",
@@ -59,7 +59,7 @@
             "type": "blog_3",
             "title": "Travel and Explore World with HistoryGo - Get to Know Places Even More",
             "subtitle": "Let HistoryGo enhance your travel experience by uncovering the stories behind iconic destinations.",
-            "text": "Our platform offers a unique way to explore the world. Whether you're wandering through the cobbled streets of Rome, marveling at the landscapes of New Zealand, or visiting the majestic pyramids of Egypt, HistoryGo ensures you understand the significance behind every place you visit. It's more than just a trip – it's an immersive journey through time.",
+            "text": "Our platform offers a unique way to explore the world. Whether you're wandering through the cobbled streets of Rome, marveling at the landscapes of New Zealand, or visiting the majestic pyramids of Egypt, HistoryGo ensures you understand the significance behind every place you visit. It's more than just a trip - it's an immersive journey through time.",
             "text-2": "No matter where you go, HistoryGo will be there to guide you through history. Our curated travel suggestions are designed to help you explore each destination from a historical perspective, making your travels even more meaningful. Learn about past civilizations, their achievements, and how they have shaped the world we live in today.",
             "image-0": "../static/img/country/Italy/Florence.png",
             "image-1": "../static/img/country/France/Paris.png"
@@ -77,7 +77,7 @@
             "type": "blog_2",
             "title": "Travel the World with HistoryGo - Unlock the History Behind Every Destination",
             "subtitle": "Dive into a world of knowledge and culture as you travel with HistoryGo.",
-            "text": "HistoryGo is more than just a travel tool – it’s an opportunity to enrich your journey. By providing historical insights, cultural tips, and must-visit locations, we ensure that your trip is more than just sightseeing. Let HistoryGo help you uncover the secrets behind every landmark, city, and country you visit.",
+            "text": "HistoryGo is more than just a travel tool - it's an opportunity to enrich your journey. By providing historical insights, cultural tips, and must-visit locations, we ensure that your trip is more than just sightseeing. Let HistoryGo help you uncover the secrets behind every landmark, city, and country you visit.",
             "image-0": "../static/img/country/Belgium/Ardennes.png",
             "image-1": "../static/img/country/Italy/Florence.png",
             "image-2": "../static/img/country/Austria/Salzburg.png",

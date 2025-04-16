@@ -1,0 +1,93 @@
+{
+  "selected-country": [
+      {
+          "type": "img_title_4",
+          "title": "Czech Republic - A Journey Through History and Culture",
+          "subtitle": "From medieval castles to the beauty of Prague, the Czech Republic offers a rich tapestry of culture and history.",
+          "image-0": "../static/img/country/Czech_Republic/praga.png",
+          "image-1": "../static/img/country/Czech_Republic/ceskykrumlov.png",
+          "image-2": "../static/img/country/Czech_Republic/kutnahora.png"
+      },
+      {
+          "type": "blog_3",
+          "title": "Travel And Explore Czech Republic - Discover the Heart of Europe",
+          "subtitle": "Czech Republic is renowned for its rich history, stunning architecture, and delicious food.",
+          "text": "The Czech Republic, a country at the heart of Europe, offers travelers a glimpse into its medieval history, charming villages, and vibrant cities. From the beautiful streets of Prague to the castle-filled landscapes of Český Krumlov and the historical sites in Kutná Hora, the Czech Republic is a blend of rich history, cultural heritage, and natural beauty. Explore iconic castles, enjoy local cuisine, and immerse yourself in centuries-old traditions.",
+          "text-2": "The Czech Republic is also known for its lively cities like Brno and Ostrava, which are hubs of culture and innovation. Whether you're exploring Prague's cobbled streets or hiking in the Czech countryside, this country offers something for every traveler.",
+          "image-0": "../static/img/country/Czech_Republic/praga.png",
+          "image-1": "../static/img/country/Czech_Republic/ceskykrumlov.png"
+      },
+      {
+          "type": "title_1",
+          "title": "Explore Czech Republic's Wonders",
+          "subtitle": "A country of stunning castles, medieval towns, and rich history waiting for you."
+      },
+      {
+          "type": "destination_spotlight",
+          "title": "Prague",
+          "subtitle": "The Heart of the Czech Republic",
+          "text": "Prague, the capital city of the Czech Republic, is often called 'The City of a Hundred Spires' due to its magnificent medieval architecture. The city is home to Prague Castle, Charles Bridge, and Old Town Square, each offering a glimpse into the city's past. A walk through Prague's charming cobbled streets feels like stepping back in time, and visitors can admire stunning Gothic, Baroque, and Renaissance buildings. Prague also boasts a vibrant arts scene, lively pubs, and a dynamic atmosphere, making it a top destination for both history enthusiasts and modern travelers.",
+          "img": "../static/img/country/Czech_Republic/praga.png",
+          "rank-0": "History", "rank-1": "Culture", "rank-2": "Architecture", "rank-3": "Nightlife"
+      },
+      {
+          "type": "destination_spotlight",
+          "title": "Český Krumlov",
+          "subtitle": "A Medieval Gem",
+          "text": "Český Krumlov is a fairy-tale town known for its charming streets and stunning castle overlooking the Vltava River. A UNESCO World Heritage site, the town's medieval architecture, cobbled alleys, and colorful buildings make it one of the most picturesque destinations in the Czech Republic. Visitors can explore the Krumlov Castle, which offers panoramic views of the town and the surrounding landscape, or enjoy a relaxing boat ride along the river. With its unique charm and historical significance, Český Krumlov is a must-visit for travelers seeking a glimpse into the past.",
+          "img": "../static/img/country/Czech_Republic/ceskykrumlov.png",
+          "rank-0": "History", "rank-1": "Culture", "rank-2": "Nature", "rank-3": "Scenic"
+      },
+      {
+          "type": "destination_spotlight",
+          "title": "Kutná Hora",
+          "subtitle": "A UNESCO Heritage Site",
+          "text": "Kutná Hora is a town steeped in history, famous for its medieval silver mines and stunning Gothic architecture. The Sedlec Ossuary, also known as the Bone Church, is one of the town's most visited sites, with its eerie yet fascinating displays of human bones. The Church of St. Barbara is another architectural masterpiece, and the town's old center is a UNESCO World Heritage site. Kutná Hora offers a unique mix of history, art, and culture, making it an unmissable destination for those traveling to the Czech Republic.",
+          "img": "../static/img/country/Czech_Republic/kutnahora.png",
+          "rank-0": "History", "rank-1": "Culture", "rank-2": "Architecture", "rank-3": "Heritage"
+      },
+      {
+          "type": "destination_spotlight",
+          "title": "Brno",
+          "subtitle": "A Hub of Culture and Innovation",
+          "text": "Brno, the Czech Republic's second-largest city, is known for its modernist architecture, vibrant cultural scene, and youthful energy. The city is home to the famous Villa Tugendhat, a UNESCO World Heritage site, and a thriving tech and design scene. Brno's historical sites, including the Špilberk Castle, offer a glimpse into its past, while its lively cafes, restaurants, and universities make it an exciting place to visit. Whether you're strolling through its central square or enjoying the local cuisine, Brno is a city that blends history with modernity.",
+          "img": "../static/img/country/Czech_Republic/brno.png",
+          "rank-0": "Culture", "rank-1": "Innovation", "rank-2": "Architecture", "rank-3": "Nightlife"
+      },
+      {
+          "type": "destination_spotlight",
+          "title": "Ostrava",
+          "subtitle": "The Industrial Heart of the Czech Republic",
+          "text": "Ostrava is a city that has transformed from its industrial roots to a lively cultural center. Once known for its coal mines and steel mills, Ostrava is now a city full of modern art, music, and cultural festivals. The city's industrial past can still be seen in places like the Lower Vítkovice area, which has been revitalized into a cultural and artistic hub. Ostrava also hosts the Colours of Ostrava festival, one of the biggest music festivals in Central Europe. For those interested in the intersection of history and modern life, Ostrava is a must-see destination.",
+          "img": "../static/img/country/Czech_Republic/ostrava.png",
+          "rank-0": "Culture", "rank-1": "Industry", "rank-2": "Music", "rank-3": "Innovation"
+      },
+      {
+          "type": "right_image_text_1",
+          "title": "Travel And Explore the World with HistoryGo - Uncover the beauty of the Czech Republic with us.",
+          "subtitle": "Discover Czech Republic's castles, history, and natural beauty.",
+          "button": "Explore more",
+          "image-0": "../static/img/country/Czech_Republic/praga.png",
+          "image-1": "../static/img/country/Czech_Republic/ceskykrumlov.png",
+          "image-2": "../static/img/country/Czech_Republic/kutnahora.png"
+      },
+      {
+          "type": "accordion",
+          "title-0": "Explore Prague Castle",
+          "text-0": "Prague Castle, one of the largest ancient castles in the world, offers a rich history, beautiful architecture, and stunning views of the city. Visitors can explore the castle's courtyards, gardens, and historic buildings, including the Gothic-style St. Vitus Cathedral.",
+          "title-1": "Visit Český Krumlov Castle",
+          "text-1": "The castle in Český Krumlov is one of the most picturesque in the country, offering a blend of Renaissance and Baroque architecture. Its grand tower offers stunning views of the town and surrounding area, while the castle gardens provide a perfect place for relaxation.",
+          "title-2": "Discover Kutná Hora's Sedlec Ossuary",
+          "text-2": "The Sedlec Ossuary, or Bone Church, is a unique and eerie sight, filled with human bones arranged into elaborate patterns. It is one of the most famous attractions in Kutná Hora and a UNESCO World Heritage site.",
+          "title-3": "Explore Brno's Modern Architecture",
+          "text-3": "Brno is famous for its modernist architecture, especially Villa Tugendhat, a UNESCO World Heritage site. This architectural gem offers a glimpse into the innovative design of the early 20th century.",
+          "title-4": "Visit Ostrava's Industrial Sites",
+          "text-4": "Ostrava's industrial history can be explored in the Lower Vítkovice area, now a cultural and artistic hub. This area showcases the city's transformation from industrial power to cultural center.",
+          "amount": 5
+      },
+      
+      {
+          "type": "recomended_auto"
+      }
+  ]
+}

@@ -73,7 +73,17 @@ const country_info_list = {
         img3: "../static/img/country/Croatia/split.png",
         img4: "../static/img/country/Croatia/otokhvar.png",
         img5: "../static/img/country/Croatia/pulj.png"
+    },
+    czechia: {
+        "subtitle": "A Land of Castles, Cobblestones, and Bohemian Beauty",
+        "text": "The Czech Republic, nestled in the heart of Europe, is a captivating blend of medieval towns, ornate castles, and timeless charm. Prague, the 'City of a Hundred Spires', amazes with its Gothic cathedrals, baroque architecture, and vibrant cultural scene. Český Krumlov enchants with fairy-tale streets and a majestic castle overlooking the Vltava River. Brno offers a youthful energy, modernist landmarks, and rich Moravian traditions. Kutná Hora reveals its historic wealth through dramatic cathedrals and the eerie Sedlec Ossuary. From spa towns like Karlovy Vary to tranquil countryside landscapes, the Czech Republic invites you to step into history and beauty.",
+        "img1": "../static/img/country/Czech_Republic/praga.png",
+        "img2": "../static/img/country/Czech_Republic/ceskykrumlov.png",
+        "img3": "../static/img/country/Czech_Republic/brno.png",
+        "img4": "../static/img/country/Czech_Republic/kutnahora.png",
+        "img5": "../static/img/country/Czech_Republic/karlovyvary.png"
     }
+    
     
 }
 
