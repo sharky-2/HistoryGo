@@ -82,12 +82,26 @@ const country_info_list = {
         "img3": "../static/img/country/Czech_Republic/brno.png",
         "img4": "../static/img/country/Czech_Republic/kutnahora.png",
         "img5": "../static/img/country/Czech_Republic/karlovyvary.png"
-    }
-    
-    
+    }   
 }
 
+var count_clicks = 0
 function displayCountry(country) {
+
+    // ==========================================================
+    // Easter egg - Rominski šefe
+    const img = "../static/img/image.webp"
+    if (country == "romania") {
+        const countryImg = document.getElementById(country);
+        count_clicks += 1
+
+        if (count_clicks == 5) {
+            countryImg.src = "../static/img/image.webp";
+            countryImg.style.width = "100px"
+        }
+    }
+    // ==========================================================
+
     const title = document.getElementById("country-title")
     const subtitle = document.getElementById("country-subtitle")
     const text = document.getElementById("country-text")

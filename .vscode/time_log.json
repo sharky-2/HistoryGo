@@ -1,0 +1,168 @@
+{
+  "HistoryGo": {
+    "server\\app.py.git": [
+      {
+        "date": "2025-04-17T12:13:56.460Z",
+        "user": {
+          "name": "Unknown",
+          "email": "unknown@example.com"
+        },
+        "timeSpent": 8
+      }
+    ],
+    "server\\static\\scripts\\script.js.git": [
+      {
+        "date": "2025-04-17T12:17:26.051Z",
+        "user": {
+          "name": "Unknown",
+          "email": "unknown@example.com"
+        },
+        "timeSpent": 22
+      },
+      {
+        "date": "2025-04-17T12:18:10.921Z",
+        "user": {
+          "name": "Unknown",
+          "email": "unknown@example.com"
+        },
+        "timeSpent": 45
+      },
+      {
+        "date": "2025-04-17T12:18:44.496Z",
+        "user": {
+          "name": "Unknown",
+          "email": "unknown@example.com"
+        },
+        "timeSpent": 34
+      },
+      {
+        "date": "2025-04-17T12:18:45.675Z",
+        "user": {
+          "name": "Unknown",
+          "email": "unknown@example.com"
+        },
+        "timeSpent": 1
+      },
+      {
+        "date": "2025-04-17T12:19:34.220Z",
+        "user": {
+          "name": "Unknown",
+          "email": "unknown@example.com"
+        },
+        "timeSpent": 49
+      },
+      {
+        "date": "2025-04-17T12:20:30.153Z",
+        "user": {
+          "name": "Unknown",
+          "email": "unknown@example.com"
+        },
+        "timeSpent": 56
+      },
+      {
+        "date": "2025-04-17T12:21:22.480Z",
+        "user": {
+          "name": "Unknown",
+          "email": "unknown@example.com"
+        },
+        "timeSpent": 48
+      },
+      {
+        "date": "2025-04-17T12:21:58.209Z",
+        "user": {
+          "name": "Unknown",
+          "email": "unknown@example.com"
+        },
+        "timeSpent": 36
+      },
+      {
+        "date": "2025-04-17T12:22:12.261Z",
+        "user": {
+          "name": "Unknown",
+          "email": "unknown@example.com"
+        },
+        "timeSpent": 14
+      },
+      {
+        "date": "2025-04-17T12:22:50.468Z",
+        "user": {
+          "name": "Unknown",
+          "email": "unknown@example.com"
+        },
+        "timeSpent": 38
+      },
+      {
+        "date": "2025-04-17T12:23:05.833Z",
+        "user": {
+          "name": "Unknown",
+          "email": "unknown@example.com"
+        },
+        "timeSpent": 15
+      },
+      {
+        "date": "2025-04-17T12:23:31.425Z",
+        "user": {
+          "name": "Unknown",
+          "email": "unknown@example.com"
+        },
+        "timeSpent": 26
+      },
+      {
+        "date": "2025-04-17T12:23:44.369Z",
+        "user": {
+          "name": "Unknown",
+          "email": "unknown@example.com"
+        },
+        "timeSpent": 13
+      },
+      {
+        "date": "2025-04-17T12:24:00.573Z",
+        "user": {
+          "name": "Unknown",
+          "email": "unknown@example.com"
+        },
+        "timeSpent": 16
+      },
+      {
+        "date": "2025-04-17T12:24:36.847Z",
+        "user": {
+          "name": "Unknown",
+          "email": "unknown@example.com"
+        },
+        "timeSpent": 36
+      },
+      {
+        "date": "2025-04-17T12:24:47.008Z",
+        "user": {
+          "name": "Unknown",
+          "email": "unknown@example.com"
+        },
+        "timeSpent": 10
+      },
+      {
+        "date": "2025-04-17T12:25:04.180Z",
+        "user": {
+          "name": "Unknown",
+          "email": "unknown@example.com"
+        },
+        "timeSpent": 17
+      },
+      {
+        "date": "2025-04-17T12:25:43.718Z",
+        "user": {
+          "name": "Unknown",
+          "email": "unknown@example.com"
+        },
+        "timeSpent": 40
+      },
+      {
+        "date": "2025-04-17T12:26:37.422Z",
+        "user": {
+          "name": "Unknown",
+          "email": "unknown@example.com"
+        },
+        "timeSpent": 54
+      }
+    ]
+  }
+}
