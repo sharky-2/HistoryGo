@@ -97,8 +97,8 @@ def MainPage():
 
 @app.route(f"/selected-country/<country>")
 def selected_country(country):
-    if "email" not in session:
-        return redirect(url_for("registration"))
+    # if "email" not in session:
+    #     return redirect(url_for("registration"))
     
     if not country: return redirect(url_for("MainPage"))
 
