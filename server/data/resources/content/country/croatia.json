@@ -1,93 +1,102 @@
 {
-    "selected-country": [
+  "selected-country": [
       {
-        "type": "img_title_4",
-        "title": "Croatia - Adriatic Jewel",
-        "subtitle": "From ancient cities to breathtaking coastlines, Croatia is a land where history meets natural beauty.",
-        "image-0": "../static/img/country/Croatia/dubrovnik.png",
-        "image-1": "../static/img/country/Croatia/split.png",
-        "image-2": "../static/img/country/Croatia/zagreb.png"
+          "type": "img_title_4",
+          "title": "Croatia - A Mediterranean Gem",
+          "subtitle": "From the ancient walled city of Dubrovnik to the sun-drenched beaches of the Dalmatian Coast, Croatia offers a perfect blend of history, nature, and stunning coastal beauty.",
+          "image-0": "../static/img/country/Croatia/dubrovnik.png",
+          "image-1": "../static/img/country/Croatia/split.png",
+          "image-2": "../static/img/country/Croatia/otokhvar.png"
       },
       {
-        "type": "blog_3",
-        "title": "Travel And Explore Croatia",
-        "subtitle": "A land of rich heritage, stunning landscapes, and vibrant culture.",
-        "text": "Croatia blends historic charm with coastal beauty. From the medieval walls of Dubrovnik to Roman palaces in Split, it offers a journey through centuries. Zagreb, the lively capital, showcases Austro-Hungarian architecture and a vibrant arts scene. The Adriatic Sea, dotted with over a thousand islands, makes Croatia a paradise for sun-seekers and adventurers alike.",
-        "text-2": "Each region offers unique experiences-explore the relaxed island life of Hvar, the Roman arena in Pula, or the energetic promenades of Split. With delicious cuisine, crystal-clear waters, and deep cultural roots, Croatia is a destination that captivates every traveler.",
-        "image-0": "../static/img/country/Croatia/split.png",
-        "image-1": "../static/img/country/Croatia/zagreb.png"
+          "type": "blog_3",
+          "title": "Travel and Explore Croatia - A Land of Rich Heritage and Natural Wonders",
+          "subtitle": "Croatia is famous for its stunning coastline, ancient Roman ruins, and vibrant cities, all set in a Mediterranean paradise.",
+          "text": "Croatia offers a spectacular mix of history, culture, and natural beauty. Visit Dubrovnik's UNESCO World Heritage city walls, wander through Split’s ancient Roman Palace, or relax on the pristine beaches of Hvar. Croatia's diverse landscapes, from islands and beaches to mountains and forests, are perfect for all types of travelers.",
+          "text-2": "Zagreb, the capital, offers a rich cultural experience with its historic architecture, vibrant arts scene, and charming markets. Whether you're diving into the turquoise waters or hiking through its national parks, Croatia is a destination to be experienced year-round.",
+          "image-0": "../static/img/country/Croatia/zagreb.png",
+          "image-1": "../static/img/country/Croatia/dubrovnik.png"
       },
       {
-        "type": "title_1",
-        "title": "Discover the Wonders of Croatia",
-        "subtitle": "Where history, nature, and culture come together."
+          "type": "title_1",
+          "title": "Explore Croatia’s Natural Beauty",
+          "subtitle": "From the sun-soaked Adriatic coast to lush national parks, Croatia is a country brimming with diverse natural landscapes."
       },
       {
-        "type": "destination_spotlight",
-        "title": "Dubrovnik - Dalmatian Coast",
-        "subtitle": "The Pearl of the Adriatic",
-        "text": "Encircled by ancient city walls, Dubrovnik is one of the best-preserved medieval cities in Europe. Walk the iconic walls, explore cobbled alleys, and marvel at baroque buildings. A UNESCO World Heritage site, it's famed for its beauty and history, as well as being a filming location for Game of Thrones.",
-        "img": "../static/img/country/Croatia/dubrovnik.png",
-        "rank-0": "History", "rank-1": "Culture", "rank-2": "", "rank-3": ""
+          "type": "destination_spotlight",
+          "title": "Dubrovnik - Dalmatian Coast",
+          "subtitle": "The Pearl of the Adriatic",
+          "text": "Encircled by ancient city walls, Dubrovnik is one of the best-preserved medieval cities in Europe. Walk the iconic walls, explore cobbled alleys, and marvel at baroque buildings. A UNESCO World Heritage site, it’s famed for its beauty and history, as well as being a filming location for Game of Thrones.",
+          "img": "../static/img/country/Croatia/dubrovnik.png",
+          "rank-0": "History", "rank-1": "Culture", "rank-2": "", "rank-3": ""
       },
       {
-        "type": "destination_spotlight",
-        "title": "Split - Dalmatia",
-        "subtitle": "Where Ancient Meets Modern",
-        "text": "Built around the Roman Emperor Diocletian's Palace, Split is a lively mix of ancient history and modern energy. Wander through bustling markets, Roman ruins, and vibrant bars along the Riva promenade. Split is both a gateway to the islands and a cultural hub in its own right.",
-        "img": "../static/img/country/Croatia/split.png",
-        "rank-0": "Roman Ruins", "rank-1": "Vibrant Life", "rank-2": "", "rank-3": ""
+          "type": "destination_spotlight",
+          "title": "Split - Dalmatia",
+          "subtitle": "Where Ancient Meets Modern",
+          "text": "Built around the Roman Emperor Diocletian's Palace, Split is a lively mix of ancient history and modern energy. Wander through bustling markets, Roman ruins, and vibrant bars along the Riva promenade. Split is both a gateway to the islands and a cultural hub in its own right.",
+          "img": "../static/img/country/Croatia/split.png",
+          "rank-0": "Roman Ruins", "rank-1": "Vibrant Life", "rank-2": "", "rank-3": ""
       },
       {
-        "type": "destination_spotlight",
-        "title": "Zagreb - Capital City",
-        "subtitle": "A City of Arts and Architecture",
-        "text": "Zagreb, Croatia's capital, is a city with a rich cultural life. Its charming old town, colorful markets, and quirky museums give it a unique flavor. Stroll through Ban Jelačić Square, enjoy local cuisine, and experience a capital that feels both historic and modern.",
-        "img": "../static/img/country/Croatia/zagreb.png",
-        "rank-0": "Art", "rank-1": "Culture", "rank-2": "", "rank-3": ""
+          "type": "destination_spotlight",
+          "title": "Zagreb - Capital City",
+          "subtitle": "A City of Arts and Architecture",
+          "text": "Zagreb, Croatia’s capital, is a city with a rich cultural life. Its charming old town, colorful markets, and quirky museums give it a unique flavor. Stroll through Ban Jelačić Square, enjoy local cuisine, and experience a capital that feels both historic and modern.",
+          "img": "../static/img/country/Croatia/zagreb.png",
+          "rank-0": "Art", "rank-1": "Culture", "rank-2": "", "rank-3": ""
       },
       {
-        "type": "destination_spotlight",
-        "title": "Otok Hvar - Island Life",
-        "subtitle": "Sunshine, Lavender, and Luxury",
-        "text": "Hvar Island is known for its sunny climate, lavender fields, and stylish nightlife. Explore ancient villages, sail crystal waters, or just relax on pristine beaches. Whether you're after history, nature, or a taste of Mediterranean glamour, Hvar has it all.",
-        "img": "../static/img/country/Croatia/otokhvar.png",
-        "rank-0": "Island Life", "rank-1": "Relaxation", "rank-2": "", "rank-3": ""
+          "type": "destination_spotlight",
+          "title": "Otok Hvar - Island Life",
+          "subtitle": "Sunshine, Lavender, and Luxury",
+          "text": "Hvar Island is known for its sunny climate, lavender fields, and stylish nightlife. Explore ancient villages, sail crystal waters, or just relax on pristine beaches. Whether you're after history, nature, or a taste of Mediterranean glamour, Hvar has it all.",
+          "img": "../static/img/country/Croatia/otokhvar.png",
+          "rank-0": "Island Life", "rank-1": "Relaxation", "rank-2": "", "rank-3": ""
       },
       {
-        "type": "destination_spotlight",
-        "title": "Pula - Istria",
-        "subtitle": "Where Rome Meets the Adriatic",
-        "text": "Pula is home to one of the world's best-preserved Roman amphitheaters. This seaside city in Istria combines Roman heritage with coastal charm. Visit the arena, enjoy fresh seafood, and discover the unique blend of Croatian and Italian culture in this historic port town.",
-        "img": "../static/img/country/Croatia/pulj.png",
-        "rank-0": "Roman History", "rank-1": "Seaside", "rank-2": "", "rank-3": ""
+          "type": "right_image_text_1",
+          "title": "Travel and Explore the World with HistoryGo - Discover the Magic of Croatia.",
+          "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+          "button": "Explore more",
+          "image-0": "../static/img/country/Croatia/otokhvar.png",
+          "image-1": "../static/img/country/Croatia/dubrovnik.png",
+          "image-2": "../static/img/country/Croatia/split.png"
       },
       {
-        "type": "right_image_text_1",
-        "title": "Travel And Explore the World with HistoryGo - Uncover Croatia with us.",
-        "subtitle": "Explore Croatia's castles, coasts, and cultural treasures.",
-        "button": "Explore more",
-        "image-0": "../static/img/country/Croatia/dubrovnik.png",
-        "image-1": "../static/img/country/Croatia/split.png",
-        "image-2": "../static/img/country/Croatia/zagreb.png"
+          "type": "blog_2",
+          "title": "Discover the Rich Culture and Natural Beauty of Croatia with Us.",
+          "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+          "text": "Croatia offers a wide variety of experiences. From the stunning city walls of Dubrovnik to the ancient ruins of Split, the country's rich history and stunning landscapes provide endless opportunities for exploration. Relax on the beaches of Hvar, discover the cultural gems of Zagreb, or sail across the Adriatic for an unforgettable experience.",
+          "image-0": "../static/img/country/Croatia/zagreb.png",
+          "image-1": "../static/img/country/Croatia/dubrovnik.png",
+          "image-2": "../static/img/country/Croatia/split.png",
+          "image-3": "../static/img/country/Croatia/otokhvar.png",
+          "image-4": "../static/img/country/Croatia/pulj.png"
       },
       {
-        "type": "accordion",
-        "title-0": "Walk the Walls of Dubrovnik",
-        "text-0": "Explore the iconic medieval walls of Dubrovnik and enjoy panoramic views of the sea and red-roofed city below.",
-        "title-1": "Experience Ancient Rome in Split",
-        "text-1": "Visit Diocletian's Palace and immerse yourself in Roman history amidst cafes, shops, and lively streets.",
-        "title-2": "Relax on the Island of Hvar",
-        "text-2": "Hvar is Croatia's sunniest spot with beautiful beaches, vineyards, and vibrant nightlife.",
-        "title-3": "See the Roman Arena in Pula",
-        "text-3": "Pula's amphitheater is a stunning relic of the Roman Empire, still used today for concerts and festivals.",
-        "title-4": "Wander Zagreb's Old Town",
-        "text-4": "Zagreb charms visitors with its mix of Austro-Hungarian architecture, local markets, and art galleries.",
-        "amount": 5
+          "type": "img_1",
+          "image-0": "../static/img/country/Croatia/split.png",
+          "image-1": "../static/img/country/Croatia/dubrovnik.png",
+          "image-2": "../static/img/country/Croatia/zagreb.png",
+          "image-3": "../static/img/country/Croatia/otokhvar.png"
       },
       {
-        "type": "recomended_auto"
+          "type": "accordion",
+          "title-0": "Explore the Walls of Dubrovnik",
+          "text-0": "Walk the ancient city walls of Dubrovnik, one of the best-preserved medieval cities in Europe. The views of the Adriatic Sea and the city below are breathtaking. Be sure to visit the fortress of Lovrijenac, which offers a spectacular vantage point.",
+          "title-1": "Enjoy the Riva Promenade in Split",
+          "text-1": "Split is famous for its vibrant Riva promenade, where you can enjoy the lively atmosphere, relax at a café, and take in views of the Adriatic Sea. Explore the Diocletian's Palace, a UNESCO World Heritage site, that serves as the heart of the city.",
+          "title-2": "Discover Zagreb's Museums",
+          "text-2": "Zagreb is home to numerous quirky and fascinating museums, such as the Museum of Broken Relationships and the Museum of Contemporary Art. Don’t miss a stroll through the old town with its historic architecture and charming streets.",
+          "title-3": "Relax on Hvar Island",
+          "text-3": "Hvar is known for its sunny climate, beautiful beaches, and lively nightlife. Whether you're seeking relaxation or adventure, this island offers something for everyone. Visit the lavender fields, explore quaint villages, or enjoy the Mediterranean cuisine.",
+          "title-4": "Sail the Dalmatian Coast",
+          "text-4": "The Dalmatian Coast is perfect for sailing. Explore the numerous islands, hidden coves, and crystal-clear waters. Whether you're visiting historic towns or secluded beaches, a sailing trip along the coast is an unforgettable experience.",
+          "amount": 5
+      },
+      {
+          "type": "recomended_auto"
       }
-    ]
-  }
-  
+  ]
+}

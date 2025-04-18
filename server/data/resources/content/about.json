@@ -1,0 +1,122 @@
+{
+    "about": [
+        {
+            "type": "img_title_1",
+            "title": "Start Your Historical Journey with HistoryGo",
+            "subtitle": "Discover the world's most significant landmarks and the stories behind them.",
+            "button": "registration",
+            "image-0": "../static/img/country/Italy/Rome.png",
+            "image-1": "../static/img/country/France/Lyon.png",
+            "image-2": "../static/img/country/Belgium/Flanders.png",
+            "image-3": "../static/img/country/Austria/Innsbruck.png"
+        },
+        {
+            "type": "blog_3",
+            "title": "HistoryGo: Unveiling the Past with Every Trip",
+            "subtitle": "Explore iconic destinations through a historical lens.",
+            "text": "HistoryGo transforms travel by providing historical insights into the world's most iconic destinations. Instead of simply sightseeing, you'll gain deeper understanding by exploring places that shaped the course of history. Whether you're strolling through ancient ruins or marveling at modern-day landmarks, we bring history to life with every step.",
+            "text-2": "Our platform curates a list of historically significant sites for you to visit. Learn about ancient civilizations, the lives of influential figures, and the events that defined regions around the globe. HistoryGo turns every trip into an opportunity to connect with the past in meaningful ways.",
+            "image-0": "../static/img/country/Italy/Florence.png",
+            "image-1": "../static/img/country/France/Paris.png"
+        },
+        {
+            "type": "blog_4",
+            "title": "Explore the Stories Behind the World's Greatest Landmarks",
+            "subtitle": "HistoryGo brings historical depth to your travel adventures.",
+            "text": "Whether you're visiting world-famous landmarks or hidden gems, HistoryGo provides the context that makes every destination more significant. From the Great Wall of China to the pyramids of Egypt, we reveal the fascinating history behind these wonders and guide you through their cultural importance.",
+            "button": "Explore more",
+            "image-0": "../static/img/country/Belgium/Flanders.png",
+            "image-1": "../static/img/country/Italy/Florence.png",
+            "image-2": "../static/img/country/Belgium/Brussels.png",
+            "image-3": "../static/img/country/Slovenia/LakeBohinj.png"
+        },
+        {
+            "type": "title_1",
+            "title": "Your Guide to Historic Destinations",
+            "subtitle": "Dive into the rich history of the world's most fascinating places."
+        },
+        {
+            "type": "right_image_text_1",
+            "title": "Unlock the Secrets of History with HistoryGo",
+            "subtitle": "Explore cultural heritage and historical landmarks like never before.",
+            "button": "Explore more",
+            "image-0": "../static/img/country/France/Bordeaux.png",
+            "image-1": "../static/img/country/Italy/Florence.png",
+            "image-2": "../static/img/country/France/Lyon.png"
+        },
+        {
+            "type": "left_image_text_2",
+            "title": "Experience History Through Travel with HistoryGo",
+            "subtitle": "Uncover hidden stories and cultural treasures in every destination.",
+            "button": "Explore more",
+            "image-0": "../static/img/country/France/Bordeaux.png",
+            "image-1": "../static/img/country/Italy/Florence.png",
+            "image-2": "../static/img/country/France/Lyon.png"
+        },
+        {
+            "type": "title_1",
+            "title": "Discover the World's Hidden Historical Gems",
+            "subtitle": "Explore landmarks and destinations that shaped the course of history."
+        },
+        {
+            "type": "destination_spotlight",
+            "title": "Flanders",
+            "subtitle": "A Region Rich in Art and History",
+            "text": "Flanders is a region steeped in art, culture, and history. Known for its vibrant cities like Antwerp and Bruges, Flanders offers travelers the chance to walk in the footsteps of legendary artists like Rubens and explore historic sites like medieval castles and iconic cathedrals.",
+            "img": "../static/img/country/Belgium/Flanders.png",
+            "rank-0": "Art", 
+            "rank-1": "History", 
+            "rank-2": "Cycling", 
+            "rank-3": "Architecture"
+        },
+        {
+            "type": "destination_spotlight",
+            "title": "Wallonia",
+            "subtitle": "Where Heritage Meets Nature",
+            "text": "Wallonia is Belgium's southern region, rich in heritage and stunning landscapes. From the historic city of Namur to the natural beauty of the Ardennes, Wallonia is a perfect blend of history, culture, and nature that offers travelers both educational and scenic experiences.",
+            "img": "../static/img/country/Belgium/Wallonia.png",
+            "rank-0": "History", 
+            "rank-1": "Culture", 
+            "rank-2": "Nature", 
+            "rank-3": "Heritage"
+        },
+        {
+            "type": "blog_2",
+            "title": "Explore Belgium: A Journey Through Time",
+            "subtitle": "Discover the rich historical landscapes of Belgium with HistoryGo.",
+            "text": "Belgium offers more than just chocolates and waffles. Its cities are steeped in history, from the medieval streets of Bruges to the Renaissance art in Antwerp. Explore the country's rich cultural heritage with HistoryGo as your guide to its historic gems.",
+            "image-0": "../static/img/country/Belgium/Brussels.png",
+            "image-1": "../static/img/country/Belgium/Ardennes.png",
+            "image-2": "../static/img/country/Belgium/Belgian Coast.png",
+            "image-3": "../static/img/country/Belgium/Flanders.png",
+            "image-4": "../static/img/country/Belgium/Wallonia.png"
+        },
+        {
+            "type": "accordion",
+            "title-0": "Step Into the Past with Medieval Bruges",
+            "text-0": "Take a walk through Bruges, a city preserved in time. With its medieval architecture, charming canals, and cobbled streets, Bruges is a perfect example of Europe's rich history that has remained intact for centuries.",
+            "title-1": "Taste Belgian Waffles and Chocolate",
+            "text-1": "Belgium is famous for its delectable waffles and chocolate. Don't miss the opportunity to indulge in these local delicacies, while also learning about their cultural significance in Belgian history.",
+            "title-2": "Marvel at the Grand Place in Brussels",
+            "text-2": "The Grand Place, the heart of Brussels, is surrounded by magnificent guildhalls and historic architecture. A UNESCO World Heritage site, it offers a peek into Belgium's past, especially during the era of the industrial revolution.",
+            "title-3": "Discover the Atomium in Brussels",
+            "text-3": "Built for the 1958 World's Fair, the Atomium symbolizes the post-war era's fascination with science and technology. Its unique design makes it an iconic part of Brussels' modern history.",
+            "title-4": "Admire Art at the Royal Museums of Fine Arts",
+            "text-4": "The Royal Museums of Fine Arts in Brussels hold an extensive collection of art, including works by Belgian masters such as Magritte and Rubens, giving travelers a deep dive into the artistic history of Belgium.",
+            "title-5": "Wander Through Ghent's Historic Streets",
+            "text-5": "Ghent is a city where history and modernity coexist. From the medieval Gravensteen Castle to the bustling streets of the Patershol district, Ghent offers a vibrant historical atmosphere.",
+            "title-6": "Explore the Canals of Antwerp",
+            "text-6": "Antwerp's canals are an integral part of its history. The city's maritime heritage, including its role in the diamond trade, is on full display as you walk along the canals.",
+            "title-7": "Adventure in the Ardennes",
+            "text-7": "The Ardennes offers outdoor enthusiasts a rich landscape to explore, while also providing a glimpse into the area's history during World War II, making it a perfect spot for those seeking both adventure and history.",
+            "title-8": "Relax on the Belgian Coast",
+            "text-8": "The Belgian Coast offers a blend of history, culture, and relaxation. Enjoy charming seaside towns while uncovering their historical importance in Belgium's maritime past.",
+            "title-9": "Discover the Historic City of Liège",
+            "text-9": "Liège, a city that dates back to Roman times, offers a rich history. From its medieval fortifications to its vibrant squares, Liège is a place where history and culture come to life.",
+            "amount": 10
+        },
+        {
+            "type": "recomended_auto"
+        }
+    ]
+}

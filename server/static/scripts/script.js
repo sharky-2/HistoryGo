@@ -21,7 +21,8 @@ const country_info_list = {
         img1: "../static/img/country/Italy/AmalfiCoast.png",
         img2: "../static/img/country/Italy/Florence.png",
         img3: "../static/img/country/Italy/Naples.png",
-        img4: "../static/img/country/Italy/Milan.png"
+        img4: "../static/img/country/Italy/Milan.png",
+        count: 0
     },
     slovenia: {
         subtitle: "A Hidden Gem of Natural Wonders and Rich Traditions",
@@ -29,7 +30,8 @@ const country_info_list = {
         img1: "../static/img/country/Slovenia/LakeBohinj.png",
         img2: "../static/img/country/Slovenia/Piran.png",
         img3: "../static/img/country/Slovenia/LjubljanaMarshes.png",
-        img4: "../static/img/country/Slovenia/PostojnaCave.png"
+        img4: "../static/img/country/Slovenia/PostojnaCave.png",
+        count: 0
     },
     belgium: {
         subtitle: "A Blend of Medieval Charm, Modern Creativity, and Culinary Excellence",
@@ -37,7 +39,8 @@ const country_info_list = {
         img1: "../static/img/country/Belgium/Ardennes.png",
         img2: "../static/img/country/Belgium/Belgian Coast.png",
         img3: "../static/img/country/Belgium/Flanders.png",
-        img4: "../static/img/country/Belgium/Wallonia.png"
+        img4: "../static/img/country/Belgium/Wallonia.png",
+        count: 0
     },
     france: {
         subtitle: "A Symphony of Art, History, and Gastronomy",
@@ -45,16 +48,17 @@ const country_info_list = {
         img1: "../static/img/country/France/bordeaux.png",
         img2: "../static/img/country/France/lyon.png",
         img3: "../static/img/country/France/marseille.png",
-        img4: "../static/img/country/France/paris.png"
+        img4: "../static/img/country/France/paris.png",
+        count: 0
     },
     austria: {
         subtitle: "A Tapestry of Music, Alps, and Imperial Grandeur",
-        text: "Austria, a country where the beauty of the Alps meets a rich history of music and imperial grandeur, offers a mesmerizing mix of culture and natural beauty. Vienna, the city of music, is home to timeless architecture, grand palaces, and world-renowned opera houses. Salzburg, the birthplace of Mozart, echoes with classical harmony, while Innsbruck's alpine landscapes offer outdoor adventure year-round. Hallstatt, a fairy-tale village, is a UNESCO World Heritage site surrounded by stunning mountains and serene lakes, while Graz boasts a vibrant arts scene and medieval charm. ",
+        text: "Austria, a country where the beauty of the Alps meets a rich history of music and imperial grandeur, offers a mesmerizing mix of culture and natural beauty. Vienna, the city of music, is home to timeless architecture, grand palaces, and world-renowned opera houses. Salzburg, the birthplace of Mozart, echoes with classical harmony, while Innsbruck's alpine landscapes offer outdoor adventure year-round. Hallstatt, a fairy-tale village, is a UNESCO World Heritage site surrounded by stunning mountains and serene lakes, while Graz boasts a vibrant arts scene and medieval charm.",
         img1: "../static/img/country/Austria/graz.png",
         img2: "../static/img/country/Austria/hallstatt.png",
         img3: "../static/img/country/Austria/innsbruck.png",
         img4: "../static/img/country/Austria/salzburg.png",
-        img5: "../static/img/country/Austria/vienna.png"
+        count: 0
     },
     bulgaria: {
         subtitle: "A Land of Ancient History, Rose Valleys, and Mountain Majesty",
@@ -63,7 +67,7 @@ const country_info_list = {
         img2: "../static/img/country/Bulgaria/plovdiv.png",
         img3: "../static/img/country/Bulgaria/sofija.png",
         img4: "../static/img/country/Bulgaria/varna.png",
-        img5: "../static/img/country/Bulgaria/velikotarnovo.png"
+        count: 0
     },
     croatia: {
         subtitle: "A Land of Medieval Charm, Island Escapes, and Adriatic Allure",
@@ -72,18 +76,121 @@ const country_info_list = {
         img2: "../static/img/country/Croatia/zagreb.png",
         img3: "../static/img/country/Croatia/split.png",
         img4: "../static/img/country/Croatia/otokhvar.png",
-        img5: "../static/img/country/Croatia/pulj.png"
+        count: 0
     },
     czechia: {
-        "subtitle": "A Land of Castles, Cobblestones, and Bohemian Beauty",
-        "text": "The Czech Republic, nestled in the heart of Europe, is a captivating blend of medieval towns, ornate castles, and timeless charm. Prague, the 'City of a Hundred Spires', amazes with its Gothic cathedrals, baroque architecture, and vibrant cultural scene. Český Krumlov enchants with fairy-tale streets and a majestic castle overlooking the Vltava River. Brno offers a youthful energy, modernist landmarks, and rich Moravian traditions. Kutná Hora reveals its historic wealth through dramatic cathedrals and the eerie Sedlec Ossuary. From spa towns like Karlovy Vary to tranquil countryside landscapes, the Czech Republic invites you to step into history and beauty.",
-        "img1": "../static/img/country/Czech_Republic/praga.png",
-        "img2": "../static/img/country/Czech_Republic/ceskykrumlov.png",
-        "img3": "../static/img/country/Czech_Republic/brno.png",
-        "img4": "../static/img/country/Czech_Republic/kutnahora.png",
-        "img5": "../static/img/country/Czech_Republic/karlovyvary.png"
-    }   
+        subtitle: "A Land of Castles, Cobblestones, and Bohemian Beauty",
+        text: "The Czech Republic, nestled in the heart of Europe, is a captivating blend of medieval towns, ornate castles, and timeless charm. Prague, the 'City of a Hundred Spires', amazes with its Gothic cathedrals, baroque architecture, and vibrant cultural scene. Český Krumlov enchants with fairy-tale streets and a majestic castle overlooking the Vltava River. Brno offers a youthful energy, modernist landmarks, and rich Moravian traditions. Kutná Hora reveals its historic wealth through dramatic cathedrals and the eerie Sedlec Ossuary. From spa towns like Karlovy Vary to tranquil countryside landscapes, the Czech Republic invites you to step into history and beauty.",
+        img1: "../static/img/country/Czech_Republic/brno.png",
+        img2: "../static/img/country/Czech_Republic/ceskykrumlov.png",
+        img3: "../static/img/country/Czech_Republic/praga.png",
+        img4: "../static/img/country/Czech_Republic/kutnahora.png",
+        count: 0
+    },
+    greece: {
+        subtitle: "A Land of Ancient Wonders and Mediterranean Beauty",
+        text: "Greece is a country rich in history and natural beauty, offering a unique blend of ancient ruins, sun-kissed islands, and vibrant culture. Explore the ancient Acropolis in Athens, stroll along the beautiful beaches of the Greek Islands, and immerse yourself in the Mediterranean lifestyle. Greece is known for its delicious cuisine, including souvlaki, tzatziki, and baklava. From the white-washed buildings of Santorini to the rich history of Crete, Greece is a timeless destination for history buffs, nature lovers, and beachgoers alike.",
+        img1: "../static/img/country/Greece/athens.png",
+        img2: "../static/img/country/Greece/corfu.png",
+        img3: "../static/img/country/Greece/thessaloniki.png",
+        img4: "../static/img/country/Greece/kalambaka.png",
+        count: 0
+    },
+    germany: {
+        subtitle: "A Land of Castles, Culture, and Engineering Excellence",
+        text: "Germany is a country rich in history, culture, and natural beauty. Explore the vibrant capital, Berlin, with its blend of modernity and historic sites like the Brandenburg Gate and the Berlin Wall. Visit Bavaria’s fairytale castles, such as Neuschwanstein, or enjoy the charm of medieval towns like Rothenburg ob der Tauber. Germany is also known for its contributions to music, philosophy, and engineering, from the classical sounds of Bach to the precision of German engineering. With stunning landscapes from the Black Forest to the Rhine Valley, Germany offers a perfect mix of history, culture, and outdoor adventures.",
+        img1: "../static/img/country/Germany/berlin.png",
+        img2: "../static/img/country/Germany/frankfurt.png",
+        img3: "../static/img/country/Germany/munchen.png",
+        img4: "../static/img/country/Germany/dresden.png",
+        count: 0
+    },
+    denmark: {
+        subtitle: "A Land of Royalty, Modern Design, and Scenic Coastlines",
+        text: "Denmark, known for its rich history, modern design, and beautiful landscapes, offers a mix of old-world charm and contemporary innovation. The capital, Copenhagen, is famous for its iconic landmarks like the Little Mermaid statue, Tivoli Gardens, and the Nyhavn waterfront. Denmark’s coastal beauty, from the sandy beaches of Jutland to the islands of Funen and Zealand, provides countless outdoor activities. The country is a leader in sustainable living, and its design scene is world-renowned. Denmark is also home to a vibrant culinary scene, including New Nordic cuisine and delicious pastries like Danish pastries.",
+        img1: "../static/img/country/Denmark/Aarhus.png",
+        img2: "../static/img/country/Denmark/Kolding.png",
+        img3: "../static/img/country/Denmark/roskildecathedral.png",
+        img4: "../static/img/country/Denmark/helsingor.png",
+        count: 0
+    },    
+    // ========================================================================
+    // IMAGES NEEDED
+    romania: {
+        subtitle: "A Land of Castles, Carpathian Mountains, and Rich Folklore",
+        text: "Romania is a captivating country full of medieval castles, mystical landscapes, and a rich cultural heritage. The medieval town of Brasov is a charming gateway to the Carpathian Mountains, home to the famous Bran Castle (Dracula's Castle). Bucharest, the capital, mixes history and modernity, while Transylvania offers picturesque villages, fortified churches, and breathtaking natural beauty. Romania’s diverse landscapes, from mountains to beaches, make it a perfect destination for adventure seekers and history lovers alike.",
+        img1: "../static/img/country/Romania/brasov.png",
+        img2: "../static/img/country/Romania/bucharest.png",
+        img3: "../static/img/country/Romania/transylvania.png",
+        img4: "../static/img/country/Romania/varna.png",
+        count: 0
+    },
+    poland: {
+        subtitle: "A Land of History, Heritage, and Natural Beauty",
+        text: "Poland, a country of profound history and stunning landscapes, invites travelers to explore medieval castles, UNESCO World Heritage sites, and vibrant cities. Warsaw, the capital, has a blend of modern and historical landmarks, while Kraków’s Old Town, with its charming streets and Rynek Square, offers a glimpse into the past. The Białowieża Forest, a UNESCO site, is home to Europe's last wild bison. Poland's rich culture, historical landmarks, and natural beauty make it a unique destination.",
+        img1: "../static/img/country/Poland/krakow.png",
+        img2: "../static/img/country/Poland/warsaw.png",
+        img3: "../static/img/country/Poland/bialowieza.png",
+        img4: "../static/img/country/Poland/varna.png",
+        count: 0
+    },
+    spain: {
+        subtitle: "A Fiesta of Culture, History, and Passion",
+        text: "Spain is a vibrant country known for its lively culture, rich history, and stunning landscapes. From the bustling streets of Madrid and Barcelona to the tranquil beaches of Costa Brava and the Balearic Islands, Spain offers something for everyone. Enjoy traditional dishes like paella, tapas, and churros, and experience flamenco dancing, bullfighting, and colorful festivals. Spain’s architecture, including Gaudí’s Sagrada Familia and the Alhambra, reflects its deep cultural heritage.",
+        img1: "../static/img/country/Spain/barcelona.png",
+        img2: "../static/img/country/Spain/madrid.png",
+        img3: "../static/img/country/Spain/costa_brava.png",
+        img4: "../static/img/country/Spain/varna.png",
+        count: 0
+    },
+    portugal: {
+        subtitle: "A Rich Tapestry of History, Coastline, and Culinary Delights",
+        text: "Portugal, with its stunning coastlines, rich history, and vibrant culture, is an enchanting destination. The capital, Lisbon, is known for its charming neighborhoods, colorful streets, and historic landmarks. Porto, famous for its port wine, offers cobblestone streets and beautiful riverside views. The Algarve’s golden beaches attract sun-seekers, while Portugal’s interior boasts charming towns like Sintra, with its fairy-tale palaces. Enjoy Portuguese cuisine, including seafood dishes, pastel de nata, and world-class wines.",
+        img1: "../static/img/country/Portugal/lisbon.png",
+        img2: "../static/img/country/Portugal/porto.png",
+        img3: "../static/img/country/Portugal/algarve.png",
+        img4: "../static/img/country/Portugal/varna.png",
+        count: 0
+    },
+    ireland: {
+        subtitle: "A Land of Rolling Green Hills, Ancient Ruins, and Rich Traditions",
+        text: "Ireland, known for its lush green landscapes, ancient castles, and vibrant culture, offers a truly magical experience. Explore Dublin’s lively streets, visit the Cliffs of Moher for breathtaking views, and immerse yourself in the country’s rich literary heritage. Discover medieval castles, such as Blarney Castle, and enjoy a pint of Guinness in a traditional pub. Ireland’s music, folklore, and festive spirit make it an unforgettable destination.",
+        img1: "../static/img/country/Ireland/dublin.png",
+        img2: "../static/img/country/Ireland/cliffs.png",
+        img3: "../static/img/country/Ireland/blarney.png",
+        img4: "../static/img/country/Ireland/varna.png",
+        count: 0
+    },
+    sweden: {
+        subtitle: "A Land of Modern Design, Nature, and Vibrant Cities",
+        text: "Sweden is a country that effortlessly blends modern design, natural beauty, and a rich cultural heritage. Stockholm, the capital, is spread across 14 islands and offers a stunning combination of historical sites and contemporary attractions. From the serene landscapes of Swedish Lapland to the bustling streets of Gothenburg, Sweden’s variety of experiences is unmatched. Explore the country’s love for design, innovation, and sustainability, and enjoy a range of outdoor activities from hiking and skiing to ice fishing.",
+        img1: "../static/img/country/Sweden/stockholm.png",
+        img2: "../static/img/country/Sweden/gothenburg.png",
+        img3: "../static/img/country/Sweden/lapland.png",
+        img4: "../static/img/country/Sweden/varna.png",
+        count: 0
+    },
+    // ========================================================================
+    estonia: {
+        subtitle: "A Land of Medieval Castles, Coastal Beauty, and Digital Innovation",
+        text: "Estonia, a country where medieval charm meets modern technology, offers a unique blend of history, nature, and innovation. The capital, Tallinn, is renowned for its beautifully preserved Old Town, a UNESCO World Heritage site, with cobblestone streets and medieval architecture. Estonia’s natural landscapes include pristine beaches, dense forests, and serene lakes. Known for its digital advancements, Estonia is one of the most digitally advanced countries in the world. Explore the vibrant culture, cutting-edge technology, and peaceful natural beauty that make Estonia an intriguing destination.",
+        img1: "../static/img/country/Estonia/tartu.png",
+        img2: "../static/img/country/Estonia/rakvere.png",
+        img3: "../static/img/country/Estonia/narva.png",
+        img4: "../static/img/country/Estonia/kuressaare.png",
+        count: 0
+    },
+    finland: {
+        subtitle: "A Land of Saunas, Northern Lights, and Natural Wonders",
+        text: "Finland, known for its pristine nature, is a country where tranquility and adventure coexist. Explore the vibrant capital, Helsinki, with its unique blend of modern architecture and natural beauty. Venture to Lapland to experience the magical Northern Lights and visit Santa Claus Village. Finland’s thousands of lakes, forests, and islands offer countless outdoor activities, from hiking and skiing to ice fishing. Enjoy the Finnish tradition of sauna and savor Finnish cuisine, including salmon, berries, and rye bread. Finland is a perfect destination for those seeking both relaxation and adventure.",
+        img1: "../static/img/country/Finland/helsinki.png",
+        img2: "../static/img/country/Finland/porvoo.png",
+        img3: "../static/img/country/Finland/turku.png",
+        img4: "../static/img/country/Finland/rovaniemi.png",
+        count: 0
+    }    
 }
+
 
 var count_clicks = 0
 function displayCountry(country) {
